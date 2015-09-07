@@ -1,0 +1,32 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Task 3 - Handlebars</title>	
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="wrapper">
+
+    </div>
+    <script id="article-template" type='text/x-handlebars-template'>
+        <div class="id">
+            <p class="myClass" data-id="{{id}}">Name: {{name}}</p>
+            <p>Visitors: {{visitors}}</p>
+        </div>
+    </script>
+    <script src="handlebars.js"></script>
+    <script>
+        var html = document.getElementById('article-template').innerHTML;
+        var articleTemplate = Handlebars.compile(html);
+        var article = {
+            id: 5,
+            name: 'Telerik',
+            visitors: 55121
+        };
+
+        var articleResult = articleTemplate(article);
+        document.getElementById('wrapper').innerHTML = articleResult;
+    </script>
+</body>
+</html>

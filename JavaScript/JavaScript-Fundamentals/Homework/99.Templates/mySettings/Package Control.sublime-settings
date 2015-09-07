@@ -1,0 +1,32 @@
+{
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"4GL",
+		"All Autocomplete",
+		"Better CoffeeScript",
+		"BracketHighlighter",
+		"Emmet",
+		"Emmet Css Snippets",
+		"Haml",
+		"Hamlpy",
+		"Jade",
+		"JsFormat",
+		"JSHint",
+		"LESS",
+		"Less2Css",
+		"Nodejs",
+		"Origami",
+		"Package Control",
+		"SideBarEnhancements",
+		"Stylus",
+		"Stylus-Snippets",
+		"SublimeCodeIntel",
+		"SublimeLinter",
+		"SublimeLinter-jshint",
+		"Tag",
+		"TernJS"
+	]
+}

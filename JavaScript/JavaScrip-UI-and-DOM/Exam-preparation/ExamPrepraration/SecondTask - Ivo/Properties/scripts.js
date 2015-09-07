@@ -1,0 +1,4 @@
+/* globals $ */
+$.fn.gallery = function () {
+    
+};
