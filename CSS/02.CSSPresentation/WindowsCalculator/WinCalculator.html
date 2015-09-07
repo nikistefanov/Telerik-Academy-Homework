@@ -1,0 +1,180 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Calculator</title>
+    <link href="Styles/styles.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="calc-out">
+        <p id="logo">Calculator</p>
+        <div class="top-right-buttons">
+            <a id="min"></a>
+            <a id="max"></a>
+            <a id="close"></a>
+        </div>
+        <div class="calc-in">
+            <nav class="menus">
+                <ul>
+                    <li class="nav-menu-buttons">
+                        <a href="#">View</a>
+                        <ul class="view-sub">
+                            <li><a href="#">Standart</a></li>
+                            <li><a href="#">Scientific</a></li>
+                            <li><a href="#">Programmer</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-menu-buttons">
+                        <a href="#">Edit</a>
+                        <ul class="view-sub">
+                            <li><a href="#">Copy</a></li>
+                            <li><a href="#">Paste</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-menu-buttons">
+                        <a href="#">Help</a>
+                        <ul class="view-sub">
+                            <li><a href="#">Kill</a></li>
+                            <li><a href="#">Me</a></li>
+                            <li><a href="#">Please!</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <input id="display" type="text" value="8854455">
+            <div id="table-binary-decimal">
+                <div class="row">
+                    <div class="cell binary">0000</div>
+                    <div class="cell binary">0000</div>
+                    <div class="cell binary">0000</div>
+                    <div class="cell binary">0000</div>
+                    <div class="cell binary">0000</div>
+                    <div class="cell binary">0000</div>
+                    <div class="cell binary">0000</div>
+                    <div class="cell binary">0000</div>
+                </div>
+                <div class="row">
+                    <div class="cell decimal">63</div>
+                    <div class="cell decimal"></div>
+                    <div class="cell decimal"></div>
+                    <div class="cell decimal"></div>
+                    <div class="cell decimal">47</div>
+                    <div class="cell decimal"></div>
+                    <div class="cell decimal"></div>
+                    <div class="cell decimal">32</div>
+                </div>
+                <div class="row">
+                    <div class="cell binary">0000</div>
+                    <div class="cell binary">0000</div>
+                    <div class="cell binary">1000</div>
+                    <div class="cell binary">0111</div>
+                    <div class="cell binary">0001</div>
+                    <div class="cell binary">1011</div>
+                    <div class="cell binary">1011</div>
+                    <div class="cell binary">0111</div>
+                </div>
+                <div class="row">
+                    <div class="cell decimal">31</div>
+                    <div class="cell decimal"></div>
+                    <div class="cell decimal"></div>
+                    <div class="cell decimal"></div>
+                    <div class="cell decimal">15</div>
+                    <div class="cell decimal"></div>
+                    <div class="cell decimal"></div>
+                    <div class="cell decimal">0</div>
+                </div>
+            </div>
+            <div class="numerical-system">
+                <input type="radio" id="hex" name="numerical" />
+                <label for="hex">Hex</label>
+                <br />
+                <input type="radio" id="dec" name="numerical" checked="checked" />
+                <label for="dec">Dec</label>
+                <br />
+                <input type="radio" id="oct" name="numerical" />
+                <label for="oct">Oct</label>
+                <br />
+                <input type="radio" id="bin" name="numerical" />
+                <label for="bin">Bin</label>
+            </div>
+            <div class="words">
+                <input type="radio" id="qword" name="word-box" checked="checked" />
+                <label for="qword">Qword</label>
+                <br />
+                <input type="radio" id="dword" name="word-box" />
+                <label for="dword">Dword</label>
+                <br />
+                <input type="radio" id="word" name="word-box" />
+                <label for="word">Word</label>
+                <br />
+                <input type="radio" id="byte" name="word-box" />
+                <label for="byte">Byte</label>
+            </div>
+            <table class="table-buttons">
+                <tr>
+                    <td><button disabled="disabled" id="no-button"></button></td>
+                    <td><button>Mod</button></td>
+                    <td><button class="bigger-font" disabled="disabled">A</button></td>
+                    <td><button>MC</button></td>
+                    <td><button>MR</button></td>
+                    <td><button>MS</button></td>
+                    <td><button>M+</button></td>
+                    <td><button>M-</button></td>
+                </tr>
+
+                <tr>
+                    <td><button>&#40</button></td>
+                    <td><button>&#41</button></td>
+                    <td><button class="bigger-font" disabled="disabled">B</button></td>
+                    <td><button >&#8592</button></td>
+                    <td><button class="active">CE</button></td>
+                    <td><button>C</button></td>
+                    <td><button>&#177</button></td>
+                    <td><button disabled="disabled">&#8730</button></td>
+                </tr>
+
+                <tr>
+                    <td><button>RoL</button></td>
+                    <td><button>RoR</button></td>
+                    <td><button class="bigger-font" disabled="disabled">C</button></td>
+                    <td><button class="bigger-font">7</button></td>
+                    <td><button class="bigger-font">8</button></td>
+                    <td><button class="bigger-font">9</button></td>
+                    <td><button>&#47</button></td>
+                    <td><button disabled="disabled">&#37</button></td>
+                </tr>
+
+                <tr>
+                    <td><button>Or</button></td>
+                    <td><button>Xor</button></td>
+                    <td><button class="bigger-font" disabled="disabled">D</button></td>
+                    <td><button class="bigger-font">4</button></td>
+                    <td><button class="bigger-font">5</button></td>
+                    <td><button class="bigger-font">6</button></td>
+                    <td><button>&#42</button></td>
+                    <td><button disabled="disabled">1/x</button></td>
+                </tr>
+
+                <tr>
+                    <td><button>Lsh</button></td>
+                    <td><button>Rsh</button></td>
+                    <td><button class="bigger-font" disabled="disabled">E</button></td>
+                    <td><button class="bigger-font">1</button></td>
+                    <td><button class="bigger-font">2</button></td>
+                    <td><button class="bigger-font">3</button></td>
+                    <td><button>&#45</button></td>
+                    <td rowspan="2"><button id="equal">&#61</button></td>
+                </tr>
+
+                <tr>
+                    <td><button>Not</button></td>
+                    <td><button>And</button></td>
+                    <td><button class="bigger-font" disabled="disabled">F</button></td>
+                    <td colspan="2"><button class="bigger-font" id="zero">0</button></td>
+                    <td><button disabled="disabled">&#46</button></td>
+                    <td><button>&#43</button></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,87 @@
+html, body {
+    font-family: Helvetica, Arial, 'DejaVu Sans', 'Liberation Sans', Freesans, sans-serif;
+    font-size: 16px;
+}
+
+#wrapper {
+    width: 960px;
+}
+
+.menu {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+    .menu li {
+        text-align: center;
+        padding: 0;
+        margin: 0;
+        margin-right: 5px;
+        float: left;
+        height: 180px;
+        width: 180px;
+        border: 20px solid #808080;
+        background: #727272; /* Old browsers */
+        background: -moz-linear-gradient(top, #727272 1%, #ffffff 100%); /* FF3.6+ */
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#727272), color-stop(100%,#ffffff)); /* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(top, #727272 1%,#ffffff 100%); /* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(top, #727272 1%,#ffffff 100%); /* Opera 11.10+ */
+        background: -ms-linear-gradient(top, #727272 1%,#ffffff 100%); /* IE10+ */
+        background: linear-gradient(to bottom, #727272 1%,#ffffff 100%); /* W3C */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#727272', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+    }
+
+        .menu li h3 {
+            padding: 0;
+            margin: 0;
+            color: #FFFFFF;
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+
+.image-container img {
+    width: 120px;
+    height: 100px;
+    border-radius: 20px;
+}
+
+.subtitle {
+    padding: 0;
+    margin: 0;
+    margin-top: 10px;
+}
+
+.click-here {
+    padding: 0;
+    margin: 0;
+    margin-top: 0;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    visibility: visible;
+    display: none;
+}
+
+
+/* Hover*/
+.menu li:hover {
+    border-color: #454545;
+    background: #808080;
+}
+
+    .menu li:hover h3 {
+        text-decoration: underline;
+    }
+
+    .menu li:hover img {
+        width: 140px;
+        height: 110px;
+    }
+
+    .menu li:hover .click-here {
+        display: block;
+    }
+
+    .menu li:hover .subtitle {
+        display: none;
+    }

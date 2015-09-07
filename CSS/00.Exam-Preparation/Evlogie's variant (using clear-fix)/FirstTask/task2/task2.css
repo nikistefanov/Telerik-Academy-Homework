@@ -1,0 +1,84 @@
+﻿body, div, img, ul, li, a, span {
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: Arial, 'DejaVu Sans', 'Liberation Sans', Freesans, sans-serif;
+    font-size: 16px;
+}
+
+#wrapper {
+    width: 960px;
+    padding: 15px;
+}
+
+#wrapper > div {
+    width: 690px;
+    /*height: 438px;*/
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    background-color: #CCCCCC;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+#wrapper > div:after{
+    height: 0;
+    display: block;
+    content: "";
+    clear: both;
+}
+
+#wrapper > div .holder {
+    float: left;
+    
+    width: 550px;
+}
+
+#wrapper > div .holder img {
+    border-radius: 5px;
+    width: 100%;
+}
+
+#wrapper > div .playlist {
+    float: left;
+}
+
+#wrapper > div .playlist ul {
+    padding: 0 10px;
+}
+
+#wrapper > div .playlist ul li {
+    width: 120px;
+    height: 101px;
+    box-sizing: border-box;
+    padding: 5px 0;
+    border-bottom: 1px solid black;
+}
+
+#wrapper > div .playlist ul li span {
+    font-weight: bold;
+    margin: 0 9px;
+}
+
+#wrapper > div .playlist ul li a {
+    display: block;
+    color: black;
+}
+
+#wrapper > div .playlist ul li a img {
+    margin: 0 17px;
+    /*border: 1px solid white;*/
+    border-radius: 10px;
+    display: block;
+}

@@ -1,0 +1,16 @@
+#wrapper > div:after{
+    height: 0;
+    display: block;
+    content: "";
+    clear: both;
+}
+
+
+better to put this code in a class:
+
+.clear-fix {
+    height: 0;
+    display: block;
+    content: "";
+    clear: both;
+}

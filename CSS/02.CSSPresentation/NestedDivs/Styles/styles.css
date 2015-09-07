@@ -1,0 +1,11 @@
+﻿body p {
+    margin: 0;
+    padding: 0
+}
+
+div {
+	padding-right: 3%;
+  background-color: #000001;
+  border: 1px solid #fd0001;
+  border-radius: 100px;
+}

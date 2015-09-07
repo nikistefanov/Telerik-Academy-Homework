@@ -1,0 +1,9 @@
+Cow
+Car
+Bus
+Animal
+Linux
+Quit
+Table
+Mara
+Quebab

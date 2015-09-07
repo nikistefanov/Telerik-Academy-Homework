@@ -1,0 +1,40 @@
+﻿body, div, ul{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.main-items {
+    float: left;
+    display: block;
+    
+}
+
+.main-items > li > a {
+    text-decoration: none;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: black;
+}
+
+.main-items > li:hover > a {
+    text-decoration: underline;
+}
+
+.main-items > li:hover > ul {
+    margin-left: 10px;
+    display: block;
+}
+
+.sub-items {
+    display: none;
+}
+
+.sub-items > li > a{
+    text-decoration: none;
+    color: gray;
+}
+
+.sub-items > li:hover > a {
+    text-decoration: underline;
+}

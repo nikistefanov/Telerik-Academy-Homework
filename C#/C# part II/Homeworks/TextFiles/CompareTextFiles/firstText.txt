@@ -1,0 +1,6 @@
+a
+ab
+abc
+abcd
+12345
+abcdef

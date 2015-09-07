@@ -1,0 +1,26 @@
+1. Microsoft Visual Studio
+Microsoft Visual Studio is an integrated development environment (IDE) from Microsoft.
+It is used to develop computer programs for Microsoft Windows, as well as web sites, web applications and web services.
+Visual Studio uses Microsoft software development platforms such as Windows API, Windows Forms, Windows Presentation Foundation,
+Windows Store and Microsoft Silverlight. It can produce both native code and managed code.
+
+
+2.NetBeans
+NetBeans is an integrated development environment (IDE) for developing primarily with Java, but also with other languages, in particular PHP, C/C++, and HTML5.
+It is also an application platform framework for Java desktop applications and others.
+The NetBeans IDE is written in Java and can run on Windows, OS X, Linux, Solaris and other platforms supporting a compatible JVM.
+
+
+3.Eclipse
+Eclipse is an integrated development environment (IDE). It contains a base workspace and an extensible plug-in system for customizing the environment.
+Written mostly in Java, Eclipse can be used to develop applications. By means of various plug-ins, Eclipse may also be used to develop applications
+in other programming languages: Ada, ABAP, C, C++, COBOL, Fortran, Haskell, JavaScript, Lasso, Natural, Perl, PHP, Prolog, Python,
+Ruby (including Ruby on Rails framework), Scala, Clojure, Groovy, Scheme, and Erlang. It can also be used to develop packages for the software Mathematica. 
+Development environments include the Eclipse Java development tools (JDT) for Java and Scala, Eclipse CDT for C/C++ and Eclipse PDT for PHP, among others.
+
+
+4.Aptana Studio
+Aptana Studio is an open source integrated development environment (IDE) for building web applications.
+Based on Eclipse, it supports JavaScript, HTML, DOM and CSS with code-completion, outlining, JavaScript debugging, error and warning notifications and
+integrated documentation. Additional plugins allow Aptana Studio to support Ruby on Rails, PHP, Python, Perl, Adobe AIR, Apple iPhone and Nokia WRT (Web Runtime).
+Aptana Studio is available as a standalone on Windows, Mac OS X and Linux, or as a plugin for Eclipse.

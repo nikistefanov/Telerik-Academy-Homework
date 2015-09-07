@@ -1,0 +1,49 @@
+body {
+    background: #A9A9A9;
+    text-align: left;
+    font-size: 16px;
+}
+
+h1, h2, nav, li > a{
+    color: #FAFAD2;
+}
+
+body > header > h1, body > footer {
+    text-align: center;
+}
+
+nav {
+    font-weight: bold;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li:nth-child(2) {
+    display:inline;
+    background-color: #D3D3D3;
+}
+
+li:last-child {
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: blue;
+}
+
+footer > p {
+    font-size: 0.75em;
+}
+
+
+

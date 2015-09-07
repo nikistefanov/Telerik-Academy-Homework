@@ -1,0 +1,8 @@
+.NET is an application development framework - it contains numerous libraries containing a range of functionality.
+.NET also is a runtime for executing applications.
+
+C# is a strong Object Oriented programming language that is mostly built on the .NET framework.
+
+One of the biggest advantages of the .NET Framework has built-in automatic memory management.
+It frees developers from the complex task themselves to allocate memory for objects and look for the right moment for its release.
+This seriously increases the productivity of developers and increases the quality of the programs written in C #.

@@ -1,0 +1,12 @@
+***Describe the strings in C#.***
+String is an object of type String whose value is text.
+
+***What is typical for the string data type?***
+String objects are like arrays of characters and that's why the elements of the string can be accessed directly by index.
+
+***Describe the most important methods of the String class.***
+string.Substring()--> Extract substring from the String object.
+string.IndexOf()--> Returns the index of the first occurrence of the specified Unicode character in this string or specified string in this instance.
+LastIndexOf()  --> Returns the index of the last occurrence of the specified Unicode character in this string or specified string in this instance.
+string.Contains()--> Returns a value indicating whether a specified substring occurs within this string.
+
