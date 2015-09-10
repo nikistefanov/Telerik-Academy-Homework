@@ -1,0 +1,164 @@
+{
+  "users": [
+    {
+      "username": "Minkov",
+      "passHash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+      "usernameToLower": "minkov",
+      "id": "16655985-e510-43d4-ad1c-2388c76d1ef6",
+      "authKey": "16655985-e510-43d4-ad1c-2388c76d1ef6FwHCPd*bP:.;Fu&:evl)RPGg"
+    },
+    {
+      "username": "Minkov3",
+      "passHash": "1234567890123456789012345678901234567890",
+      "usernameToLower": "minkov3",
+      "id": "bd04b3b8-5586-47ad-bf8f-db6c531dbb73",
+      "authKey": "bd04b3b8-5586-47ad-bf8f-db6c531dbb73erxSIAJyVOzIEIrpMFbanscO"
+    },
+    {
+      "username": "Niki",
+      "passHash": "f7c3bc1d808e04732adf679965ccc34ca7ae3441",
+      "usernameToLower": "niki",
+      "id": "bdb495fc-4541-4119-bcab-3687804ac834"
+    },
+    {
+      "username": "Kol",
+      "passHash": "7110eda4d09e062aa5e4a390b0a572ac0d2c0220",
+      "usernameToLower": "kol",
+      "id": "2a4781a8-cfff-4c76-b62c-a859d2c8a12a"
+    },
+    {
+      "username": "harli",
+      "passHash": "b5586099944014e589f483efe663318aa1979d56",
+      "usernameToLower": "harli",
+      "id": "cb1bc8cb-78ed-431d-bf56-0d0236682458"
+    },
+    {
+      "username": "bash",
+      "passHash": "a94a8fe5ccb19ba61c4c0873d391e987982fbbd3",
+      "usernameToLower": "bash",
+      "id": "a43634ad-370e-4d22-baf5-09cd0595cef7"
+    },
+    {
+      "username": "az",
+      "passHash": "40bd001563085fc35165329ea1ff5c5ecbdbbeef",
+      "usernameToLower": "az",
+      "id": "e1d37e82-a874-435d-b2a4-c4f95d80e180",
+      "authKey": "e1d37e82-a874-435d-b2a4-c4f95d80e180kFTSwYTJhtmcLlqrbwRFVwLR"
+    },
+    {
+      "username": "Gogo",
+      "passHash": "7072ae1002e1e619d9305af2d5ad6800a056af98",
+      "usernameToLower": "gogo",
+      "id": "5299e328-8785-49cd-9501-af1cc42a291a"
+    },
+    {
+      "username": "Togo",
+      "passHash": "2ab8e336dbdedd7eeca7b1513e11ec5a37956d4c",
+      "usernameToLower": "togo",
+      "id": "587d339c-4fbc-4da6-b7c6-47d60c5e08e7"
+    },
+    {
+      "username": "haar",
+      "passHash": "23d8e0156062165ca3736e9f1e364d414e1d82d5",
+      "usernameToLower": "haar",
+      "id": "6956ad8f-faf6-4f32-a6c7-bc025b0e4412"
+    },
+    {
+      "username": "",
+      "passHash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+      "usernameToLower": "",
+      "id": "5cbe13ac-d1ba-42a8-ba92-41960ab701a8"
+    },
+    {
+      "username": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+      "passHash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+      "usernameToLower": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+      "id": "0222e18a-e9c7-4d97-a16e-acf37954be16"
+    },
+    {
+      "username": "5",
+      "passHash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+      "usernameToLower": "5",
+      "id": "f5325b11-083f-476f-87e8-266a60c50d42"
+    },
+    {
+      "username": "varrel",
+      "passHash": "40bd001563085fc35165329ea1ff5c5ecbdbbeef",
+      "usernameToLower": "varrel",
+      "id": "1881e8cd-d9ec-4385-b58d-683da4817e39",
+      "authKey": "1881e8cd-d9ec-4385-b58d-683da4817e39lnclgWAWHmeGXDLDujGxbBdF"
+    },
+    {
+      "username": "Krushen",
+      "passHash": "1241f911ef454d3e373f75469ff160da2f74bf30",
+      "usernameToLower": "krushen",
+      "id": "22260151-f982-4b16-a6cc-b971368809fd"
+    },
+    {
+      "username": "hahadhahd",
+      "passHash": "40bd001563085fc35165329ea1ff5c5ecbdbbeef",
+      "usernameToLower": "hahadhahd",
+      "id": "2ac2f62c-ddce-4892-b9ba-86c4c85babb4"
+    },
+    {
+      "username": "hahaha",
+      "passHash": "40bd001563085fc35165329ea1ff5c5ecbdbbeef",
+      "usernameToLower": "hahaha",
+      "id": "c0119450-6c4b-4ef3-baa4-b180611f874e",
+      "authKey": "c0119450-6c4b-4ef3-baa4-b180611f874ewRrYVGBUrortLwMWgdnLbycA"
+    }
+  ],
+  "cookies": [
+    {
+      "text": "Test",
+      "category": "Home",
+      "userId": "16655985-e510-43d4-ad1c-2388c76d1ef6",
+      "likes": 10,
+      "dislikes": 15,
+      "img": "https://dayinthelifeofapurpleminion.files.wordpress.com/2014/12/batman-exam.jpg",
+      "shareDate": "2015-09-09T14:53:30.290Z",
+      "id": "2dae28aa-ee64-4bc1-8591-29284d88c9e9"
+    },
+    {
+      "text": "May the Force with you",
+      "category": "WOrk",
+      "userId": "16655985-e510-43d4-ad1c-2388c76d1ef6",
+      "likes": 16,
+      "dislikes": 0,
+      "img": "https://dayinthelifeofapurpleminion.files.wordpress.com/2014/12/batman-exam.jpg",
+      "shareDate": "2015-09-09T14:53:56.482Z",
+      "id": "e2fdbf82-54c3-488f-add4-9af3262c2572",
+      "hours": 9
+    },
+    {
+      "text": "Hello!",
+      "category": "Home",
+      "userId": "bd04b3b8-5586-47ad-bf8f-db6c531dbb73",
+      "likes": 11,
+      "dislikes": 9,
+      "img": "https://dayinthelifeofapurpleminion.files.wordpress.com/2014/12/batman-exam.jpg",
+      "shareDate": "2015-09-10T06:24:18.743Z",
+      "id": "ea91a233-bcf3-48b6-933f-05857f4aea87"
+    },
+    {
+      "text": "Ko",
+      "category": "bash",
+      "userId": "1881e8cd-d9ec-4385-b58d-683da4817e39",
+      "likes": 0,
+      "dislikes": 0,
+      "img": "https://dayinthelifeofapurpleminion.files.wordpress.com/2014/12/batman-exam.jpg",
+      "shareDate": "2015-09-10T19:09:31.051Z",
+      "id": "2ba74d5f-8776-4154-836c-048cd18542eb"
+    },
+    {
+      "text": "dafsd",
+      "category": "frf",
+      "userId": "1881e8cd-d9ec-4385-b58d-683da4817e39",
+      "likes": 0,
+      "dislikes": 0,
+      "img": "https://dayinthelifeofapurpleminion.files.wordpress.com/2014/12/batman-exam.jpg",
+      "shareDate": "2015-09-10T19:15:02.627Z",
+      "id": "ba0bc1b3-0458-40e2-a1b4-78efc8d986e7"
+    }
+  ]
+}

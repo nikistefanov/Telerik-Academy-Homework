@@ -1,0 +1,15 @@
+<h1>Cookies</h1>
+<img src="http://www.x17online.com/news/cookie200.jpg" alt="angry" width="200" height="200">
+<br />
+<a href="#/my-cookie">Feed me with new cookie!</a>
+<br />
+<img src="http://i.dailymail.co.uk/i/pix/2013/09/22/article-0-18297CEF00000578-775_634x426.jpg" width="340" height="230" alt="monster">
+<h3>New for today</h3>
+{{#each this}}
+    <div>
+        <p><strong>Category: {{category}}</strong></p>
+        <p>{{text}}</p>
+        <p><span style="color: blue;"><a class="btn btn-primary" href="#">Likes</a> {{likes}}</span>&nbsp;&nbsp;&nbsp;<span style="color: red;"><a class="btn btn-danger" href="#">Dislikes</a> {{dislikes}}</span></p>
+        <br/>
+    </div>
+{{/each}}
