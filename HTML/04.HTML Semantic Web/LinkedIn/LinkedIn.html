@@ -1,0 +1,103 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <!--[if lt IE 9]>
+        <script src="bower_components/html5shiv/dist/html5shiv.js"></script>
+    <![endif]-->
+
+    <title>Uj LinkedIn</title>
+</head>
+<body>
+    <header>
+        <h2><a href="#">LinkedIn</a></h2>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">What is LinkedIn?</a></li>
+                <li><a href="#">Join Today</a></li>
+                <li style="padding-left: 15px;">
+                    <form>
+                        Sign In
+                        <ul>
+                            <li>
+                                <label for="email-login">Email:</label>
+                                <input type="email" name="email-login" id="email-login" style="width:200px" required />
+                            </li>
+                            <li>
+                                <label for="password-login">Password:</label>
+                                <input type="password" name="password-login" id="password-login" style="width:200px" pattern=".{6,}" required />
+                            </li>
+                            <li>
+                                <button>Sign In</button>
+                            </li>
+                        </ul>
+                    </form>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <hr />
+        <div>
+            <h1>Over 175 million professionals use LinkedIn to exchange information, ideas and opportunities</h1>
+            <ul>
+                <li>Stay informed about your contacts and industry</li>
+                <li>Find the people &amp; knowledge you need to achieve your goals</li>
+                <li>Control your professional identity online</li>
+            </ul>
+        </div>
+        <div>
+            <h2>Join LinkedIn Today</h2>
+            <form style="margin-left: 20px">
+                <p>Sign Up</p>
+                <ul>
+                    <li>
+                        <label for="first-name">First Name:</label>
+                        <br />
+                        <input type="text" name="first-name" id="first-name" required>
+                    </li>
+                    <li>
+                        <label for="last-name">Last Name:</label>
+                        <br />
+                        <input type="text" name="last-name" id="last-name" required>
+                    </li>
+                    <li>
+                        <label for="email">Email:</label>
+                        <br />
+                        <input type="email" name="email" id="email" required />
+                    </li>
+                    <li>
+                        <label for="password">Password:</label>
+                        <br>
+                        <input type="password" name="password" id="password" pattern=".{6,}" required title="6 characters minimum" />
+                        <br />
+                        6 or more characters
+                    </li>
+                </ul>
+                <input type="submit" value="Join Now" />
+                <a href="#">*</a>
+                <br />
+                <br />
+                Already on LinkedIn?
+                <a href="#">Sign In</a>
+            </form>
+        </div>
+        <div>
+            <form>
+                <h4>Search for someone by name:</h4>
+                <ul>
+                    <li>
+                        <label for="search-first-name">First Name</label>
+                        <input type="text" name="search-first-name" id="search-first-name" placeholder="First Name">
+                    </li>
+                    <li>
+                        <label for="search-last-name">Last Name</label>
+                        <input type="text" name="search-last-name" id="search-last-name" placeholder="Last Name">
+                    </li>
+                </ul>
+                <button>Go</button>
+            </form>
+        </div>
+    </section>
+</body>
+</html>

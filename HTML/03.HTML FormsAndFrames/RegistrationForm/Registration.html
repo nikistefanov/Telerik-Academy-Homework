@@ -1,0 +1,129 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Registration</title>
+</head>
+<body>
+    <form name="registration" method="get" action="Registration.html">
+        <table border="1" cellpadding="1" cellspacing="0">
+            <tfoot>
+                <tr>
+                    <td colspan="4" align="center" style="background-color:skyblue">
+                        <input type="submit" value="Submit" />
+                        <input type="reset" value="Clean This Form" />
+                    </td>
+                </tr>
+            </tfoot>
+            <tbody>
+                <tr>
+                    <td align="center">
+                        <label for="last-name"><b>Last Name</b></label>
+                    </td>
+                    <td align="left">
+                        <input type="text" name="last-name" id="last-name" maxlength="50" style="width:270px" required />
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center">
+                        <label for="first-name"><b>First Name</b></label>
+                    </td>
+                    <td align="left">
+                        <input type="text" name="first-name" id="first-name" maxlength="50" style="width:270px" required />
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center">
+                        <label for="adress"><b>Adress</b></label>
+                    </td>
+                    <td height="60">
+                        <textarea name="address" cols="30" rows="5"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center">
+                        <label for="city"><b>City</b></label>
+                    </td>
+                    <td align="left">
+                        <input type="text" name="city" id="city" size="25" required />
+                        <label for="state">State</label>
+                        <input type="text" name="state" id="state" size="4" />
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center">
+                        <label for="postal-code"><b>Zip/Postal Code</b></label>
+                    </td>
+                    <td align="left">
+                        <input type="text" name="postal-code" id="postal-code" size="6" />
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center">
+                        <label for="country"><b>Country</b></label>
+                    </td>
+                    <td align="left">
+                        <select name="country" id="country" style="width:150px" required>
+                            <option value="1" selected="selected">Bulgaria</option>
+                            <option value="2">Greece</option>
+                            <option value="3">Botswana</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center">
+                        <label for="country-code"><b>Phone(country code, <br />area code,number)</b></label>
+                    </td>
+                    <td align="left">
+                        (+<input type="tel" name="country-code" id="country-code" size="4" />)&nbsp;<input type="tel" name="area-code" size="4" />&nbsp;<input type="tel" name="number" size="8" />
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center">
+                        <label for="email"><b>Email</b></label>
+                    </td>
+                    <td align="left">
+                        <input type="email" name="email" id="email" style="width:270px" required />
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center">
+                        <label for="birthday"><b>Birth date</b></label>
+                    </td>
+                    <td align="left">
+                        <input type="text" name="birthday" id="birthday" placeholder="дд.мм.гггг г." size="15" />
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center">
+                        <label for="gender"><b>Gender</b></label>
+                    </td>
+                    <td align="left">
+                        <select name="gender" id="gender">
+                            <option value="1" selected="selected" style="width:100 px">Male</option>
+                            <option value="2">Female</option>
+                            <option value="3">It's a secret</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center">
+                        <label><b>Starting date</b></label>
+                    </td>
+                    <td align="left">
+                        <input type="radio" name="start-date" value="spring" />Spring 2015
+                        <input type="radio" name="start-date" value="summer" />Summer 2015
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center">
+                        <label for="adress"><b>Comments/Questions</b></label>
+                    </td>
+                    <td height="80">
+                        <textarea name="comments" cols="35" rows="5"></textarea>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+</body>
+</html>

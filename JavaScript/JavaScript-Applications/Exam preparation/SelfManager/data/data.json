@@ -1,0 +1,108 @@
+{
+  "users": [
+    {
+      "username": "niki",
+      "passHash": "40bd001563085fc35165329ea1ff5c5ecbdbbeef",
+      "usernameLower": "niki",
+      "authKey": "undefinedfViD-kr(#$q!KnKTLcVdh^zv=^)TBApHJHGaTq)@Gd$hb*nWKJP",
+      "id": "84541dcc-6f0c-42fb-b22f-d7302d65c3de",
+      "todos": [
+        {
+          "id": 832311,
+          "text": "another text",
+          "state": false,
+          "category": "SO FUN"
+        },
+        {
+          "id": 323270,
+          "text": "Take exam",
+          "state": true,
+          "category": "Telerik"
+        },
+        {
+          "id": 347789,
+          "text": "Wash feet",
+          "state": true,
+          "category": "A Must"
+        },
+        {
+          "id": 392438,
+          "text": "Play GTA V",
+          "state": false,
+          "category": "Free time"
+        },
+        {
+          "id": 912403,
+          "text": "Buy Playstation 4",
+          "state": false,
+          "category": "SO FUN"
+        }
+      ],
+      "events": [
+        {
+          "id": 524981,
+          "title": "Work",
+          "category": "SO FUN",
+          "date": null,
+          "creatorId": "84541dcc-6f0c-42fb-b22f-d7302d65c3de",
+          "users": [
+            "84541dcc-6f0c-42fb-b22f-d7302d65c3de"
+          ]
+        },
+        {
+          "id": 546651,
+          "title": "GONE EVENT",
+          "category": "GORE",
+          "date": null,
+          "creatorId": "84541dcc-6f0c-42fb-b22f-d7302d65c3de",
+          "users": [
+            "84541dcc-6f0c-42fb-b22f-d7302d65c3de"
+          ]
+        },
+        {
+          "id": 519386,
+          "title": "Stop work",
+          "category": "Very important",
+          "date": null,
+          "creatorId": "84541dcc-6f0c-42fb-b22f-d7302d65c3de",
+          "users": [
+            "84541dcc-6f0c-42fb-b22f-d7302d65c3de"
+          ]
+        },
+        {
+          "id": 749264,
+          "title": "some",
+          "category": "SO FUN",
+          "description": "jeje",
+          "date": null,
+          "creatorId": "84541dcc-6f0c-42fb-b22f-d7302d65c3de",
+          "users": [
+            "84541dcc-6f0c-42fb-b22f-d7302d65c3de"
+          ]
+        },
+        {
+          "id": 126350,
+          "title": "title",
+          "category": "some other",
+          "description": "no",
+          "date": null,
+          "creatorId": "84541dcc-6f0c-42fb-b22f-d7302d65c3de",
+          "users": [
+            "84541dcc-6f0c-42fb-b22f-d7302d65c3de"
+          ]
+        },
+        {
+          "id": 310871,
+          "title": "last",
+          "category": "final",
+          "description": "there",
+          "date": "2015-09-17T22:00:00.000Z",
+          "creatorId": "84541dcc-6f0c-42fb-b22f-d7302d65c3de",
+          "users": [
+            "84541dcc-6f0c-42fb-b22f-d7302d65c3de"
+          ]
+        }
+      ]
+    }
+  ]
+}
