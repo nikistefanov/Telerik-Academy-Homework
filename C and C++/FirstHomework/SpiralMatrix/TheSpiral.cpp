@@ -4,6 +4,7 @@ Write a program that outputs the first N natural numbers in a square spiral of s
 
 #include <iostream>
 #include <string>
+#include <vector>
 
 using namespace std;
 
@@ -29,6 +30,7 @@ int main()
 
 	const int s = 5;
 	// is there a way so I can use variable provided by the user and make it constant so that it can be used to determine the size of the array?
+	//vector<int> matrix(s)(s);
 	int matrix[s][s];
 	int digit = 1;
 	int currentRow = 0;

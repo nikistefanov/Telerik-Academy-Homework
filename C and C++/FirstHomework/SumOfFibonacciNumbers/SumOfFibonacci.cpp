@@ -1,5 +1,5 @@
 /*
-4.	Write a program that calculates and outputs the first N Fibonacci numbers, separated by comma and space. N is entered from the standard input.
+5.	Write a program that calculates and outputs the total sum of the digits of the first N Fibonacci numbers.
 */
 
 #include <iostream>
@@ -11,6 +11,7 @@ int main()
 	char forBreak;
 
 	int limit;
+	unsigned sum = 0;
 	cout << "Enter the limit for the Fibonacci sequnce: ";
 	cin >> limit;
 
@@ -24,17 +25,18 @@ int main()
 	}
 	else
 	{
-		cout << f1 << ", ";
-		cout << f2 << ", ";
+		sum += f1;
+		sum += f2;
 		for (int i = 2; i < limit; i++)
 		{
 			f3 = f1 + f2;
 			f1 = f2;
 			f2 = f3;
-			(i == limit - 1) ? cout << f3 : cout << f3 << ", ";
-			//cout << f3 << (i == limit - 1) ? "" : ", ";
+			sum += f3;
 		}
 	}
+
+	cout << "The sum of the digits of the first "<< limit << " Fibonacci numbers is " << sum << endl;
 
 	cin >> forBreak;
 
