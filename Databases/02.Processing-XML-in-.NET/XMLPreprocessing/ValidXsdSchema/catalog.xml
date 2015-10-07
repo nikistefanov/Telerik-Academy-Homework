@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<catalogue xmlns:catalogue="urn:catalogue">
+  <album>
+    <name>Dance House</name>
+    <artist>Drake</artist>
+    <year>2015</year>
+    <producer>Kushta LLC</producer>
+    <price>15.99</price>
+    <songs>
+      <song>
+        <title>Party Time</title>
+        <duration>4:35</duration>
+      </song>
+      <song>
+        <title>Dance House</title>
+        <duration>5:07</duration>
+      </song>
+      <song>
+        <title>Grandma</title>
+        <duration>4:45</duration>
+      </song>
+      <song>
+        <title>Old Dog</title>
+        <duration>5:06</duration>
+      </song>
+      <song>
+        <title>Conga</title>
+        <duration>5:24</duration>
+      </song>
+    </songs>
+  </album>
+  <album>
+    <name>Magik One: First Flight</name>
+    <artist>Tiesto</artist>
+    <year>2009</year>
+    <producer>Tiesto</producer>
+    <price>24.99</price>
+    <songs>
+      <song>
+        <title>Healing Dream</title>
+        <duration>11:45</duration>
+      </song>
+      <song>
+        <title>Into the Sun</title>
+        <duration>8:58</duration>
+      </song>
+      <song>
+        <title>Never Enough</title>
+        <duration>7:59</duration>
+      </song>
+      <song>
+        <title>Program 1</title>
+        <duration>6:27</duration>
+      </song>
+      <song>
+        <title>Shell Shock</title>
+        <duration>6:44</duration>
+      </song>
+    </songs>
+  </album>
+  <album>
+    <name>Thank Me Later</name>
+    <artist>Drake</artist>
+    <year>2010</year>
+    <producer>Noah 40</producer>
+    <price>9.99</price>
+    <songs>
+      <song>
+        <title>Fireworks</title>
+        <duration>5:13</duration>
+      </song>
+      <song>
+        <title>The Resistance</title>
+        <duration>3:45</duration>
+      </song>
+      <song>
+        <title>Show Me a Good Time</title>
+        <duration>3:30</duration>
+      </song>
+      <song>
+        <title>Up All Night</title>
+        <duration>3:54</duration>
+      </song>
+      <song>
+        <title>Fancy</title>
+        <duration>5:19</duration>
+      </song>
+    </songs>
+  </album>
+</catalogue>

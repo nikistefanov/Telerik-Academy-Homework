@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="students.xslt"?>
+<!--Create XML document students.xml, which contains structured description of students.
+For each student you should enter information for his name, sex, birth date, phone, email, course, specialty, faculty number and a list of taken exams (exam name, tutor, score).-->
+<students xmlns:students="urn:students">
+  <student>
+    <name>Nko  Belic</name>
+    <sex>Yes, please!</sex>
+    <b-day>2000-05-05</b-day>
+    <phone>0888777555</phone>
+    <email>n.belic@mail.bg</email>
+    <course>Biologics</course>
+    <specialty>Drugs</specialty>
+    <faculty-number>229329</faculty-number>
+    <exams>
+      <exam>
+        <name>JavaScript Apps</name>
+        <tutor>Doncho Mikov</tutor>
+        <score>65</score>
+      </exam>
+      <exam>
+        <name>C# Fundamentals</name>
+        <tutor>Nikolay Kostov</tutor>
+        <score>300</score>
+      </exam>
+    </exams>
+  </student>
+  <student>
+    <name>Bella Ubavella</name>
+    <sex>female</sex>
+    <b-day>1988-09-12</b-day>
+    <phone>0887654654</phone>
+    <email>bubata@abv.bg</email>
+    <course>Biologics</course>
+    <specialty>Drugs</specialty>
+    <faculty-number>229322</faculty-number>
+    <exams>
+      <exam>
+        <name>JavaScript UI and DOM</name>
+        <tutor>Doncho Mikov</tutor>
+        <score>211</score>
+      </exam>
+      <exam>
+        <name>C# OOP</name>
+        <tutor>Ivaylo Kenov</tutor>
+        <score>296</score>
+      </exam>
+    </exams>
+  </student>
+  <student>
+    <name>Huri Katogredo</name>
+    <sex>male</sex>
+    <b-day>1989-10-23</b-day>
+    <phone>0899556478</phone>
+    <email>bahuri@gmail.com</email>
+    <course>Not-biologics</course>
+    <specialty>Anatomy</specialty>
+    <faculty-number>1135478</faculty-number>
+    <exams>
+      <exam>
+        <name>JavaScript UI and DOM</name>
+        <tutor>Doncho Mikov</tutor>
+        <score>250</score>
+      </exam>
+      <exam>
+        <name>CSS</name>
+        <tutor>Evlogi Hristov</tutor>
+        <score>99</score>
+      </exam>
+    </exams>
+  </student>
+</students>
