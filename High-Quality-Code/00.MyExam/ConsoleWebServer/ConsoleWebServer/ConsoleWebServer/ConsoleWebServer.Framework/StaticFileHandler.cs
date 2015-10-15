@@ -1,10 +1,11 @@
 ﻿namespace ConsoleWebServer.Framework
 {
     using System;
-    using System.Linq;
     using System.IO;
+    using System.Linq;
     using System.Net;
     using str = System.String;
+
     public class StaticFileHandler
     {
         public bool CanHandle(HttpRq request)
@@ -12,6 +13,7 @@
             return request.Uri.LastIndexOf(".", StringComparison.Ordinal)
                     > request.Uri.LastIndexOf("/", StringComparison.Ordinal);
         }
+
         public HttpResponse Handle(HttpRq request)
         {
             str filePath = Environment.CurrentDirectory + "/" + request.Uri;
@@ -19,16 +21,19 @@
             {
                 return new HttpResponse(request.ProtocolVersion, HttpStatusCode.NotFound, "File not found");
             }
+
             str fileContents = File.ReadAllText(filePath);
             var response = new HttpResponse(request.ProtocolVersion, HttpStatusCode.OK, fileContents);
             return response;
         }
+
         private bool FileExists(str path, str filePath, int depth)
         {
             if (depth <= 0)
             {
                 return File.Exists(filePath);
             }
+
             try
             {
                 var f = Directory.GetFiles(path);
@@ -36,14 +41,17 @@
                 {
                     return true;
                 }
+
                 var d = Directory.GetDirectories(path);
+
                 foreach (var dd in d)
                 {
-                    if (FileExists(dd, filePath, depth - 1))
+                    if (this.FileExists(dd, filePath, depth - 1))
                     {
                         return true;
                     }
                 }
+
                 return false;
             }
             catch (Exception)

@@ -1,12 +1,29 @@
 namespace ConsoleWebServer.Framework
 {
-    using System.Reflection;
     using System;
     using System.Linq;
     using System.Net;
+    using System.Reflection;
 
     public class ResponseProvider
     {
+        public HttpResponse GetResponse(string requestAsString)
+        {
+            HttpRq request;
+            try
+            {
+                var requestParser = new HttpRq("GET", "/", "1.1");
+                request = requestParser.Parse(requestAsString);
+            }
+            catch (Exception ex)
+            {
+                return new HttpResponse(new Version(1, 1), HttpStatusCode.BadRequest, ex.Message);
+            }
+
+            var response = this.Process(request);
+            return response;
+        }
+
         private HttpResponse Process(HttpRq request)
         {
             if (request.Method.ToLower() == "options")
@@ -35,7 +52,7 @@ namespace ConsoleWebServer.Framework
                 HttpResponse response;
                 try
                 {
-                    var controller = CreateController(request);
+                    var controller = this.CreateController(request);
                     var actionInvoker = new NewActionInvoker();
                     var actionResult = actionInvoker.InvokeAction(controller, request.Action);
                     response = actionResult.GetResponse();
@@ -48,6 +65,7 @@ namespace ConsoleWebServer.Framework
                 {
                     response = new HttpResponse(request.ProtocolVersion, HttpStatusCode.InternalServerError, exception.Message);
                 }
+
                 return response;
             }
             else
@@ -66,27 +84,11 @@ namespace ConsoleWebServer.Framework
                         x => x.Name.ToLower() == controllerClassName.ToLower() && typeof(Controller).IsAssignableFrom(x));
             if (type == null)
             {
-                throw new HttpNotFound(
-                    string.Format("Controller with name {0} not found!", controllerClassName));
+                throw new HttpNotFound(string.Format("Controller with name {0} not found!", controllerClassName));
             }
+
             var instance = (Controller)Activator.CreateInstance(type, request);
             return instance;
-        }
-
-        public HttpResponse GetResponse(string requestAsString)
-        {
-            HttpRq request;
-            try
-            {
-                var requestParser = new HttpRq("GET", "/", "1.1");
-                request = requestParser.Parse(requestAsString);
-            }
-            catch (Exception ex)
-            {
-                return new HttpResponse(new Version(1, 1), HttpStatusCode.BadRequest, ex.Message);
-            }
-            var response = this.Process(request);
-            return response;
         }
     }
 }

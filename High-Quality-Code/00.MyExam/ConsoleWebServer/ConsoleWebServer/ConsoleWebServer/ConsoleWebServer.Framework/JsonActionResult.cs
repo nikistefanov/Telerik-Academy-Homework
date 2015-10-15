@@ -2,40 +2,47 @@
 {
     using System;
     using System.Collections.Generic;
-    using System.Text;
     using System.Net;
 
-    using Newtonsoft.Json;
+    using Newtonsoft.Json;    
 
     public class JsonActionResult : IActionResult
     {
+        public readonly object Model;
+
+        public JsonActionResult(HttpRq rq, object m)
+        {
+            this.Model = m;
+            this.Request = rq;
+            this.ResponseHeaders = new List<KeyValuePair<string, string>>();
+        }
+
+        public HttpRq Request { get; private set; }
+
+        public List<KeyValuePair<string, string>> ResponseHeaders { get; private set; }
+
         public virtual HttpStatusCode GetStatusCode()
         {
             return HttpStatusCode.OK;
         }
-        public JsonActionResult(HttpRq rq, object m)
-        {
-            model = m;
-            Request = rq;
-            ResponseHeaders = new List<KeyValuePair<string, string>>();
-        }
-        public HttpRq Request { get; private set; }
-        public List<KeyValuePair<string, string>> ResponseHeaders { get; private set; }
+
         public string GetContent()
         {
-            return JsonConvert.SerializeObject(model);
+            return JsonConvert.SerializeObject(this.Model);
         }
-        public readonly object model;
+
         public HttpResponse GetResponse()
         {
-            var response = new HttpResponse(Request.ProtocolVersion, GetStatusCode(), GetContent(), HighQualityCodeExamPointsProvider.GetContentType());
-            foreach (var responseHeader in ResponseHeaders)
+            var response = new HttpResponse(this.Request.ProtocolVersion, this.GetStatusCode(), this.GetContent(), HighQualityCodeExamPointsProvider.GetContentType());
+            foreach (var responseHeader in this.ResponseHeaders)
             {
                 response.AddHeader(responseHeader.Key, responseHeader.Value);
             }
+
             return response;
         }
     }
+
     public class JsonActionResultWithCors : JsonActionResult
     {
         public JsonActionResultWithCors(HttpRq request, object model, string corsSettings)
@@ -44,6 +51,7 @@
             this.ResponseHeaders.Add(new KeyValuePair<string, string>("Access-Control-Allow-Origin", corsSettings));
         }
     }
+
     public class JsonActionResultWithoutCaching : JsonActionResult
     {
         public JsonActionResultWithoutCaching(HttpRq r, object model)
@@ -53,6 +61,7 @@
             throw new Exception();
         }
     }
+
     public class JsonActionResultWithCorsWithoutCaching : JsonActionResult
     {
         public JsonActionResultWithCorsWithoutCaching(HttpRq request, object model, string corsSettings)

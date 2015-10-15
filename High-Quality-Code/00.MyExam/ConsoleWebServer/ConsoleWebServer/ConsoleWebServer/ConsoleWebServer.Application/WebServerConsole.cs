@@ -1,16 +1,19 @@
 ﻿namespace ConsoleWebServer.Application
 {
-    using Framework;
     using System;
-    using System.Linq;
     using System.Text;
+
+    using Framework;
+    
     public class WebServerConsole
     {
         private readonly ResponseProvider responseProvider;
+
         public WebServerConsole()
         {
             this.responseProvider = new ResponseProvider();
         }
+
         public void Start()
         {
             var requestBuilder = new StringBuilder();
@@ -26,6 +29,7 @@
                     requestBuilder.Clear();
                     continue;
                 }
+
                 requestBuilder.AppendLine(inputLine);
             }
         }

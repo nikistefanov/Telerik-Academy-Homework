@@ -6,6 +6,3 @@
         HttpResponse GetResponse(string requestAsString);
     }
 }
-
-
-

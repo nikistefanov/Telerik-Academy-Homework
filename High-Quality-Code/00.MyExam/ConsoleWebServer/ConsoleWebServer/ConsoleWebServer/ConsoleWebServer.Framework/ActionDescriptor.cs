@@ -5,7 +5,6 @@
 
     public class ActionDescriptor
     {
-        public string ActionName { get; private set; }
         public ActionDescriptor(string uri)
         {
             uri = uri ?? string.Empty;
@@ -28,13 +27,15 @@
                 : "Param";
         }
 
+        public string ActionName { get; private set; }
+
         public string ControllerName { get; private set; }
+
+        public string Parameter { get; private set; }
+
         public override string ToString()
         {
-            return string.Format("/{0}/{1}/{2}",
-                this.ControllerName, this.ActionName,
-                this.Parameter);
+            return string.Format("/{0}/{1}/{2}", this.ControllerName, this.ActionName, this.Parameter);
         }
-        public string Parameter { get; private set; }
     }
 }
