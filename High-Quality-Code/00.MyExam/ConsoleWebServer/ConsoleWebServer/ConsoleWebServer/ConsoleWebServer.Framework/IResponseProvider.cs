@@ -1,6 +1,10 @@
-﻿public interface IResponseProvider
+﻿namespace ConsoleWebServer.Framework
 {
-    HttpResponse GetResponse(string requestAsString);
+    // TODO: add documentation
+    public interface IResponseProvider
+    {
+        HttpResponse GetResponse(string requestAsString);
+    }
 }
 
 
