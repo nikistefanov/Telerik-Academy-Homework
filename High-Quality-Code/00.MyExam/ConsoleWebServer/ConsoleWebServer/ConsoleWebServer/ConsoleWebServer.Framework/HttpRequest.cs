@@ -5,11 +5,9 @@
     using System.IO;
     using System.Text;
 
-    using R = HttpRq;
-
-    public class HttpRq
+    public class HttpRequest
     {
-        public HttpRq(string m, string uri, string httpVersion)
+        public HttpRequest(string m, string uri, string httpVersion)
         {
             this.ProtocolVersion = Version.Parse(httpVersion.ToLower().Replace("HTTP/".ToLower(), string.Empty));
             this.Headers = new SortedDictionary<string, ICollection<string>>();
@@ -58,7 +56,7 @@
             return sb.ToString();
         }
 
-        public R Parse(string reqAsStr)
+        public HttpRequest Parse(string reqAsStr)
         {
             var textReader = new StringReader(reqAsStr);
             var firstLine = textReader.ReadLine();
@@ -73,15 +71,15 @@
             return requestObject;
         }
 
-        private R CreateRequest(string frl)
+        private HttpRequest CreateRequest(string firstRequestLine)
         {
-            var firstRequestLineParts = frl.Split(' ');
+            var firstRequestLineParts = firstRequestLine.Split(' ');
             if (firstRequestLineParts.Length != 3)
             {
                 throw new HttpNotFound.ParserException("Invalid format for the first request line. Expected format: [Method] [Uri] HTTP/[Version]");
             }
 
-            var requestObject = new R(
+            var requestObject = new HttpRequest(
                 firstRequestLineParts[0],
                 firstRequestLineParts[1],
                 firstRequestLineParts[2]);
@@ -89,12 +87,12 @@
             return requestObject;
         }
 
-        private void AddHeaderToRequest(R r, string headerLine)
+        private void AddHeaderToRequest(HttpRequest request, string headerLine)
         {
             var hp = headerLine.Split(new[] { ':' }, 2);
             var hn = hp[0].Trim();
             var hv = hp.Length == 2 ? hp[1].Trim() : string.Empty;
-            r.AddHeader(hn, hv);
+            request.AddHeader(hn, hv);
         }
     }
 }

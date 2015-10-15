@@ -1,5 +1,7 @@
-﻿namespace ConsoleWebServer.Framework
+﻿namespace ConsoleWebServer.Application.Controllers
 {
+    using ConsoleWebServer.Framework;
+
     public abstract class Controller
     {
         protected Controller(HttpRequest reqeust)

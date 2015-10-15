@@ -4,10 +4,10 @@
     using System.Linq;
 
     using ConsoleWebServer.Framework;
-    
+
     public class ApiController : Controller
     {
-        public ApiController(HttpRq request) 
+        public ApiController(HttpRequest request)
             : base(request)
         {
         }
@@ -31,8 +31,7 @@
             }
 
             return new JsonActionResultWithCors(
-                this.Request,
-                new { date = DateTime.Now.ToString("yyyy-MM-dd"), moreInfo = "Data available for " + domainName },domainName);
+                this.Request, new { date = DateTime.Now.ToString("yyyy-MM-dd"), moreInfo = "Data available for " + domainName }, domainName);
         }
     }
 }
