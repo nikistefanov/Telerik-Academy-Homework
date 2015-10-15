@@ -3,16 +3,19 @@
     using System;
     using System.Collections.Generic;
     using System.IO;
+    using System.Linq;
     using System.Text;
+
+    using Exceptions;
 
     public class HttpRequest
     {
-        public HttpRequest(string m, string uri, string httpVersion)
+        public HttpRequest(string method, string uri, string httpVersion)
         {
+            this.Method = method;
             this.ProtocolVersion = Version.Parse(httpVersion.ToLower().Replace("HTTP/".ToLower(), string.Empty));
             this.Headers = new SortedDictionary<string, ICollection<string>>();
             this.Uri = uri;
-            this.Method = m;
             this.Action = new ActionDescriptor(uri);
         }
 
@@ -76,7 +79,7 @@
             var firstRequestLineParts = firstRequestLine.Split(' ');
             if (firstRequestLineParts.Length != 3)
             {
-                throw new HttpNotFound.ParserException("Invalid format for the first request line. Expected format: [Method] [Uri] HTTP/[Version]");
+                throw new ParserException("Invalid format for the first request line. Expected format: [Method] [Uri] HTTP/[Version]");
             }
 
             var requestObject = new HttpRequest(

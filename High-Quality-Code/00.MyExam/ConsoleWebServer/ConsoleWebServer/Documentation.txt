@@ -2,7 +2,7 @@ Design pattern: Factory Method
 	* 
 
 Design pattern: Strategy
-	* 
+	* In WebServerConsole the response provider can vary
 
 Design pattern: Template Method
 	* 
@@ -15,9 +15,11 @@ Design pattern: Decorator
 	* 
 
 Found bugs:
-	* 
-	* 
-	* 
+	* In class ActionDescriptor removed multiple split symbols
+	* In class JsonActionResult removed the HighQualityCodeExamPoints given throug the constructor
+	* In class JsonActionResultWithoutCaching removed the throwen Exception
+	* In class HttpResponse change the way of providing the elements for the HttpRequest constructor
+	* Fixed the bug where Protocol version was checked "request.ProtocolVersion.Major < 3"
 
 Found bottleneck:
 	* 
@@ -26,7 +28,7 @@ Single responsibility principle
 	* 
 
 Open/closed principle
-	* 
+	* The Response provider can be interganged by the client without touching the original code
 
 Liskov substitution principle
 	* 
@@ -35,4 +37,4 @@ Interface segregation principle
 	* 
 
 Dependency inversion principle
-	* 
+	* WebConsole expects IResponseProvider which gives us the possibillity of defining own IResponseProvider

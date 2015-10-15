@@ -5,11 +5,13 @@
 
     public class ContentActionResult : IActionResult
     {
-        public readonly object Model;
+        private const string ContentType = "text/plain; charset=utf-8";
+
+        private readonly object model;
 
         public ContentActionResult(HttpRequest request, object model)
         {
-            this.Model = model;
+            this.model = model;
             this.Request = request;
             this.ResponseHeaders = new List<KeyValuePair<string, string>>();
         }
@@ -20,7 +22,7 @@
 
         public HttpResponse GetResponse()
         {
-            var response = new HttpResponse(this.Request.ProtocolVersion, HttpStatusCode.OK, this.Model.ToString(), "text/plain; charset=utf-8");
+            var response = new HttpResponse(this.Request.ProtocolVersion, HttpStatusCode.OK, this.model.ToString(), ContentType);
             foreach (var responseHeader in this.ResponseHeaders)
             {
                 response.AddHeader(responseHeader.Key, responseHeader.Value);

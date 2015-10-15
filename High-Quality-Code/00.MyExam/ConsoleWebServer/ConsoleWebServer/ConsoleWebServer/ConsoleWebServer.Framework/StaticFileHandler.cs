@@ -9,8 +9,7 @@
     {
         public bool CanHandle(HttpRequest request)
         {
-            return request.Uri.LastIndexOf(".", StringComparison.Ordinal)
-                    > request.Uri.LastIndexOf("/", StringComparison.Ordinal);
+            return request.Uri.LastIndexOf(".", StringComparison.Ordinal) > request.Uri.LastIndexOf("/", StringComparison.Ordinal);
         }
 
         public HttpResponse Handle(HttpRequest request)
@@ -35,17 +34,17 @@
 
             try
             {
-                var f = Directory.GetFiles(path);
-                if (f.Contains(filePath))
+                var file = Directory.GetFiles(path);
+                if (file.Contains(filePath))
                 {
                     return true;
                 }
 
-                var d = Directory.GetDirectories(path);
+                var directory = Directory.GetDirectories(path);
 
-                foreach (var dd in d)
+                foreach (var directories in directory)
                 {
-                    if (this.FileExists(dd, filePath, depth - 1))
+                    if (this.FileExists(directories, filePath, depth - 1))
                     {
                         return true;
                     }

@@ -1,18 +1,21 @@
 namespace ConsoleWebServer.Framework
-{
+{    
     using System;
     using System.Linq;
     using System.Net;
     using System.Reflection;
+    using Exceptions;
 
-    public class ResponseProvider
+    public class ResponseProvider : IResponseProvider
     {
         public HttpResponse GetResponse(string requestAsString)
         {
             HttpRequest request;
             try
             {
-                var requestParser = new HttpRequest("GET", "/", "1.1");
+                var requestParts = requestAsString.Split(new[] { ' ', '\r', '\n' });
+
+                var requestParser = new HttpRequest(requestParts[0], requestParts[1], requestParts[2]);
                 request = requestParser.Parse(requestAsString);
             }
             catch (Exception ex)
@@ -47,13 +50,13 @@ namespace ConsoleWebServer.Framework
             {
                 return new StaticFileHandler().Handle(request);
             }
-            else if (request.ProtocolVersion.Major <= 3)
+            else if (request.ProtocolVersion.Major < 3)
             {
                 HttpResponse response;
                 try
                 {
                     var controller = this.CreateController(request);
-                    var actionInvoker = new NewActionInvoker();
+                    var actionInvoker = new ActionInvoker();
                     var actionResult = actionInvoker.InvokeAction(controller, request.Action);
                     response = actionResult.GetResponse();
                 }
