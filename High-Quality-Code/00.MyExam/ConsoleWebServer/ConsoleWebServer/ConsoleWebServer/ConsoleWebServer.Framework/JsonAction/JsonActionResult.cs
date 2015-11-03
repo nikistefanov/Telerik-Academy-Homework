@@ -10,6 +10,10 @@
     {
         public readonly object Model;
 
+        protected const string AccessControlOriginMessage = "Access-Control-Allow-Origin";
+        protected const string CacheControlMessage = "Cache-Control";
+        protected const string CacheControlMessageAdditionalInfoMessage = "private, max-age=0, no-cache";        
+
         public JsonActionResult(HttpRequest request, object method)
         {
             this.Model = method;

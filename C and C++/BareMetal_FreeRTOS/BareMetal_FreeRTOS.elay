@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<EmBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="BSP\stm32f4xx_nucleo.c" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="16" />
+		</Cursor>
+	</File>
+	<File name="RTOS\ARM_CM4F\port.c" open="0" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="10818" topLine="217" />
+		</Cursor>
+	</File>
+	<File name="RTOS\CMSIS_RTOS\cmsis_os.c" open="0" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="36916" topLine="1220" />
+		</Cursor>
+	</File>
+	<File name="RTOS\CMSIS_RTOS\cmsis_os.h" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="44143" topLine="648" />
+		</Cursor>
+	</File>
+	<File name="RTOS\FreeRTOSConfig.h" open="0" top="0" tabpos="11" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="5397" topLine="86" />
+		</Cursor>
+	</File>
+	<File name="RTOS\MemMang\heap_4.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="10396" topLine="212" />
+		</Cursor>
+	</File>
+	<File name="RTOS\include\FreeRTOS.h" open="0" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="17957" topLine="517" />
+		</Cursor>
+	</File>
+	<File name="RTOS\include\event_groups.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="7496" topLine="218" />
+		</Cursor>
+	</File>
+	<File name="RTOS\include\portable.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="7211" topLine="147" />
+		</Cursor>
+	</File>
+	<File name="RTOS\include\projdefs.h" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="4397" topLine="67" />
+		</Cursor>
+	</File>
+	<File name="RTOS\include\task.h" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="14285" topLine="293" />
+		</Cursor>
+	</File>
+	<File name="RTOS\include\timers.h" open="0" top="0" tabpos="13" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="53488" topLine="1102" />
+		</Cursor>
+	</File>
+	<File name="RTOS\tasks.c" open="0" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="24817" topLine="549" />
+		</Cursor>
+	</File>
+	<File name="RTOS\timers.c" open="0" top="0" tabpos="14" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="10770" topLine="320" />
+		</Cursor>
+	</File>
+	<File name="STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="19555" topLine="415" />
+		</Cursor>
+	</File>
+	<File name="STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="13823" topLine="318" />
+		</Cursor>
+	</File>
+	<File name="STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc.c" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="32742" topLine="869" />
+		</Cursor>
+	</File>
+	<File name="STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="23186" topLine="609" />
+		</Cursor>
+	</File>
+	<File name="STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="174090" topLine="5266" />
+		</Cursor>
+	</File>
+	<File name="inc\ADC_driver.h" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1026" topLine="4" />
+		</Cursor>
+	</File>
+	<File name="inc\PWM_driver.h" open="0" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="inc\UART_driver.h" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="594" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="inc\main.h" open="0" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2425" topLine="22" />
+		</Cursor>
+	</File>
+	<File name="inc\stm32f4xx_hal_conf.h" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3774" topLine="57" />
+		</Cursor>
+	</File>
+	<File name="inc\stm32f4xx_it.h" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2977" topLine="25" />
+		</Cursor>
+	</File>
+	<File name="src\ADC_driver.c" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1130" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src\PWM_driver.c" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="72" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src\UART_driver.c" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="919" topLine="9" />
+		</Cursor>
+	</File>
+	<File name="src\main.c" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="4490" topLine="95" />
+		</Cursor>
+	</File>
+	<File name="src\startup_stm32f4xx.S" open="1" top="1" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="8932" topLine="160" />
+		</Cursor>
+	</File>
+	<File name="src\stm32f4xx_it.c" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3040" topLine="52" />
+		</Cursor>
+	</File>
+	<File name="src\system_stm32f4xx.c" open="0" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="9689" topLine="242" />
+		</Cursor>
+	</File>
+</EmBlocks_layout_file>

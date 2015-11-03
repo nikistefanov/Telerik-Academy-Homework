@@ -69,7 +69,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ActionInvoker.cs" />
+    <Compile Include="ContentAction\ActionInvoker.cs" />
     <Compile Include="ContentAction\ContentActionResultWithCors.cs" />
     <Compile Include="ContentAction\ContentActionResultWithCorsWithoutCaching.cs" />
     <Compile Include="ContentAction\ContentActionResultWithoutCaching.cs" />
@@ -83,12 +83,12 @@
     <Compile Include="Exceptions\HttpNotFound.cs" />
     <Compile Include="HttpRequest.cs" />
     <Compile Include="Controller.cs" />
-    <Compile Include="HttpResponse.cs" />
+    <Compile Include="ContentResponse\HttpResponse.cs" />
     <Compile Include="IActionResult.cs" />
-    <Compile Include="IResponseProvider.cs" />
+    <Compile Include="ContentResponse\IResponseProvider.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ActionDescriptor.cs" />
-    <Compile Include="ResponseProvider.cs" />
+    <Compile Include="ContentAction\ActionDescriptor.cs" />
+    <Compile Include="ContentResponse\ResponseProvider.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

@@ -7,6 +7,9 @@
 
     public class StaticFileHandler
     {
+        private const string FileNotFoundMessage = "File not found";
+        private const string FileStartingDirectory = "../../../";
+
         public bool CanHandle(HttpRequest request)
         {
             return request.Uri.LastIndexOf(".", StringComparison.Ordinal) > request.Uri.LastIndexOf("/", StringComparison.Ordinal);
@@ -14,10 +17,10 @@
 
         public HttpResponse Handle(HttpRequest request)
         {
-            string filePath = "/" + request.Uri;
-            if (!this.FileExists("C:\\", filePath, 3))
+            string filePath = request.Uri;
+            if (!this.FileExists(FileStartingDirectory, filePath, 3))
             {
-                return new HttpResponse(request.ProtocolVersion, HttpStatusCode.NotFound, "File not found");
+                return new HttpResponse(request.ProtocolVersion, HttpStatusCode.NotFound, FileNotFoundMessage);
             }
 
             string fileContents = File.ReadAllText(filePath);
@@ -25,26 +28,26 @@
             return response;
         }
 
-        private bool FileExists(string path, string filePath, int depth)
+        private bool FileExists(string path, string file, int depth)
         {
             if (depth <= 0)
             {
-                return File.Exists(filePath);
+                return File.Exists(file);
             }
 
             try
             {
-                var file = Directory.GetFiles(path);
-                if (file.Contains(filePath))
+                var filePath = Directory.GetFiles(path);
+                if (filePath.Contains(file))
                 {
                     return true;
                 }
 
-                var directory = Directory.GetDirectories(path);
+                var directories = Directory.GetDirectories(path);
 
-                foreach (var directories in directory)
+                foreach (var directory in directories)
                 {
-                    if (this.FileExists(directories, filePath, depth - 1))
+                    if (this.FileExists(directory, file, depth - 1))
                     {
                         return true;
                     }

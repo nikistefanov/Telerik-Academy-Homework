@@ -9,7 +9,7 @@ Design pattern: Template Method
 	* 
 
 Design pattern: Chain of Responsibility
-	* 
+	* This desing must be implementent in JsonAction and ContentAction classes but my time has run out :)
 
 Design pattern: Decorator
 	* 

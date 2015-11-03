@@ -1,0 +1,3380 @@
+# depslib dependency file v1.0
+1439386199 source:c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\bsp\stm32f4xx_nucleo.c
+	"stm32f4xx_nucleo.h"
+
+1439386199 c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\bsp\stm32f4xx_nucleo.h
+	"stm32f4xx_hal.h"
+
+1444774158 c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\stm32f4xx_hal_driver\inc\stm32f4xx_hal.h
+	"stm32f4xx.h"
+	"stm32f4xx_hal_conf.h"
+
+1438590534 c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\inc\stm32f4xx.h
+	"stm32f405xx.h"
+	"stm32f415xx.h"
+	"stm32f407xx.h"
+	"stm32f417xx.h"
+	"stm32f427xx.h"
+	"stm32f437xx.h"
+	"stm32f429xx.h"
+	"stm32f439xx.h"
+	"stm32f401xc.h"
+	"stm32f401xe.h"
+	"stm32f410tx.h"
+	"stm32f410cx.h"
+	"stm32f410rx.h"
+	"stm32f411xe.h"
+	"stm32f446xx.h"
+	"stm32f469xx.h"
+	"stm32f479xx.h"
+	"stm32f4xx_hal.h"
+
+1444774967 c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\inc\stm32f401xe.h
+	"core_cm4.h"
+	"system_stm32f4xx.h"
+	<stdint.h>
+
+1444635224 c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\cmsis\core_cm4.h
+	<stdint.h>
+	<core_cmInstr.h>
+	<core_cmFunc.h>
+	<core_cm4_simd.h>
+
+1444635224 c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\cmsis\core_cminstr.h
+	<cmsis_iar.h>
+
+1444635224 c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\cmsis\core_cmfunc.h
+	<cmsis_iar.h>
+
+1444635224 c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\cmsis\core_cm4_simd.h
+	<cmsis_iar.h>
+
+1444635224 c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\inc\system_stm32f4xx.h
+
+1444773920 c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\inc\stm32f4xx_hal_conf.h
+	"core_cm4.h"
+	"stm32f4xx_hal_rcc.h"
+	"stm32f4xx_hal_gpio.h"
+	"stm32f4xx_hal_dma.h"
+	"stm32f4xx_hal_cortex.h"
+	"stm32f4xx_hal_adc.h"
+	"stm32f4xx_hal_can.h"
+	"stm32f4xx_hal_crc.h"
+	"stm32f4xx_hal_cryp.h"
+	"stm32f4xx_hal_dma2d.h"
+	"stm32f4xx_hal_dac.h"
+	"stm32f4xx_hal_dcmi.h"
+	"stm32f4xx_hal_eth.h"
+	"stm32f4xx_hal_flash.h"
+	"stm32f4xx_hal_sram.h"
+	"stm32f4xx_hal_nor.h"
+	"stm32f4xx_hal_nand.h"
+	"stm32f4xx_hal_pccard.h"
+	"stm32f4xx_hal_sdram.h"
+	"stm32f4xx_hal_hash.h"
+	"stm32f4xx_hal_i2c.h"
+	"stm32f4xx_hal_i2s.h"
+	"stm32f4xx_hal_iwdg.h"
+	"stm32f4xx_hal_ltdc.h"
+	"stm32f4xx_hal_pwr.h"
+	"stm32f4xx_hal_rng.h"
+	"stm32f4xx_hal_rtc.h"
+	"stm32f4xx_hal_sai.h"
+	"stm32f4xx_hal_sd.h"
+	"stm32f4xx_hal_spi.h"
+	"stm32f4xx_hal_tim.h"
+	"stm32f4xx_hal_uart.h"
+	"stm32f4xx_hal_usart.h"
+	"stm32f4xx_hal_irda.h"
+	"stm32f4xx_hal_smartcard.h"
+	"stm32f4xx_hal_wwdg.h"
+	"stm32f4xx_hal_pcd.h"
+	"stm32f4xx_hal_hcd.h"
+
+1438697982 c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\stm32f4xx_hal_driver\inc\stm32f4xx_hal_rcc.h
+	"stm32f4xx_hal_def.h"
+	"stm32f4xx_hal_rcc_ex.h"
+
+1438590577 c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\stm32f4xx_hal_driver\inc\stm32f4xx_hal_def.h
+	"stm32f4xx.h"
+	"Legacy/stm32_hal_legacy.h"
+	<stdio.h>
+
+1439398508 c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\stm32f4xx_hal_driver\inc\legacy\stm32_hal_legacy.h
+
+1438697982 c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\stm32f4xx_hal_driver\inc\stm32f4xx_hal_rcc_ex.h
+	"stm32f4xx_hal_def.h"
+
+1438590573 c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\stm32f4xx_hal_driver\inc\stm32f4xx_hal_gpio.h
+	"stm32f4xx_hal_def.h"
+	"stm32f4xx_hal_gpio_ex.h"
+
+1438590573 c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\stm32f4xx_hal_driver\inc\stm32f4xx_hal_gpio_ex.h
+	"stm32f4xx_hal_def.h"
+
+1438590573 c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\stm32f4xx_hal_driver\inc\stm32f4xx_hal_dma.h
+	"stm32f4xx_hal_def.h"
+	"stm32f4xx_hal_dma_ex.h"
+
+1438590577 c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\stm32f4xx_hal_driver\inc\stm32f4xx_hal_dma_ex.h
+	"stm32f4xx_hal_def.h"
+
+1444773172 c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\stm32f4xx_hal_driver\inc\stm32f4xx_hal_cortex.h
+	"stm32f4xx_hal_def.h"
+
+1439398509 c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\stm32f4xx_hal_driver\inc\stm32f4xx_hal_adc.h
+	"stm32f4xx_hal_def.h"
+	"stm32f4xx_hal_adc_ex.h"
+
+1439398509 c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\stm32f4xx_hal_driver\inc\stm32f4xx_hal_adc_ex.h
+	"stm32f4xx_hal_def.h"
+
+1438590577 c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\stm32f4xx_hal_driver\inc\stm32f4xx_hal_can.h
+	"stm32f4xx_hal_def.h"
+
+1438590577 c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\stm32f4xx_hal_driver\inc\stm32f4xx_hal_crc.h
+	"stm32f4xx_hal_def.h"
+
+1438590577 c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\stm32f4xx_hal_driver\inc\stm32f4xx_hal_cryp.h
+	"stm32f4xx_hal_def.h"
+	"stm32f4xx_hal_cryp_ex.h"
+
+1438590573 c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\stm32f4xx_hal_driver\inc\stm32f4xx_hal_cryp_ex.h
+	"stm32f4xx_hal_def.h"
+
+1438590573 c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\stm32f4xx_hal_driver\inc\stm32f4xx_hal_dma2d.h
+	"stm32f4xx_hal_def.h"
+
+1438590577 c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\stm32f4xx_hal_driver\inc\stm32f4xx_hal_dac.h
+	"stm32f4xx_hal_def.h"
+	"stm32f4xx_hal_dac_ex.h"
+
+1438590577 c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\stm32f4xx_hal_driver\inc\stm32f4xx_hal_dac_ex.h
+	"stm32f4xx_hal_def.h"
+
+1438590573 c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\stm32f4xx_hal_driver\inc\stm32f4xx_hal_dcmi.h
+	"stm32f4xx_hal_def.h"
+	"stm32f4xx_hal_dcmi_ex.h"
+
+1438697982 c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\stm32f4xx_hal_driver\inc\stm32f4xx_hal_dcmi_ex.h
+	"stm32f4xx_hal_def.h"
+
+1438590577 c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\stm32f4xx_hal_driver\inc\stm32f4xx_hal_eth.h
+	"stm32f4xx_hal_def.h"
+
+1438590573 c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\stm32f4xx_hal_driver\inc\stm32f4xx_hal_flash.h
+	"stm32f4xx_hal_def.h"
+	"stm32f4xx_hal_flash_ex.h"
+	"stm32f4xx_hal_flash_ramfunc.h"
+
+1438590577 c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\stm32f4xx_hal_driver\inc\stm32f4xx_hal_flash_ex.h
+	"stm32f4xx_hal_def.h"
+
+1438590573 c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\stm32f4xx_hal_driver\inc\stm32f4xx_hal_flash_ramfunc.h
+	"stm32f4xx_hal_def.h"
+
+1438590573 c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\stm32f4xx_hal_driver\inc\stm32f4xx_hal_sram.h
+	"stm32f4xx_ll_fsmc.h"
+	"stm32f4xx_ll_fmc.h"
+
+1438590577 c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\stm32f4xx_hal_driver\inc\stm32f4xx_ll_fsmc.h
+	"stm32f4xx_hal_def.h"
+
+1438590573 c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\stm32f4xx_hal_driver\inc\stm32f4xx_ll_fmc.h
+	"stm32f4xx_hal_def.h"
+
+1438590573 c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\stm32f4xx_hal_driver\inc\stm32f4xx_hal_nor.h
+	"stm32f4xx_ll_fsmc.h"
+	"stm32f4xx_ll_fmc.h"
+
+1438590577 c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\stm32f4xx_hal_driver\inc\stm32f4xx_hal_nand.h
+	"stm32f4xx_ll_fsmc.h"
+	"stm32f4xx_ll_fmc.h"
+
+1438590577 c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\stm32f4xx_hal_driver\inc\stm32f4xx_hal_pccard.h
+	"stm32f4xx_ll_fsmc.h"
+	"stm32f4xx_ll_fmc.h"
+
+1438590577 c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\stm32f4xx_hal_driver\inc\stm32f4xx_hal_sdram.h
+	"stm32f4xx_ll_fmc.h"
+
+1438590573 c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\stm32f4xx_hal_driver\inc\stm32f4xx_hal_hash.h
+	"stm32f4xx_hal_def.h"
+	"stm32f4xx_hal_hash_ex.h"
+
+1438590573 c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\stm32f4xx_hal_driver\inc\stm32f4xx_hal_hash_ex.h
+	"stm32f4xx_hal_def.h"
+
+1438590573 c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\stm32f4xx_hal_driver\inc\stm32f4xx_hal_i2c.h
+	"stm32f4xx_hal_def.h"
+	"stm32f4xx_hal_i2c_ex.h"
+
+1438590577 c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\stm32f4xx_hal_driver\inc\stm32f4xx_hal_i2c_ex.h
+	"stm32f4xx_hal_def.h"
+
+1438590573 c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\stm32f4xx_hal_driver\inc\stm32f4xx_hal_i2s.h
+	"stm32f4xx_hal_def.h"
+	"stm32f4xx_hal_i2s_ex.h"
+
+1438590573 c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\stm32f4xx_hal_driver\inc\stm32f4xx_hal_i2s_ex.h
+	"stm32f4xx_hal_def.h"
+
+1438590577 c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\stm32f4xx_hal_driver\inc\stm32f4xx_hal_iwdg.h
+	"stm32f4xx_hal_def.h"
+
+1438590573 c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\stm32f4xx_hal_driver\inc\stm32f4xx_hal_ltdc.h
+	"stm32f4xx_hal_def.h"
+	"stm32f4xx_hal_ltdc_ex.h"
+
+1438697982 c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\stm32f4xx_hal_driver\inc\stm32f4xx_hal_ltdc_ex.h
+	"stm32f4xx_hal_def.h"
+	"stm32f4xx_hal_dsi.h"
+
+1438697982 c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\stm32f4xx_hal_driver\inc\stm32f4xx_hal_dsi.h
+	"stm32f4xx_hal_def.h"
+
+1438590573 c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\stm32f4xx_hal_driver\inc\stm32f4xx_hal_pwr.h
+	"stm32f4xx_hal_def.h"
+	"stm32f4xx_hal_pwr_ex.h"
+
+1438590573 c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\stm32f4xx_hal_driver\inc\stm32f4xx_hal_pwr_ex.h
+	"stm32f4xx_hal_def.h"
+
+1438590577 c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\stm32f4xx_hal_driver\inc\stm32f4xx_hal_rng.h
+	"stm32f4xx_hal_def.h"
+
+1438590573 c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\stm32f4xx_hal_driver\inc\stm32f4xx_hal_rtc.h
+	"stm32f4xx_hal_def.h"
+	"stm32f4xx_hal_rtc_ex.h"
+
+1438590573 c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\stm32f4xx_hal_driver\inc\stm32f4xx_hal_rtc_ex.h
+	"stm32f4xx_hal_def.h"
+
+1438590573 c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\stm32f4xx_hal_driver\inc\stm32f4xx_hal_sai.h
+	"stm32f4xx_hal_def.h"
+	"stm32f4xx_hal_sai_ex.h"
+
+1438590577 c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\stm32f4xx_hal_driver\inc\stm32f4xx_hal_sai_ex.h
+	"stm32f4xx_hal_def.h"
+
+1438590573 c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\stm32f4xx_hal_driver\inc\stm32f4xx_hal_sd.h
+	"stm32f4xx_ll_sdmmc.h"
+
+1438590577 c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\stm32f4xx_hal_driver\inc\stm32f4xx_ll_sdmmc.h
+	"stm32f4xx_hal_def.h"
+
+1438590573 c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\stm32f4xx_hal_driver\inc\stm32f4xx_hal_spi.h
+	"stm32f4xx_hal_def.h"
+
+1438590573 c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\stm32f4xx_hal_driver\inc\stm32f4xx_hal_tim.h
+	"stm32f4xx_hal_def.h"
+	"stm32f4xx_hal_tim_ex.h"
+
+1438590577 c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\stm32f4xx_hal_driver\inc\stm32f4xx_hal_tim_ex.h
+	"stm32f4xx_hal_def.h"
+
+1438590577 c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\stm32f4xx_hal_driver\inc\stm32f4xx_hal_uart.h
+	"stm32f4xx_hal_def.h"
+
+1438590573 c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\stm32f4xx_hal_driver\inc\stm32f4xx_hal_usart.h
+	"stm32f4xx_hal_def.h"
+
+1438590577 c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\stm32f4xx_hal_driver\inc\stm32f4xx_hal_irda.h
+	"stm32f4xx_hal_def.h"
+
+1438590577 c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\stm32f4xx_hal_driver\inc\stm32f4xx_hal_smartcard.h
+	"stm32f4xx_hal_def.h"
+
+1438590573 c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\stm32f4xx_hal_driver\inc\stm32f4xx_hal_wwdg.h
+	"stm32f4xx_hal_def.h"
+
+1438697982 c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\stm32f4xx_hal_driver\inc\stm32f4xx_hal_pcd.h
+	"stm32f4xx_ll_usb.h"
+	"stm32f4xx_hal_pcd_ex.h"
+
+1438590573 c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\stm32f4xx_hal_driver\inc\stm32f4xx_ll_usb.h
+	"stm32f4xx_hal_def.h"
+
+1438697982 c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\stm32f4xx_hal_driver\inc\stm32f4xx_hal_pcd_ex.h
+	"stm32f4xx_hal_def.h"
+
+1438697982 c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\stm32f4xx_hal_driver\inc\stm32f4xx_hal_hcd.h
+	"stm32f4xx_ll_usb.h"
+
+1438590563 source:c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\stm32f4xx_hal_driver\src\stm32f4xx_hal.c
+	"stm32f4xx_hal.h"
+
+1439398509 source:c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\stm32f4xx_hal_driver\src\stm32f4xx_hal_adc.c
+	"stm32f4xx_hal.h"
+
+1439398509 source:c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\stm32f4xx_hal_driver\src\stm32f4xx_hal_adc_ex.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\stm32f4xx_hal_driver\src\stm32f4xx_hal_can.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\stm32f4xx_hal_driver\src\stm32f4xx_hal_cec.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\stm32f4xx_hal_driver\src\stm32f4xx_hal_cortex.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\stm32f4xx_hal_driver\src\stm32f4xx_hal_crc.c
+	"stm32f4xx_hal.h"
+
+1438590573 source:c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\stm32f4xx_hal_driver\src\stm32f4xx_hal_cryp.c
+	"stm32f4xx_hal.h"
+
+1438590573 source:c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\stm32f4xx_hal_driver\src\stm32f4xx_hal_cryp_ex.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\stm32f4xx_hal_driver\src\stm32f4xx_hal_dac.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\stm32f4xx_hal_driver\src\stm32f4xx_hal_dac_ex.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\stm32f4xx_hal_driver\src\stm32f4xx_hal_dcmi.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\stm32f4xx_hal_driver\src\stm32f4xx_hal_dcmi_ex.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\stm32f4xx_hal_driver\src\stm32f4xx_hal_dma.c
+	"stm32f4xx_hal.h"
+
+1438590573 source:c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\stm32f4xx_hal_driver\src\stm32f4xx_hal_dma2d.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\stm32f4xx_hal_driver\src\stm32f4xx_hal_dma_ex.c
+	"stm32f4xx_hal.h"
+
+1438697982 source:c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\stm32f4xx_hal_driver\src\stm32f4xx_hal_dsi.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\stm32f4xx_hal_driver\src\stm32f4xx_hal_eth.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\stm32f4xx_hal_driver\src\stm32f4xx_hal_flash.c
+	"stm32f4xx_hal.h"
+
+1438590573 source:c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\stm32f4xx_hal_driver\src\stm32f4xx_hal_flash_ex.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\stm32f4xx_hal_driver\src\stm32f4xx_hal_flash_ramfunc.c
+	"stm32f4xx_hal.h"
+
+1438590573 source:c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\stm32f4xx_hal_driver\src\stm32f4xx_hal_fmpi2c.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\stm32f4xx_hal_driver\src\stm32f4xx_hal_fmpi2c_ex.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\stm32f4xx_hal_driver\src\stm32f4xx_hal_gpio.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\stm32f4xx_hal_driver\src\stm32f4xx_hal_hash.c
+	"stm32f4xx_hal.h"
+
+1438590573 source:c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\stm32f4xx_hal_driver\src\stm32f4xx_hal_hash_ex.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\stm32f4xx_hal_driver\src\stm32f4xx_hal_hcd.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\stm32f4xx_hal_driver\src\stm32f4xx_hal_i2c.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\stm32f4xx_hal_driver\src\stm32f4xx_hal_i2c_ex.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\stm32f4xx_hal_driver\src\stm32f4xx_hal_i2s.c
+	"stm32f4xx_hal.h"
+
+1438697982 source:c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\stm32f4xx_hal_driver\src\stm32f4xx_hal_i2s_ex.c
+	"stm32f4xx_hal.h"
+
+1438590573 source:c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\stm32f4xx_hal_driver\src\stm32f4xx_hal_irda.c
+	"stm32f4xx_hal.h"
+
+1438590573 source:c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\stm32f4xx_hal_driver\src\stm32f4xx_hal_iwdg.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\stm32f4xx_hal_driver\src\stm32f4xx_hal_lptim.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\stm32f4xx_hal_driver\src\stm32f4xx_hal_ltdc.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\stm32f4xx_hal_driver\src\stm32f4xx_hal_ltdc_ex.c
+	"stm32f4xx_hal.h"
+
+1438590573 source:c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\stm32f4xx_hal_driver\src\stm32f4xx_hal_msp_template.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\stm32f4xx_hal_driver\src\stm32f4xx_hal_nand.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\stm32f4xx_hal_driver\src\stm32f4xx_hal_nor.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\stm32f4xx_hal_driver\src\stm32f4xx_hal_pccard.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\stm32f4xx_hal_driver\src\stm32f4xx_hal_pcd.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\stm32f4xx_hal_driver\src\stm32f4xx_hal_pcd_ex.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\stm32f4xx_hal_driver\src\stm32f4xx_hal_pwr.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\stm32f4xx_hal_driver\src\stm32f4xx_hal_pwr_ex.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\stm32f4xx_hal_driver\src\stm32f4xx_hal_qspi.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\stm32f4xx_hal_driver\src\stm32f4xx_hal_rcc.c
+	"stm32f4xx_hal.h"
+
+1440065587 source:c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\stm32f4xx_hal_driver\src\stm32f4xx_hal_rcc_ex.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\stm32f4xx_hal_driver\src\stm32f4xx_hal_rng.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\stm32f4xx_hal_driver\src\stm32f4xx_hal_rtc.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\stm32f4xx_hal_driver\src\stm32f4xx_hal_rtc_ex.c
+	"stm32f4xx_hal.h"
+
+1438590573 source:c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\stm32f4xx_hal_driver\src\stm32f4xx_hal_sai.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\stm32f4xx_hal_driver\src\stm32f4xx_hal_sai_ex.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\stm32f4xx_hal_driver\src\stm32f4xx_hal_sd.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\stm32f4xx_hal_driver\src\stm32f4xx_hal_sdram.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\stm32f4xx_hal_driver\src\stm32f4xx_hal_smartcard.c
+	"stm32f4xx_hal.h"
+
+1438590573 source:c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\stm32f4xx_hal_driver\src\stm32f4xx_hal_spdifrx.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\stm32f4xx_hal_driver\src\stm32f4xx_hal_spi.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\stm32f4xx_hal_driver\src\stm32f4xx_hal_sram.c
+	"stm32f4xx_hal.h"
+
+1438590573 source:c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\stm32f4xx_hal_driver\src\stm32f4xx_hal_tim.c
+	"stm32f4xx_hal.h"
+
+1438590573 source:c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\stm32f4xx_hal_driver\src\stm32f4xx_hal_tim_ex.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\stm32f4xx_hal_driver\src\stm32f4xx_hal_uart.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\stm32f4xx_hal_driver\src\stm32f4xx_hal_usart.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\stm32f4xx_hal_driver\src\stm32f4xx_hal_wwdg.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\stm32f4xx_hal_driver\src\stm32f4xx_ll_fmc.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\stm32f4xx_hal_driver\src\stm32f4xx_ll_fsmc.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\stm32f4xx_hal_driver\src\stm32f4xx_ll_sdmmc.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\stm32f4xx_hal_driver\src\stm32f4xx_ll_usb.c
+	"stm32f4xx_hal.h"
+
+1444775740 source:c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\src\main.c
+	"main.h"
+
+1436877829 c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\inc\main.h
+	"stm32f4xx_hal.h"
+	"stm32f4xx_nucleo.h"
+
+1444635224 source:c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\src\startup_stm32f4xx.s
+
+1436877836 source:c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\src\stm32f4xx_it.c
+	"main.h"
+	"stm32f4xx_it.h"
+
+1436877833 c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\inc\stm32f4xx_it.h
+	"main.h"
+
+1436877824 source:c:\projects\nucleo\baremetal_test\baremetal_blinky_propper\src\system_stm32f4xx.c
+	"stm32f4xx.h"
+
+1439386199 source:c:\projects\nucleo\baremetal_test\baremetal_freertos\bsp\stm32f4xx_nucleo.c
+	"stm32f4xx_nucleo.h"
+
+1439386199 c:\projects\nucleo\baremetal_test\baremetal_freertos\bsp\stm32f4xx_nucleo.h
+	"stm32f4xx_hal.h"
+
+1444774158 c:\projects\nucleo\baremetal_test\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal.h
+	"stm32f4xx.h"
+	"stm32f4xx_hal_conf.h"
+
+1438590534 c:\projects\nucleo\baremetal_test\baremetal_freertos\inc\stm32f4xx.h
+	"stm32f405xx.h"
+	"stm32f415xx.h"
+	"stm32f407xx.h"
+	"stm32f417xx.h"
+	"stm32f427xx.h"
+	"stm32f437xx.h"
+	"stm32f429xx.h"
+	"stm32f439xx.h"
+	"stm32f401xc.h"
+	"stm32f401xe.h"
+	"stm32f410tx.h"
+	"stm32f410cx.h"
+	"stm32f410rx.h"
+	"stm32f411xe.h"
+	"stm32f446xx.h"
+	"stm32f469xx.h"
+	"stm32f479xx.h"
+	"stm32f4xx_hal.h"
+
+1444774967 c:\projects\nucleo\baremetal_test\baremetal_freertos\inc\stm32f401xe.h
+	"core_cm4.h"
+	"system_stm32f4xx.h"
+	<stdint.h>
+
+1444635224 c:\projects\nucleo\baremetal_test\baremetal_freertos\cmsis\core_cm4.h
+	<stdint.h>
+	<core_cmInstr.h>
+	<core_cmFunc.h>
+	<core_cm4_simd.h>
+
+1444635224 c:\projects\nucleo\baremetal_test\baremetal_freertos\cmsis\core_cminstr.h
+	<cmsis_iar.h>
+
+1444635224 c:\projects\nucleo\baremetal_test\baremetal_freertos\cmsis\core_cmfunc.h
+	<cmsis_iar.h>
+
+1444635224 c:\projects\nucleo\baremetal_test\baremetal_freertos\cmsis\core_cm4_simd.h
+	<cmsis_iar.h>
+
+1444635224 c:\projects\nucleo\baremetal_test\baremetal_freertos\inc\system_stm32f4xx.h
+
+1444773920 c:\projects\nucleo\baremetal_test\baremetal_freertos\inc\stm32f4xx_hal_conf.h
+	"core_cm4.h"
+	"stm32f4xx_hal_rcc.h"
+	"stm32f4xx_hal_gpio.h"
+	"stm32f4xx_hal_dma.h"
+	"stm32f4xx_hal_cortex.h"
+	"stm32f4xx_hal_adc.h"
+	"stm32f4xx_hal_can.h"
+	"stm32f4xx_hal_crc.h"
+	"stm32f4xx_hal_cryp.h"
+	"stm32f4xx_hal_dma2d.h"
+	"stm32f4xx_hal_dac.h"
+	"stm32f4xx_hal_dcmi.h"
+	"stm32f4xx_hal_eth.h"
+	"stm32f4xx_hal_flash.h"
+	"stm32f4xx_hal_sram.h"
+	"stm32f4xx_hal_nor.h"
+	"stm32f4xx_hal_nand.h"
+	"stm32f4xx_hal_pccard.h"
+	"stm32f4xx_hal_sdram.h"
+	"stm32f4xx_hal_hash.h"
+	"stm32f4xx_hal_i2c.h"
+	"stm32f4xx_hal_i2s.h"
+	"stm32f4xx_hal_iwdg.h"
+	"stm32f4xx_hal_ltdc.h"
+	"stm32f4xx_hal_pwr.h"
+	"stm32f4xx_hal_rng.h"
+	"stm32f4xx_hal_rtc.h"
+	"stm32f4xx_hal_sai.h"
+	"stm32f4xx_hal_sd.h"
+	"stm32f4xx_hal_spi.h"
+	"stm32f4xx_hal_tim.h"
+	"stm32f4xx_hal_uart.h"
+	"stm32f4xx_hal_usart.h"
+	"stm32f4xx_hal_irda.h"
+	"stm32f4xx_hal_smartcard.h"
+	"stm32f4xx_hal_wwdg.h"
+	"stm32f4xx_hal_pcd.h"
+	"stm32f4xx_hal_hcd.h"
+
+1438697982 c:\projects\nucleo\baremetal_test\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_rcc.h
+	"stm32f4xx_hal_def.h"
+	"stm32f4xx_hal_rcc_ex.h"
+
+1438590577 c:\projects\nucleo\baremetal_test\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_def.h
+	"stm32f4xx.h"
+	"Legacy/stm32_hal_legacy.h"
+	<stdio.h>
+
+1439398508 c:\projects\nucleo\baremetal_test\baremetal_freertos\stm32f4xx_hal_driver\inc\legacy\stm32_hal_legacy.h
+
+1438697982 c:\projects\nucleo\baremetal_test\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_rcc_ex.h
+	"stm32f4xx_hal_def.h"
+
+1438590573 c:\projects\nucleo\baremetal_test\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_gpio.h
+	"stm32f4xx_hal_def.h"
+	"stm32f4xx_hal_gpio_ex.h"
+
+1438590573 c:\projects\nucleo\baremetal_test\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_gpio_ex.h
+	"stm32f4xx_hal_def.h"
+
+1438590573 c:\projects\nucleo\baremetal_test\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_dma.h
+	"stm32f4xx_hal_def.h"
+	"stm32f4xx_hal_dma_ex.h"
+
+1438590577 c:\projects\nucleo\baremetal_test\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_dma_ex.h
+	"stm32f4xx_hal_def.h"
+
+1445343432 c:\projects\nucleo\baremetal_test\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_cortex.h
+	"stm32f4xx_hal_def.h"
+
+1439398509 c:\projects\nucleo\baremetal_test\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_adc.h
+	"stm32f4xx_hal_def.h"
+	"stm32f4xx_hal_adc_ex.h"
+
+1439398509 c:\projects\nucleo\baremetal_test\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_adc_ex.h
+	"stm32f4xx_hal_def.h"
+
+1438590577 c:\projects\nucleo\baremetal_test\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_can.h
+	"stm32f4xx_hal_def.h"
+
+1438590577 c:\projects\nucleo\baremetal_test\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_crc.h
+	"stm32f4xx_hal_def.h"
+
+1438590577 c:\projects\nucleo\baremetal_test\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_cryp.h
+	"stm32f4xx_hal_def.h"
+	"stm32f4xx_hal_cryp_ex.h"
+
+1438590573 c:\projects\nucleo\baremetal_test\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_cryp_ex.h
+	"stm32f4xx_hal_def.h"
+
+1438590573 c:\projects\nucleo\baremetal_test\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_dma2d.h
+	"stm32f4xx_hal_def.h"
+
+1438590577 c:\projects\nucleo\baremetal_test\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_dac.h
+	"stm32f4xx_hal_def.h"
+	"stm32f4xx_hal_dac_ex.h"
+
+1438590577 c:\projects\nucleo\baremetal_test\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_dac_ex.h
+	"stm32f4xx_hal_def.h"
+
+1438590573 c:\projects\nucleo\baremetal_test\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_dcmi.h
+	"stm32f4xx_hal_def.h"
+	"stm32f4xx_hal_dcmi_ex.h"
+
+1438697982 c:\projects\nucleo\baremetal_test\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_dcmi_ex.h
+	"stm32f4xx_hal_def.h"
+
+1438590577 c:\projects\nucleo\baremetal_test\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_eth.h
+	"stm32f4xx_hal_def.h"
+
+1438590573 c:\projects\nucleo\baremetal_test\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_flash.h
+	"stm32f4xx_hal_def.h"
+	"stm32f4xx_hal_flash_ex.h"
+	"stm32f4xx_hal_flash_ramfunc.h"
+
+1438590577 c:\projects\nucleo\baremetal_test\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_flash_ex.h
+	"stm32f4xx_hal_def.h"
+
+1438590573 c:\projects\nucleo\baremetal_test\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_flash_ramfunc.h
+	"stm32f4xx_hal_def.h"
+
+1438590573 c:\projects\nucleo\baremetal_test\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_sram.h
+	"stm32f4xx_ll_fsmc.h"
+	"stm32f4xx_ll_fmc.h"
+
+1438590577 c:\projects\nucleo\baremetal_test\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_ll_fsmc.h
+	"stm32f4xx_hal_def.h"
+
+1438590573 c:\projects\nucleo\baremetal_test\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_ll_fmc.h
+	"stm32f4xx_hal_def.h"
+
+1438590573 c:\projects\nucleo\baremetal_test\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_nor.h
+	"stm32f4xx_ll_fsmc.h"
+	"stm32f4xx_ll_fmc.h"
+
+1438590577 c:\projects\nucleo\baremetal_test\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_nand.h
+	"stm32f4xx_ll_fsmc.h"
+	"stm32f4xx_ll_fmc.h"
+
+1438590577 c:\projects\nucleo\baremetal_test\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_pccard.h
+	"stm32f4xx_ll_fsmc.h"
+	"stm32f4xx_ll_fmc.h"
+
+1438590577 c:\projects\nucleo\baremetal_test\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_sdram.h
+	"stm32f4xx_ll_fmc.h"
+
+1438590573 c:\projects\nucleo\baremetal_test\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_hash.h
+	"stm32f4xx_hal_def.h"
+	"stm32f4xx_hal_hash_ex.h"
+
+1438590573 c:\projects\nucleo\baremetal_test\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_hash_ex.h
+	"stm32f4xx_hal_def.h"
+
+1438590573 c:\projects\nucleo\baremetal_test\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_i2c.h
+	"stm32f4xx_hal_def.h"
+	"stm32f4xx_hal_i2c_ex.h"
+
+1438590577 c:\projects\nucleo\baremetal_test\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_i2c_ex.h
+	"stm32f4xx_hal_def.h"
+
+1438590573 c:\projects\nucleo\baremetal_test\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_i2s.h
+	"stm32f4xx_hal_def.h"
+	"stm32f4xx_hal_i2s_ex.h"
+
+1438590573 c:\projects\nucleo\baremetal_test\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_i2s_ex.h
+	"stm32f4xx_hal_def.h"
+
+1438590577 c:\projects\nucleo\baremetal_test\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_iwdg.h
+	"stm32f4xx_hal_def.h"
+
+1438590573 c:\projects\nucleo\baremetal_test\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_ltdc.h
+	"stm32f4xx_hal_def.h"
+	"stm32f4xx_hal_ltdc_ex.h"
+
+1438697982 c:\projects\nucleo\baremetal_test\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_ltdc_ex.h
+	"stm32f4xx_hal_def.h"
+	"stm32f4xx_hal_dsi.h"
+
+1438697982 c:\projects\nucleo\baremetal_test\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_dsi.h
+	"stm32f4xx_hal_def.h"
+
+1438590573 c:\projects\nucleo\baremetal_test\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_pwr.h
+	"stm32f4xx_hal_def.h"
+	"stm32f4xx_hal_pwr_ex.h"
+
+1438590573 c:\projects\nucleo\baremetal_test\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_pwr_ex.h
+	"stm32f4xx_hal_def.h"
+
+1438590577 c:\projects\nucleo\baremetal_test\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_rng.h
+	"stm32f4xx_hal_def.h"
+
+1438590573 c:\projects\nucleo\baremetal_test\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_rtc.h
+	"stm32f4xx_hal_def.h"
+	"stm32f4xx_hal_rtc_ex.h"
+
+1438590573 c:\projects\nucleo\baremetal_test\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_rtc_ex.h
+	"stm32f4xx_hal_def.h"
+
+1438590573 c:\projects\nucleo\baremetal_test\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_sai.h
+	"stm32f4xx_hal_def.h"
+	"stm32f4xx_hal_sai_ex.h"
+
+1438590577 c:\projects\nucleo\baremetal_test\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_sai_ex.h
+	"stm32f4xx_hal_def.h"
+
+1438590573 c:\projects\nucleo\baremetal_test\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_sd.h
+	"stm32f4xx_ll_sdmmc.h"
+
+1438590577 c:\projects\nucleo\baremetal_test\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_ll_sdmmc.h
+	"stm32f4xx_hal_def.h"
+
+1438590573 c:\projects\nucleo\baremetal_test\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_spi.h
+	"stm32f4xx_hal_def.h"
+
+1438590573 c:\projects\nucleo\baremetal_test\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_tim.h
+	"stm32f4xx_hal_def.h"
+	"stm32f4xx_hal_tim_ex.h"
+
+1438590577 c:\projects\nucleo\baremetal_test\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_tim_ex.h
+	"stm32f4xx_hal_def.h"
+
+1438590577 c:\projects\nucleo\baremetal_test\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_uart.h
+	"stm32f4xx_hal_def.h"
+
+1438590573 c:\projects\nucleo\baremetal_test\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_usart.h
+	"stm32f4xx_hal_def.h"
+
+1438590577 c:\projects\nucleo\baremetal_test\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_irda.h
+	"stm32f4xx_hal_def.h"
+
+1438590577 c:\projects\nucleo\baremetal_test\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_smartcard.h
+	"stm32f4xx_hal_def.h"
+
+1438590573 c:\projects\nucleo\baremetal_test\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_wwdg.h
+	"stm32f4xx_hal_def.h"
+
+1438697982 c:\projects\nucleo\baremetal_test\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_pcd.h
+	"stm32f4xx_ll_usb.h"
+	"stm32f4xx_hal_pcd_ex.h"
+
+1438590573 c:\projects\nucleo\baremetal_test\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_ll_usb.h
+	"stm32f4xx_hal_def.h"
+
+1438697982 c:\projects\nucleo\baremetal_test\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_pcd_ex.h
+	"stm32f4xx_hal_def.h"
+
+1438697982 c:\projects\nucleo\baremetal_test\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_hcd.h
+	"stm32f4xx_ll_usb.h"
+
+1436958649 source:c:\projects\nucleo\baremetal_test\baremetal_freertos\rtos\arm_cm4f\port.c
+	"FreeRTOS.h"
+	"task.h"
+
+1436958649 c:\projects\nucleo\baremetal_test\baremetal_freertos\rtos\include\freertos.h
+	<stddef.h>
+	<stdint.h>
+	"FreeRTOSConfig.h"
+	"projdefs.h"
+	"portable.h"
+
+1445379687 c:\projects\nucleo\baremetal_test\baremetal_freertos\rtos\freertosconfig.h
+	<stdint.h>
+
+1436958651 c:\projects\nucleo\baremetal_test\baremetal_freertos\rtos\include\projdefs.h
+
+1436958649 c:\projects\nucleo\baremetal_test\baremetal_freertos\rtos\include\portable.h
+	"deprecated_definitions.h"
+	"portmacro.h"
+	"mpu_wrappers.h"
+
+1436958651 c:\projects\nucleo\baremetal_test\baremetal_freertos\rtos\include\deprecated_definitions.h
+	"..\..\Source\portable\owatcom\16bitdos\pc\portmacro.h"
+	"..\..\Source\portable\owatcom\16bitdos\flsh186\portmacro.h"
+	"../portable/GCC/ATMega323/portmacro.h"
+	"../portable/IAR/ATMega323/portmacro.h"
+	"../../Source/portable/MPLAB/PIC24_dsPIC/portmacro.h"
+	"../../Source/portable/MPLAB/PIC24_dsPIC/portmacro.h"
+	"../../Source/portable/MPLAB/PIC18F/portmacro.h"
+	"../../Source/portable/MPLAB/PIC32MX/portmacro.h"
+	"libFreeRTOS/Include/portmacro.h"
+	"../../Source/portable/SDCC/Cygnal/portmacro.h"
+	"../../Source/portable/GCC/ARM7_LPC2000/portmacro.h"
+	"portmacro.h"
+	"../../Source/portable/GCC/ARM7_LPC23xx/portmacro.h"
+	"..\..\Source\portable\IAR\MSP430\portmacro.h"
+	"../../Source/portable/GCC/MSP430F449/portmacro.h"
+	"../../Source/portable/Rowley/MSP430F449/portmacro.h"
+	"..\..\Source\portable\RVDS\ARM7_LPC21xx\portmacro.h"
+	"../../Source/portable/GCC/ARM7_AT91SAM7S/portmacro.h"
+	"..\..\Source\portable\IAR\AtmelSAM7S64\portmacro.h"
+	"..\..\Source\portable\IAR\AtmelSAM9XE\portmacro.h"
+	"..\..\Source\portable\IAR\LPC2000\portmacro.h"
+	"..\..\Source\portable\IAR\STR71x\portmacro.h"
+	"..\..\Source\portable\IAR\STR75x\portmacro.h"
+	"..\..\Source\portable\GCC\STR75x\portmacro.h"
+	"..\..\Source\portable\IAR\STR91x\portmacro.h"
+	"../../Source/portable/GCC/H8S2329/portmacro.h"
+	"../../Source/portable/GCC/ARM7_AT91FR40008/portmacro.h"
+	"../../Source/portable/RVDS/ARM_CM3/portmacro.h"
+	"../../Source/portable/GCC/ARM_CM3/portmacro.h"
+	"../../Source/portable/GCC/ARM_CM3/portmacro.h"
+	"../../Source/portable/IAR/ARM_CM3/portmacro.h"
+	"../../Source/portable/IAR/ARM_CM3/portmacro.h"
+	"../../Source/portable/CodeWarrior/HCS12/portmacro.h"
+	"../../Source/portable/GCC/MicroBlaze/portmacro.h"
+	"..\..\Source\portable\Paradigm\Tern_EE\small\portmacro.h"
+	"../../Source/portable/GCC/HCS12/portmacro.h"
+	"../../Source/portable/GCC/MCF5235/portmacro.h"
+	"../../../Source/portable/GCC/ColdFire_V2/portmacro.h"
+	"../../Source/portable/CodeWarrior/ColdFire_V2/portmacro.h"
+	"../../Source/portable/GCC/PPC405_Xilinx/portmacro.h"
+	"../../Source/portable/GCC/PPC440_Xilinx/portmacro.h"
+	"..\..\Source\portable\Softune\MB96340\portmacro.h"
+	"frconfig.h"
+	"..\portable\BCC\16BitDOS\PC\prtmacro.h"
+	"frconfig.h"
+	"..\portable\BCC\16BitDOS\flsh186\prtmacro.h"
+	"portmacro.h"
+	"portmacro.h"
+	"portmacro.h"
+	"portmacro.h"
+	"../../Source/portable/IAR/V850ES/portmacro.h"
+	"../../Source/portable/IAR/V850ES/portmacro.h"
+	"../../Source/portable/IAR/V850ES/portmacro.h"
+	"../../Source/portable/IAR/V850ES/portmacro.h"
+	"../../Source/portable/IAR/V850ES/portmacro.h"
+	"../../Source/portable/IAR/78K0R/portmacro.h"
+	"../../Source/portable/IAR/78K0R/portmacro.h"
+
+1436958649 c:\projects\nucleo\baremetal_test\baremetal_freertos\rtos\arm_cm4f\portmacro.h
+
+1436958649 c:\projects\nucleo\baremetal_test\baremetal_freertos\rtos\include\mpu_wrappers.h
+
+1436958649 c:\projects\nucleo\baremetal_test\baremetal_freertos\rtos\include\task.h
+	"list.h"
+
+1436958650 c:\projects\nucleo\baremetal_test\baremetal_freertos\rtos\include\list.h
+
+1436958650 source:c:\projects\nucleo\baremetal_test\baremetal_freertos\rtos\cmsis_rtos\cmsis_os.c
+	<string.h>
+	"cmsis_os.h"
+
+1436958651 c:\projects\nucleo\baremetal_test\baremetal_freertos\rtos\cmsis_rtos\cmsis_os.h
+	<stdint.h>
+	<stddef.h>
+	"core_cmFunc.h"
+	"FreeRTOS.h"
+	"task.h"
+	"timers.h"
+	"queue.h"
+	"semphr.h"
+	"event_groups.h"
+	<cmsis_os.h>
+	"osObjects.h"
+	"osObjects.h"
+
+1436958649 c:\projects\nucleo\baremetal_test\baremetal_freertos\rtos\include\timers.h
+	"task.h"
+
+1436958649 c:\projects\nucleo\baremetal_test\baremetal_freertos\rtos\include\queue.h
+
+1436958650 c:\projects\nucleo\baremetal_test\baremetal_freertos\rtos\include\semphr.h
+	"queue.h"
+
+1436958649 c:\projects\nucleo\baremetal_test\baremetal_freertos\rtos\include\event_groups.h
+	"timers.h"
+
+1436958649 source:c:\projects\nucleo\baremetal_test\baremetal_freertos\rtos\croutine.c
+	"FreeRTOS.h"
+	"task.h"
+	"croutine.h"
+
+1436958649 c:\projects\nucleo\baremetal_test\baremetal_freertos\rtos\include\croutine.h
+	"list.h"
+
+1436958649 source:c:\projects\nucleo\baremetal_test\baremetal_freertos\rtos\event_groups.c
+	<stdlib.h>
+	"FreeRTOS.h"
+	"task.h"
+	"timers.h"
+	"event_groups.h"
+
+1436958649 source:c:\projects\nucleo\baremetal_test\baremetal_freertos\rtos\list.c
+	<stdlib.h>
+	"FreeRTOS.h"
+	"list.h"
+
+1436958651 source:c:\projects\nucleo\baremetal_test\baremetal_freertos\rtos\queue.c
+	<stdlib.h>
+	<string.h>
+	"FreeRTOS.h"
+	"task.h"
+	"queue.h"
+	"croutine.h"
+
+1436958651 source:c:\projects\nucleo\baremetal_test\baremetal_freertos\rtos\tasks.c
+	<stdlib.h>
+	<string.h>
+	"FreeRTOS.h"
+	"task.h"
+	"timers.h"
+	"StackMacros.h"
+	<stdio.h>
+	"tasks_test_access_functions.h"
+
+1436958651 c:\projects\nucleo\baremetal_test\baremetal_freertos\rtos\include\stackmacros.h
+
+1436958651 source:c:\projects\nucleo\baremetal_test\baremetal_freertos\rtos\timers.c
+	<stdlib.h>
+	"FreeRTOS.h"
+	"task.h"
+	"queue.h"
+	"timers.h"
+
+1438590563 source:c:\projects\nucleo\baremetal_test\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal.c
+	"stm32f4xx_hal.h"
+
+1439398509 source:c:\projects\nucleo\baremetal_test\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_adc.c
+	"stm32f4xx_hal.h"
+
+1439398509 source:c:\projects\nucleo\baremetal_test\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_adc_ex.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\projects\nucleo\baremetal_test\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_can.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\projects\nucleo\baremetal_test\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_cec.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\projects\nucleo\baremetal_test\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_cortex.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\projects\nucleo\baremetal_test\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_crc.c
+	"stm32f4xx_hal.h"
+
+1438590573 source:c:\projects\nucleo\baremetal_test\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_cryp.c
+	"stm32f4xx_hal.h"
+
+1438590573 source:c:\projects\nucleo\baremetal_test\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_cryp_ex.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\projects\nucleo\baremetal_test\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_dac.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\projects\nucleo\baremetal_test\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_dac_ex.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\projects\nucleo\baremetal_test\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_dcmi.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\projects\nucleo\baremetal_test\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_dcmi_ex.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\projects\nucleo\baremetal_test\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_dma.c
+	"stm32f4xx_hal.h"
+
+1438590573 source:c:\projects\nucleo\baremetal_test\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_dma2d.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\projects\nucleo\baremetal_test\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_dma_ex.c
+	"stm32f4xx_hal.h"
+
+1438697982 source:c:\projects\nucleo\baremetal_test\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_dsi.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\projects\nucleo\baremetal_test\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_eth.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\projects\nucleo\baremetal_test\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_flash.c
+	"stm32f4xx_hal.h"
+
+1438590573 source:c:\projects\nucleo\baremetal_test\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_flash_ex.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\projects\nucleo\baremetal_test\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_flash_ramfunc.c
+	"stm32f4xx_hal.h"
+
+1438590573 source:c:\projects\nucleo\baremetal_test\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_fmpi2c.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\projects\nucleo\baremetal_test\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_fmpi2c_ex.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\projects\nucleo\baremetal_test\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_gpio.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\projects\nucleo\baremetal_test\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_hash.c
+	"stm32f4xx_hal.h"
+
+1438590573 source:c:\projects\nucleo\baremetal_test\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_hash_ex.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\projects\nucleo\baremetal_test\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_hcd.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\projects\nucleo\baremetal_test\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_i2c.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\projects\nucleo\baremetal_test\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_i2c_ex.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\projects\nucleo\baremetal_test\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_i2s.c
+	"stm32f4xx_hal.h"
+
+1438697982 source:c:\projects\nucleo\baremetal_test\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_i2s_ex.c
+	"stm32f4xx_hal.h"
+
+1438590573 source:c:\projects\nucleo\baremetal_test\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_irda.c
+	"stm32f4xx_hal.h"
+
+1438590573 source:c:\projects\nucleo\baremetal_test\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_iwdg.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\projects\nucleo\baremetal_test\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_lptim.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\projects\nucleo\baremetal_test\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_ltdc.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\projects\nucleo\baremetal_test\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_ltdc_ex.c
+	"stm32f4xx_hal.h"
+
+1438590573 source:c:\projects\nucleo\baremetal_test\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_msp_template.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\projects\nucleo\baremetal_test\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_nand.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\projects\nucleo\baremetal_test\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_nor.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\projects\nucleo\baremetal_test\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_pccard.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\projects\nucleo\baremetal_test\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_pcd.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\projects\nucleo\baremetal_test\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_pcd_ex.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\projects\nucleo\baremetal_test\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_pwr.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\projects\nucleo\baremetal_test\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_pwr_ex.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\projects\nucleo\baremetal_test\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_qspi.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\projects\nucleo\baremetal_test\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_rcc.c
+	"stm32f4xx_hal.h"
+
+1440065587 source:c:\projects\nucleo\baremetal_test\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_rcc_ex.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\projects\nucleo\baremetal_test\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_rng.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\projects\nucleo\baremetal_test\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_rtc.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\projects\nucleo\baremetal_test\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_rtc_ex.c
+	"stm32f4xx_hal.h"
+
+1438590573 source:c:\projects\nucleo\baremetal_test\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_sai.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\projects\nucleo\baremetal_test\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_sai_ex.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\projects\nucleo\baremetal_test\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_sd.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\projects\nucleo\baremetal_test\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_sdram.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\projects\nucleo\baremetal_test\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_smartcard.c
+	"stm32f4xx_hal.h"
+
+1438590573 source:c:\projects\nucleo\baremetal_test\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_spdifrx.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\projects\nucleo\baremetal_test\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_spi.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\projects\nucleo\baremetal_test\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_sram.c
+	"stm32f4xx_hal.h"
+
+1438590573 source:c:\projects\nucleo\baremetal_test\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_tim.c
+	"stm32f4xx_hal.h"
+
+1438590573 source:c:\projects\nucleo\baremetal_test\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_tim_ex.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\projects\nucleo\baremetal_test\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_uart.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\projects\nucleo\baremetal_test\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_usart.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\projects\nucleo\baremetal_test\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_wwdg.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\projects\nucleo\baremetal_test\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_ll_fmc.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\projects\nucleo\baremetal_test\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_ll_fsmc.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\projects\nucleo\baremetal_test\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_ll_sdmmc.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\projects\nucleo\baremetal_test\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_ll_usb.c
+	"stm32f4xx_hal.h"
+
+1445377533 source:c:\projects\nucleo\baremetal_test\baremetal_freertos\src\main.c
+	"main.h"
+	"cmsis_os.h"
+
+1436877829 c:\projects\nucleo\baremetal_test\baremetal_freertos\inc\main.h
+	"stm32f4xx_hal.h"
+	"stm32f4xx_nucleo.h"
+
+1444635224 source:c:\projects\nucleo\baremetal_test\baremetal_freertos\src\startup_stm32f4xx.s
+
+1436877824 source:c:\projects\nucleo\baremetal_test\baremetal_freertos\src\system_stm32f4xx.c
+	"stm32f4xx.h"
+
+1445378794 source:c:\projects\nucleo\baremetal_test\baremetal_freertos\src\stm32f4xx_it.c
+	"main.h"
+	"stm32f4xx_it.h"
+	"cmsis_os.h"
+
+1436877833 c:\projects\nucleo\baremetal_test\baremetal_freertos\inc\stm32f4xx_it.h
+	"main.h"
+
+1436958649 source:c:\projects\nucleo\baremetal_test\baremetal_freertos\rtos\memmang\heap_4.c
+	<stdlib.h>
+	"FreeRTOS.h"
+	"task.h"
+
+1439386198 source:g:\baremetal_freertos\bsp\stm32f4xx_nucleo.c
+	"stm32f4xx_nucleo.h"
+
+1439386198 g:\baremetal_freertos\bsp\stm32f4xx_nucleo.h
+	"stm32f4xx_hal.h"
+
+1444774158 g:\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal.h
+	"stm32f4xx.h"
+	"stm32f4xx_hal_conf.h"
+
+1438590534 g:\baremetal_freertos\inc\stm32f4xx.h
+	"stm32f405xx.h"
+	"stm32f415xx.h"
+	"stm32f407xx.h"
+	"stm32f417xx.h"
+	"stm32f427xx.h"
+	"stm32f437xx.h"
+	"stm32f429xx.h"
+	"stm32f439xx.h"
+	"stm32f401xc.h"
+	"stm32f401xe.h"
+	"stm32f410tx.h"
+	"stm32f410cx.h"
+	"stm32f410rx.h"
+	"stm32f411xe.h"
+	"stm32f446xx.h"
+	"stm32f469xx.h"
+	"stm32f479xx.h"
+	"stm32f4xx_hal.h"
+
+1444774966 g:\baremetal_freertos\inc\stm32f401xe.h
+	"core_cm4.h"
+	"system_stm32f4xx.h"
+	<stdint.h>
+
+1444635224 g:\baremetal_freertos\cmsis\core_cm4.h
+	<stdint.h>
+	<core_cmInstr.h>
+	<core_cmFunc.h>
+	<core_cm4_simd.h>
+
+1444635224 g:\baremetal_freertos\cmsis\core_cminstr.h
+	<cmsis_iar.h>
+
+1444635224 g:\baremetal_freertos\cmsis\core_cmfunc.h
+	<cmsis_iar.h>
+
+1444635224 g:\baremetal_freertos\cmsis\core_cm4_simd.h
+	<cmsis_iar.h>
+
+1444635224 g:\baremetal_freertos\inc\system_stm32f4xx.h
+
+1445638170 g:\baremetal_freertos\inc\stm32f4xx_hal_conf.h
+	"core_cm4.h"
+	"stm32f4xx_hal_rcc.h"
+	"stm32f4xx_hal_gpio.h"
+	"stm32f4xx_hal_dma.h"
+	"stm32f4xx_hal_cortex.h"
+	"stm32f4xx_hal_adc.h"
+	"stm32f4xx_hal_can.h"
+	"stm32f4xx_hal_crc.h"
+	"stm32f4xx_hal_cryp.h"
+	"stm32f4xx_hal_dma2d.h"
+	"stm32f4xx_hal_dac.h"
+	"stm32f4xx_hal_dcmi.h"
+	"stm32f4xx_hal_eth.h"
+	"stm32f4xx_hal_flash.h"
+	"stm32f4xx_hal_sram.h"
+	"stm32f4xx_hal_nor.h"
+	"stm32f4xx_hal_nand.h"
+	"stm32f4xx_hal_pccard.h"
+	"stm32f4xx_hal_sdram.h"
+	"stm32f4xx_hal_hash.h"
+	"stm32f4xx_hal_i2c.h"
+	"stm32f4xx_hal_i2s.h"
+	"stm32f4xx_hal_iwdg.h"
+	"stm32f4xx_hal_ltdc.h"
+	"stm32f4xx_hal_pwr.h"
+	"stm32f4xx_hal_rng.h"
+	"stm32f4xx_hal_rtc.h"
+	"stm32f4xx_hal_sai.h"
+	"stm32f4xx_hal_sd.h"
+	"stm32f4xx_hal_spi.h"
+	"stm32f4xx_hal_tim.h"
+	"stm32f4xx_hal_uart.h"
+	"stm32f4xx_hal_usart.h"
+	"stm32f4xx_hal_irda.h"
+	"stm32f4xx_hal_smartcard.h"
+	"stm32f4xx_hal_wwdg.h"
+	"stm32f4xx_hal_pcd.h"
+	"stm32f4xx_hal_hcd.h"
+
+1438697982 g:\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_rcc.h
+	"stm32f4xx_hal_def.h"
+	"stm32f4xx_hal_rcc_ex.h"
+
+1438590576 g:\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_def.h
+	"stm32f4xx.h"
+	"Legacy/stm32_hal_legacy.h"
+	<stdio.h>
+
+1439398508 g:\baremetal_freertos\stm32f4xx_hal_driver\inc\legacy\stm32_hal_legacy.h
+
+1438697982 g:\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_rcc_ex.h
+	"stm32f4xx_hal_def.h"
+
+1438590572 g:\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_gpio.h
+	"stm32f4xx_hal_def.h"
+	"stm32f4xx_hal_gpio_ex.h"
+
+1438590572 g:\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_gpio_ex.h
+	"stm32f4xx_hal_def.h"
+
+1438590572 g:\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_dma.h
+	"stm32f4xx_hal_def.h"
+	"stm32f4xx_hal_dma_ex.h"
+
+1438590576 g:\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_dma_ex.h
+	"stm32f4xx_hal_def.h"
+
+1445343432 g:\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_cortex.h
+	"stm32f4xx_hal_def.h"
+
+1439398508 g:\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_adc.h
+	"stm32f4xx_hal_def.h"
+	"stm32f4xx_hal_adc_ex.h"
+
+1439398508 g:\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_adc_ex.h
+	"stm32f4xx_hal_def.h"
+
+1438590576 g:\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_can.h
+	"stm32f4xx_hal_def.h"
+
+1438590576 g:\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_crc.h
+	"stm32f4xx_hal_def.h"
+
+1438590576 g:\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_cryp.h
+	"stm32f4xx_hal_def.h"
+	"stm32f4xx_hal_cryp_ex.h"
+
+1438590572 g:\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_cryp_ex.h
+	"stm32f4xx_hal_def.h"
+
+1438590572 g:\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_dma2d.h
+	"stm32f4xx_hal_def.h"
+
+1438590576 g:\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_dac.h
+	"stm32f4xx_hal_def.h"
+	"stm32f4xx_hal_dac_ex.h"
+
+1438590576 g:\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_dac_ex.h
+	"stm32f4xx_hal_def.h"
+
+1438590572 g:\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_dcmi.h
+	"stm32f4xx_hal_def.h"
+	"stm32f4xx_hal_dcmi_ex.h"
+
+1438697982 g:\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_dcmi_ex.h
+	"stm32f4xx_hal_def.h"
+
+1438590576 g:\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_eth.h
+	"stm32f4xx_hal_def.h"
+
+1438590572 g:\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_flash.h
+	"stm32f4xx_hal_def.h"
+	"stm32f4xx_hal_flash_ex.h"
+	"stm32f4xx_hal_flash_ramfunc.h"
+
+1438590576 g:\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_flash_ex.h
+	"stm32f4xx_hal_def.h"
+
+1438590572 g:\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_flash_ramfunc.h
+	"stm32f4xx_hal_def.h"
+
+1438590572 g:\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_sram.h
+	"stm32f4xx_ll_fsmc.h"
+	"stm32f4xx_ll_fmc.h"
+
+1438590576 g:\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_ll_fsmc.h
+	"stm32f4xx_hal_def.h"
+
+1438590572 g:\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_ll_fmc.h
+	"stm32f4xx_hal_def.h"
+
+1438590572 g:\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_nor.h
+	"stm32f4xx_ll_fsmc.h"
+	"stm32f4xx_ll_fmc.h"
+
+1438590576 g:\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_nand.h
+	"stm32f4xx_ll_fsmc.h"
+	"stm32f4xx_ll_fmc.h"
+
+1438590576 g:\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_pccard.h
+	"stm32f4xx_ll_fsmc.h"
+	"stm32f4xx_ll_fmc.h"
+
+1438590576 g:\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_sdram.h
+	"stm32f4xx_ll_fmc.h"
+
+1438590572 g:\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_hash.h
+	"stm32f4xx_hal_def.h"
+	"stm32f4xx_hal_hash_ex.h"
+
+1438590572 g:\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_hash_ex.h
+	"stm32f4xx_hal_def.h"
+
+1438590572 g:\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_i2c.h
+	"stm32f4xx_hal_def.h"
+	"stm32f4xx_hal_i2c_ex.h"
+
+1438590576 g:\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_i2c_ex.h
+	"stm32f4xx_hal_def.h"
+
+1438590572 g:\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_i2s.h
+	"stm32f4xx_hal_def.h"
+	"stm32f4xx_hal_i2s_ex.h"
+
+1438590572 g:\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_i2s_ex.h
+	"stm32f4xx_hal_def.h"
+
+1438590576 g:\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_iwdg.h
+	"stm32f4xx_hal_def.h"
+
+1438590572 g:\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_ltdc.h
+	"stm32f4xx_hal_def.h"
+	"stm32f4xx_hal_ltdc_ex.h"
+
+1438697982 g:\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_ltdc_ex.h
+	"stm32f4xx_hal_def.h"
+	"stm32f4xx_hal_dsi.h"
+
+1438697982 g:\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_dsi.h
+	"stm32f4xx_hal_def.h"
+
+1438590572 g:\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_pwr.h
+	"stm32f4xx_hal_def.h"
+	"stm32f4xx_hal_pwr_ex.h"
+
+1438590572 g:\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_pwr_ex.h
+	"stm32f4xx_hal_def.h"
+
+1438590576 g:\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_rng.h
+	"stm32f4xx_hal_def.h"
+
+1438590572 g:\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_rtc.h
+	"stm32f4xx_hal_def.h"
+	"stm32f4xx_hal_rtc_ex.h"
+
+1438590572 g:\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_rtc_ex.h
+	"stm32f4xx_hal_def.h"
+
+1438590572 g:\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_sai.h
+	"stm32f4xx_hal_def.h"
+	"stm32f4xx_hal_sai_ex.h"
+
+1438590576 g:\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_sai_ex.h
+	"stm32f4xx_hal_def.h"
+
+1438590572 g:\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_sd.h
+	"stm32f4xx_ll_sdmmc.h"
+
+1438590576 g:\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_ll_sdmmc.h
+	"stm32f4xx_hal_def.h"
+
+1438590572 g:\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_spi.h
+	"stm32f4xx_hal_def.h"
+
+1445588584 g:\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_tim.h
+	"stm32f4xx_hal_def.h"
+	"stm32f4xx_hal_tim_ex.h"
+
+1438590576 g:\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_tim_ex.h
+	"stm32f4xx_hal_def.h"
+
+1438590576 g:\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_uart.h
+	"stm32f4xx_hal_def.h"
+
+1438590572 g:\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_usart.h
+	"stm32f4xx_hal_def.h"
+
+1438590576 g:\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_irda.h
+	"stm32f4xx_hal_def.h"
+
+1438590576 g:\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_smartcard.h
+	"stm32f4xx_hal_def.h"
+
+1438590572 g:\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_wwdg.h
+	"stm32f4xx_hal_def.h"
+
+1438697982 g:\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_pcd.h
+	"stm32f4xx_ll_usb.h"
+	"stm32f4xx_hal_pcd_ex.h"
+
+1438590572 g:\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_ll_usb.h
+	"stm32f4xx_hal_def.h"
+
+1438697982 g:\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_pcd_ex.h
+	"stm32f4xx_hal_def.h"
+
+1438697982 g:\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_hcd.h
+	"stm32f4xx_ll_usb.h"
+
+1436958648 source:g:\baremetal_freertos\rtos\arm_cm4f\port.c
+	"FreeRTOS.h"
+	"task.h"
+
+1436958648 g:\baremetal_freertos\rtos\include\freertos.h
+	<stddef.h>
+	<stdint.h>
+	"FreeRTOSConfig.h"
+	"projdefs.h"
+	"portable.h"
+
+1445379686 g:\baremetal_freertos\rtos\freertosconfig.h
+	<stdint.h>
+
+1436958650 g:\baremetal_freertos\rtos\include\projdefs.h
+
+1436958648 g:\baremetal_freertos\rtos\include\portable.h
+	"deprecated_definitions.h"
+	"portmacro.h"
+	"mpu_wrappers.h"
+
+1436958650 g:\baremetal_freertos\rtos\include\deprecated_definitions.h
+	"..\..\Source\portable\owatcom\16bitdos\pc\portmacro.h"
+	"..\..\Source\portable\owatcom\16bitdos\flsh186\portmacro.h"
+	"../portable/GCC/ATMega323/portmacro.h"
+	"../portable/IAR/ATMega323/portmacro.h"
+	"../../Source/portable/MPLAB/PIC24_dsPIC/portmacro.h"
+	"../../Source/portable/MPLAB/PIC24_dsPIC/portmacro.h"
+	"../../Source/portable/MPLAB/PIC18F/portmacro.h"
+	"../../Source/portable/MPLAB/PIC32MX/portmacro.h"
+	"libFreeRTOS/Include/portmacro.h"
+	"../../Source/portable/SDCC/Cygnal/portmacro.h"
+	"../../Source/portable/GCC/ARM7_LPC2000/portmacro.h"
+	"portmacro.h"
+	"../../Source/portable/GCC/ARM7_LPC23xx/portmacro.h"
+	"..\..\Source\portable\IAR\MSP430\portmacro.h"
+	"../../Source/portable/GCC/MSP430F449/portmacro.h"
+	"../../Source/portable/Rowley/MSP430F449/portmacro.h"
+	"..\..\Source\portable\RVDS\ARM7_LPC21xx\portmacro.h"
+	"../../Source/portable/GCC/ARM7_AT91SAM7S/portmacro.h"
+	"..\..\Source\portable\IAR\AtmelSAM7S64\portmacro.h"
+	"..\..\Source\portable\IAR\AtmelSAM9XE\portmacro.h"
+	"..\..\Source\portable\IAR\LPC2000\portmacro.h"
+	"..\..\Source\portable\IAR\STR71x\portmacro.h"
+	"..\..\Source\portable\IAR\STR75x\portmacro.h"
+	"..\..\Source\portable\GCC\STR75x\portmacro.h"
+	"..\..\Source\portable\IAR\STR91x\portmacro.h"
+	"../../Source/portable/GCC/H8S2329/portmacro.h"
+	"../../Source/portable/GCC/ARM7_AT91FR40008/portmacro.h"
+	"../../Source/portable/RVDS/ARM_CM3/portmacro.h"
+	"../../Source/portable/GCC/ARM_CM3/portmacro.h"
+	"../../Source/portable/GCC/ARM_CM3/portmacro.h"
+	"../../Source/portable/IAR/ARM_CM3/portmacro.h"
+	"../../Source/portable/IAR/ARM_CM3/portmacro.h"
+	"../../Source/portable/CodeWarrior/HCS12/portmacro.h"
+	"../../Source/portable/GCC/MicroBlaze/portmacro.h"
+	"..\..\Source\portable\Paradigm\Tern_EE\small\portmacro.h"
+	"../../Source/portable/GCC/HCS12/portmacro.h"
+	"../../Source/portable/GCC/MCF5235/portmacro.h"
+	"../../../Source/portable/GCC/ColdFire_V2/portmacro.h"
+	"../../Source/portable/CodeWarrior/ColdFire_V2/portmacro.h"
+	"../../Source/portable/GCC/PPC405_Xilinx/portmacro.h"
+	"../../Source/portable/GCC/PPC440_Xilinx/portmacro.h"
+	"..\..\Source\portable\Softune\MB96340\portmacro.h"
+	"frconfig.h"
+	"..\portable\BCC\16BitDOS\PC\prtmacro.h"
+	"frconfig.h"
+	"..\portable\BCC\16BitDOS\flsh186\prtmacro.h"
+	"portmacro.h"
+	"portmacro.h"
+	"portmacro.h"
+	"portmacro.h"
+	"../../Source/portable/IAR/V850ES/portmacro.h"
+	"../../Source/portable/IAR/V850ES/portmacro.h"
+	"../../Source/portable/IAR/V850ES/portmacro.h"
+	"../../Source/portable/IAR/V850ES/portmacro.h"
+	"../../Source/portable/IAR/V850ES/portmacro.h"
+	"../../Source/portable/IAR/78K0R/portmacro.h"
+	"../../Source/portable/IAR/78K0R/portmacro.h"
+
+1436958648 g:\baremetal_freertos\rtos\arm_cm4f\portmacro.h
+
+1436958648 g:\baremetal_freertos\rtos\include\mpu_wrappers.h
+
+1436958648 g:\baremetal_freertos\rtos\include\task.h
+	"list.h"
+
+1436958650 g:\baremetal_freertos\rtos\include\list.h
+
+1436958650 source:g:\baremetal_freertos\rtos\cmsis_rtos\cmsis_os.c
+	<string.h>
+	"cmsis_os.h"
+
+1436958650 g:\baremetal_freertos\rtos\cmsis_rtos\cmsis_os.h
+	<stdint.h>
+	<stddef.h>
+	"core_cmFunc.h"
+	"FreeRTOS.h"
+	"task.h"
+	"timers.h"
+	"queue.h"
+	"semphr.h"
+	"event_groups.h"
+	<cmsis_os.h>
+	"osObjects.h"
+	"osObjects.h"
+
+1436958648 g:\baremetal_freertos\rtos\include\timers.h
+	"task.h"
+
+1436958648 g:\baremetal_freertos\rtos\include\queue.h
+
+1436958650 g:\baremetal_freertos\rtos\include\semphr.h
+	"queue.h"
+
+1436958648 g:\baremetal_freertos\rtos\include\event_groups.h
+	"timers.h"
+
+1436958648 source:g:\baremetal_freertos\rtos\memmang\heap_4.c
+	<stdlib.h>
+	"FreeRTOS.h"
+	"task.h"
+
+1436958648 source:g:\baremetal_freertos\rtos\croutine.c
+	"FreeRTOS.h"
+	"task.h"
+	"croutine.h"
+
+1436958648 g:\baremetal_freertos\rtos\include\croutine.h
+	"list.h"
+
+1436958648 source:g:\baremetal_freertos\rtos\event_groups.c
+	<stdlib.h>
+	"FreeRTOS.h"
+	"task.h"
+	"timers.h"
+	"event_groups.h"
+
+1436958648 source:g:\baremetal_freertos\rtos\list.c
+	<stdlib.h>
+	"FreeRTOS.h"
+	"list.h"
+
+1436958650 source:g:\baremetal_freertos\rtos\queue.c
+	<stdlib.h>
+	<string.h>
+	"FreeRTOS.h"
+	"task.h"
+	"queue.h"
+	"croutine.h"
+
+1436958650 source:g:\baremetal_freertos\rtos\tasks.c
+	<stdlib.h>
+	<string.h>
+	"FreeRTOS.h"
+	"task.h"
+	"timers.h"
+	"StackMacros.h"
+	<stdio.h>
+	"tasks_test_access_functions.h"
+
+1436958650 g:\baremetal_freertos\rtos\include\stackmacros.h
+
+1436958650 source:g:\baremetal_freertos\rtos\timers.c
+	<stdlib.h>
+	"FreeRTOS.h"
+	"task.h"
+	"queue.h"
+	"timers.h"
+
+1438590562 source:g:\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal.c
+	"stm32f4xx_hal.h"
+
+1439398508 source:g:\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_adc.c
+	"stm32f4xx_hal.h"
+
+1439398508 source:g:\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_adc_ex.c
+	"stm32f4xx_hal.h"
+
+1438590562 source:g:\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_can.c
+	"stm32f4xx_hal.h"
+
+1438590562 source:g:\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_cec.c
+	"stm32f4xx_hal.h"
+
+1438590562 source:g:\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_cortex.c
+	"stm32f4xx_hal.h"
+
+1438590562 source:g:\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_crc.c
+	"stm32f4xx_hal.h"
+
+1438590572 source:g:\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_cryp.c
+	"stm32f4xx_hal.h"
+
+1438590572 source:g:\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_cryp_ex.c
+	"stm32f4xx_hal.h"
+
+1438590562 source:g:\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_dac.c
+	"stm32f4xx_hal.h"
+
+1438590562 source:g:\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_dac_ex.c
+	"stm32f4xx_hal.h"
+
+1438590562 source:g:\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_dcmi.c
+	"stm32f4xx_hal.h"
+
+1438590562 source:g:\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_dcmi_ex.c
+	"stm32f4xx_hal.h"
+
+1438590562 source:g:\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_dma.c
+	"stm32f4xx_hal.h"
+
+1438590572 source:g:\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_dma2d.c
+	"stm32f4xx_hal.h"
+
+1438590562 source:g:\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_dma_ex.c
+	"stm32f4xx_hal.h"
+
+1438697982 source:g:\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_dsi.c
+	"stm32f4xx_hal.h"
+
+1438590562 source:g:\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_eth.c
+	"stm32f4xx_hal.h"
+
+1438590562 source:g:\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_flash.c
+	"stm32f4xx_hal.h"
+
+1438590572 source:g:\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_flash_ex.c
+	"stm32f4xx_hal.h"
+
+1438590562 source:g:\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_flash_ramfunc.c
+	"stm32f4xx_hal.h"
+
+1438590572 source:g:\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_fmpi2c.c
+	"stm32f4xx_hal.h"
+
+1438590562 source:g:\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_fmpi2c_ex.c
+	"stm32f4xx_hal.h"
+
+1438590562 source:g:\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_gpio.c
+	"stm32f4xx_hal.h"
+
+1438590562 source:g:\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_hash.c
+	"stm32f4xx_hal.h"
+
+1438590572 source:g:\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_hash_ex.c
+	"stm32f4xx_hal.h"
+
+1438590562 source:g:\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_hcd.c
+	"stm32f4xx_hal.h"
+
+1438590562 source:g:\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_i2c.c
+	"stm32f4xx_hal.h"
+
+1438590562 source:g:\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_i2c_ex.c
+	"stm32f4xx_hal.h"
+
+1438590562 source:g:\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_i2s.c
+	"stm32f4xx_hal.h"
+
+1438697982 source:g:\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_i2s_ex.c
+	"stm32f4xx_hal.h"
+
+1438590572 source:g:\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_irda.c
+	"stm32f4xx_hal.h"
+
+1438590572 source:g:\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_iwdg.c
+	"stm32f4xx_hal.h"
+
+1438590562 source:g:\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_lptim.c
+	"stm32f4xx_hal.h"
+
+1438590562 source:g:\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_ltdc.c
+	"stm32f4xx_hal.h"
+
+1438590562 source:g:\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_ltdc_ex.c
+	"stm32f4xx_hal.h"
+
+1438590572 source:g:\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_msp_template.c
+	"stm32f4xx_hal.h"
+
+1438590562 source:g:\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_nand.c
+	"stm32f4xx_hal.h"
+
+1438590562 source:g:\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_nor.c
+	"stm32f4xx_hal.h"
+
+1438590562 source:g:\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_pccard.c
+	"stm32f4xx_hal.h"
+
+1438590562 source:g:\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_pcd.c
+	"stm32f4xx_hal.h"
+
+1438590562 source:g:\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_pcd_ex.c
+	"stm32f4xx_hal.h"
+
+1438590562 source:g:\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_pwr.c
+	"stm32f4xx_hal.h"
+
+1438590562 source:g:\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_pwr_ex.c
+	"stm32f4xx_hal.h"
+
+1438590562 source:g:\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_qspi.c
+	"stm32f4xx_hal.h"
+
+1438590562 source:g:\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_rcc.c
+	"stm32f4xx_hal.h"
+
+1440065586 source:g:\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_rcc_ex.c
+	"stm32f4xx_hal.h"
+
+1438590562 source:g:\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_rng.c
+	"stm32f4xx_hal.h"
+
+1438590562 source:g:\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_rtc.c
+	"stm32f4xx_hal.h"
+
+1438590562 source:g:\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_rtc_ex.c
+	"stm32f4xx_hal.h"
+
+1438590572 source:g:\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_sai.c
+	"stm32f4xx_hal.h"
+
+1438590562 source:g:\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_sai_ex.c
+	"stm32f4xx_hal.h"
+
+1438590562 source:g:\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_sd.c
+	"stm32f4xx_hal.h"
+
+1438590562 source:g:\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_sdram.c
+	"stm32f4xx_hal.h"
+
+1438590562 source:g:\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_smartcard.c
+	"stm32f4xx_hal.h"
+
+1438590572 source:g:\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_spdifrx.c
+	"stm32f4xx_hal.h"
+
+1438590562 source:g:\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_spi.c
+	"stm32f4xx_hal.h"
+
+1438590562 source:g:\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_sram.c
+	"stm32f4xx_hal.h"
+
+1445588584 source:g:\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_tim.c
+	"stm32f4xx_hal.h"
+
+1438590572 source:g:\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_tim_ex.c
+	"stm32f4xx_hal.h"
+
+1438590562 source:g:\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_uart.c
+	"stm32f4xx_hal.h"
+
+1438590562 source:g:\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_usart.c
+	"stm32f4xx_hal.h"
+
+1438590562 source:g:\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_wwdg.c
+	"stm32f4xx_hal.h"
+
+1438590562 source:g:\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_ll_fmc.c
+	"stm32f4xx_hal.h"
+
+1438590562 source:g:\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_ll_fsmc.c
+	"stm32f4xx_hal.h"
+
+1438590562 source:g:\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_ll_sdmmc.c
+	"stm32f4xx_hal.h"
+
+1438590562 source:g:\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_ll_usb.c
+	"stm32f4xx_hal.h"
+
+1445592278 source:g:\baremetal_freertos\src\adc_driver.c
+	"main.h"
+	"ADC_driver.h"
+
+1445647028 g:\baremetal_freertos\inc\main.h
+	"stm32f4xx_hal.h"
+	"stm32f4xx_nucleo.h"
+	"ADC_driver.h"
+	"PWM_driver.h"
+	"LED_driver.h"
+
+1445633386 g:\baremetal_freertos\inc\adc_driver.h
+	"stm32f4xx_hal.h"
+
+1445637420 g:\baremetal_freertos\inc\pwm_driver.h
+	"stm32f4xx_hal.h"
+	"stm32f4xx_hal_tim.h"
+
+1445649130 source:g:\baremetal_freertos\src\pwm_driver.c
+	"PWM_driver.h"
+
+1445649058 source:g:\baremetal_freertos\src\main.c
+	"main.h"
+	"cmsis_os.h"
+
+1444635224 source:g:\baremetal_freertos\src\startup_stm32f4xx.s
+
+1445378794 source:g:\baremetal_freertos\src\stm32f4xx_it.c
+	"main.h"
+	"stm32f4xx_it.h"
+	"cmsis_os.h"
+
+1436877832 g:\baremetal_freertos\inc\stm32f4xx_it.h
+	"main.h"
+
+1436877824 source:g:\baremetal_freertos\src\system_stm32f4xx.c
+	"stm32f4xx.h"
+
+1445644096 g:\baremetal_freertos\inc\led_driver.h
+	"stm32f4xx_hal.h"
+
+1445646108 source:g:\baremetal_freertos\src\led_driver.c
+	"LED_driver.h"
+
+1439382598 source:c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\bsp\stm32f4xx_nucleo.c
+	"stm32f4xx_nucleo.h"
+
+1439382598 c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\bsp\stm32f4xx_nucleo.h
+	"stm32f4xx_hal.h"
+
+1444770558 c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal.h
+	"stm32f4xx.h"
+	"stm32f4xx_hal_conf.h"
+
+1438586934 c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\inc\stm32f4xx.h
+	"stm32f405xx.h"
+	"stm32f415xx.h"
+	"stm32f407xx.h"
+	"stm32f417xx.h"
+	"stm32f427xx.h"
+	"stm32f437xx.h"
+	"stm32f429xx.h"
+	"stm32f439xx.h"
+	"stm32f401xc.h"
+	"stm32f401xe.h"
+	"stm32f410tx.h"
+	"stm32f410cx.h"
+	"stm32f410rx.h"
+	"stm32f411xe.h"
+	"stm32f446xx.h"
+	"stm32f469xx.h"
+	"stm32f479xx.h"
+	"stm32f4xx_hal.h"
+
+1444771366 c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\inc\stm32f401xe.h
+	"core_cm4.h"
+	"system_stm32f4xx.h"
+	<stdint.h>
+
+1444631624 c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\cmsis\core_cm4.h
+	<stdint.h>
+	<core_cmInstr.h>
+	<core_cmFunc.h>
+	<core_cm4_simd.h>
+
+1444631624 c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\cmsis\core_cminstr.h
+	<cmsis_iar.h>
+
+1444631624 c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\cmsis\core_cmfunc.h
+	<cmsis_iar.h>
+
+1444631624 c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\cmsis\core_cm4_simd.h
+	<cmsis_iar.h>
+
+1444631624 c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\inc\system_stm32f4xx.h
+
+1445724149 c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\inc\stm32f4xx_hal_conf.h
+	"core_cm4.h"
+	"stm32f4xx_hal_rcc.h"
+	"stm32f4xx_hal_gpio.h"
+	"stm32f4xx_hal_dma.h"
+	"stm32f4xx_hal_cortex.h"
+	"stm32f4xx_hal_adc.h"
+	"stm32f4xx_hal_can.h"
+	"stm32f4xx_hal_crc.h"
+	"stm32f4xx_hal_cryp.h"
+	"stm32f4xx_hal_dma2d.h"
+	"stm32f4xx_hal_dac.h"
+	"stm32f4xx_hal_dcmi.h"
+	"stm32f4xx_hal_eth.h"
+	"stm32f4xx_hal_flash.h"
+	"stm32f4xx_hal_sram.h"
+	"stm32f4xx_hal_nor.h"
+	"stm32f4xx_hal_nand.h"
+	"stm32f4xx_hal_pccard.h"
+	"stm32f4xx_hal_sdram.h"
+	"stm32f4xx_hal_hash.h"
+	"stm32f4xx_hal_i2c.h"
+	"stm32f4xx_hal_i2s.h"
+	"stm32f4xx_hal_iwdg.h"
+	"stm32f4xx_hal_ltdc.h"
+	"stm32f4xx_hal_pwr.h"
+	"stm32f4xx_hal_rng.h"
+	"stm32f4xx_hal_rtc.h"
+	"stm32f4xx_hal_sai.h"
+	"stm32f4xx_hal_sd.h"
+	"stm32f4xx_hal_spi.h"
+	"stm32f4xx_hal_tim.h"
+	"stm32f4xx_hal_uart.h"
+	"stm32f4xx_hal_usart.h"
+	"stm32f4xx_hal_irda.h"
+	"stm32f4xx_hal_smartcard.h"
+	"stm32f4xx_hal_wwdg.h"
+	"stm32f4xx_hal_pcd.h"
+	"stm32f4xx_hal_hcd.h"
+
+1438694382 c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_rcc.h
+	"stm32f4xx_hal_def.h"
+	"stm32f4xx_hal_rcc_ex.h"
+
+1438586976 c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_def.h
+	"stm32f4xx.h"
+	"Legacy/stm32_hal_legacy.h"
+	<stdio.h>
+
+1439394908 c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\stm32f4xx_hal_driver\inc\legacy\stm32_hal_legacy.h
+
+1438694382 c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_rcc_ex.h
+	"stm32f4xx_hal_def.h"
+
+1438586972 c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_gpio.h
+	"stm32f4xx_hal_def.h"
+	"stm32f4xx_hal_gpio_ex.h"
+
+1438586972 c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_gpio_ex.h
+	"stm32f4xx_hal_def.h"
+
+1438586972 c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_dma.h
+	"stm32f4xx_hal_def.h"
+	"stm32f4xx_hal_dma_ex.h"
+
+1438586976 c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_dma_ex.h
+	"stm32f4xx_hal_def.h"
+
+1445339832 c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_cortex.h
+	"stm32f4xx_hal_def.h"
+
+1439394908 c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_adc.h
+	"stm32f4xx_hal_def.h"
+	"stm32f4xx_hal_adc_ex.h"
+
+1439394908 c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_adc_ex.h
+	"stm32f4xx_hal_def.h"
+
+1438586976 c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_can.h
+	"stm32f4xx_hal_def.h"
+
+1438586976 c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_crc.h
+	"stm32f4xx_hal_def.h"
+
+1438586976 c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_cryp.h
+	"stm32f4xx_hal_def.h"
+	"stm32f4xx_hal_cryp_ex.h"
+
+1438586972 c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_cryp_ex.h
+	"stm32f4xx_hal_def.h"
+
+1438586972 c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_dma2d.h
+	"stm32f4xx_hal_def.h"
+
+1438586976 c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_dac.h
+	"stm32f4xx_hal_def.h"
+	"stm32f4xx_hal_dac_ex.h"
+
+1438586976 c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_dac_ex.h
+	"stm32f4xx_hal_def.h"
+
+1438586972 c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_dcmi.h
+	"stm32f4xx_hal_def.h"
+	"stm32f4xx_hal_dcmi_ex.h"
+
+1438694382 c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_dcmi_ex.h
+	"stm32f4xx_hal_def.h"
+
+1438586976 c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_eth.h
+	"stm32f4xx_hal_def.h"
+
+1438586972 c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_flash.h
+	"stm32f4xx_hal_def.h"
+	"stm32f4xx_hal_flash_ex.h"
+	"stm32f4xx_hal_flash_ramfunc.h"
+
+1438586976 c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_flash_ex.h
+	"stm32f4xx_hal_def.h"
+
+1438586972 c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_flash_ramfunc.h
+	"stm32f4xx_hal_def.h"
+
+1438586972 c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_sram.h
+	"stm32f4xx_ll_fsmc.h"
+	"stm32f4xx_ll_fmc.h"
+
+1438586976 c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_ll_fsmc.h
+	"stm32f4xx_hal_def.h"
+
+1438586972 c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_ll_fmc.h
+	"stm32f4xx_hal_def.h"
+
+1438586972 c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_nor.h
+	"stm32f4xx_ll_fsmc.h"
+	"stm32f4xx_ll_fmc.h"
+
+1438586976 c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_nand.h
+	"stm32f4xx_ll_fsmc.h"
+	"stm32f4xx_ll_fmc.h"
+
+1438586976 c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_pccard.h
+	"stm32f4xx_ll_fsmc.h"
+	"stm32f4xx_ll_fmc.h"
+
+1438586976 c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_sdram.h
+	"stm32f4xx_ll_fmc.h"
+
+1438586972 c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_hash.h
+	"stm32f4xx_hal_def.h"
+	"stm32f4xx_hal_hash_ex.h"
+
+1438586972 c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_hash_ex.h
+	"stm32f4xx_hal_def.h"
+
+1438586972 c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_i2c.h
+	"stm32f4xx_hal_def.h"
+	"stm32f4xx_hal_i2c_ex.h"
+
+1438586976 c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_i2c_ex.h
+	"stm32f4xx_hal_def.h"
+
+1438586972 c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_i2s.h
+	"stm32f4xx_hal_def.h"
+	"stm32f4xx_hal_i2s_ex.h"
+
+1438586972 c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_i2s_ex.h
+	"stm32f4xx_hal_def.h"
+
+1438586976 c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_iwdg.h
+	"stm32f4xx_hal_def.h"
+
+1438586972 c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_ltdc.h
+	"stm32f4xx_hal_def.h"
+	"stm32f4xx_hal_ltdc_ex.h"
+
+1438694382 c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_ltdc_ex.h
+	"stm32f4xx_hal_def.h"
+	"stm32f4xx_hal_dsi.h"
+
+1438694382 c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_dsi.h
+	"stm32f4xx_hal_def.h"
+
+1438586972 c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_pwr.h
+	"stm32f4xx_hal_def.h"
+	"stm32f4xx_hal_pwr_ex.h"
+
+1438586972 c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_pwr_ex.h
+	"stm32f4xx_hal_def.h"
+
+1438586976 c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_rng.h
+	"stm32f4xx_hal_def.h"
+
+1438586972 c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_rtc.h
+	"stm32f4xx_hal_def.h"
+	"stm32f4xx_hal_rtc_ex.h"
+
+1438586972 c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_rtc_ex.h
+	"stm32f4xx_hal_def.h"
+
+1438586972 c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_sai.h
+	"stm32f4xx_hal_def.h"
+	"stm32f4xx_hal_sai_ex.h"
+
+1438586976 c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_sai_ex.h
+	"stm32f4xx_hal_def.h"
+
+1438586972 c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_sd.h
+	"stm32f4xx_ll_sdmmc.h"
+
+1438586976 c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_ll_sdmmc.h
+	"stm32f4xx_hal_def.h"
+
+1438586972 c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_spi.h
+	"stm32f4xx_hal_def.h"
+
+1445584984 c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_tim.h
+	"stm32f4xx_hal_def.h"
+	"stm32f4xx_hal_tim_ex.h"
+
+1438586976 c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_tim_ex.h
+	"stm32f4xx_hal_def.h"
+
+1438586976 c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_uart.h
+	"stm32f4xx_hal_def.h"
+
+1438586972 c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_usart.h
+	"stm32f4xx_hal_def.h"
+
+1438586976 c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_irda.h
+	"stm32f4xx_hal_def.h"
+
+1438586976 c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_smartcard.h
+	"stm32f4xx_hal_def.h"
+
+1438586972 c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_wwdg.h
+	"stm32f4xx_hal_def.h"
+
+1438694382 c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_pcd.h
+	"stm32f4xx_ll_usb.h"
+	"stm32f4xx_hal_pcd_ex.h"
+
+1438586972 c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_ll_usb.h
+	"stm32f4xx_hal_def.h"
+
+1438694382 c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_pcd_ex.h
+	"stm32f4xx_hal_def.h"
+
+1438694382 c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_hcd.h
+	"stm32f4xx_ll_usb.h"
+
+1436955048 source:c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\rtos\arm_cm4f\port.c
+	"FreeRTOS.h"
+	"task.h"
+
+1436955048 c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\rtos\include\freertos.h
+	<stddef.h>
+	<stdint.h>
+	"FreeRTOSConfig.h"
+	"projdefs.h"
+	"portable.h"
+
+1445376086 c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\rtos\freertosconfig.h
+	<stdint.h>
+
+1436955050 c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\rtos\include\projdefs.h
+
+1436955048 c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\rtos\include\portable.h
+	"deprecated_definitions.h"
+	"portmacro.h"
+	"mpu_wrappers.h"
+
+1436955050 c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\rtos\include\deprecated_definitions.h
+	"..\..\Source\portable\owatcom\16bitdos\pc\portmacro.h"
+	"..\..\Source\portable\owatcom\16bitdos\flsh186\portmacro.h"
+	"../portable/GCC/ATMega323/portmacro.h"
+	"../portable/IAR/ATMega323/portmacro.h"
+	"../../Source/portable/MPLAB/PIC24_dsPIC/portmacro.h"
+	"../../Source/portable/MPLAB/PIC24_dsPIC/portmacro.h"
+	"../../Source/portable/MPLAB/PIC18F/portmacro.h"
+	"../../Source/portable/MPLAB/PIC32MX/portmacro.h"
+	"libFreeRTOS/Include/portmacro.h"
+	"../../Source/portable/SDCC/Cygnal/portmacro.h"
+	"../../Source/portable/GCC/ARM7_LPC2000/portmacro.h"
+	"portmacro.h"
+	"../../Source/portable/GCC/ARM7_LPC23xx/portmacro.h"
+	"..\..\Source\portable\IAR\MSP430\portmacro.h"
+	"../../Source/portable/GCC/MSP430F449/portmacro.h"
+	"../../Source/portable/Rowley/MSP430F449/portmacro.h"
+	"..\..\Source\portable\RVDS\ARM7_LPC21xx\portmacro.h"
+	"../../Source/portable/GCC/ARM7_AT91SAM7S/portmacro.h"
+	"..\..\Source\portable\IAR\AtmelSAM7S64\portmacro.h"
+	"..\..\Source\portable\IAR\AtmelSAM9XE\portmacro.h"
+	"..\..\Source\portable\IAR\LPC2000\portmacro.h"
+	"..\..\Source\portable\IAR\STR71x\portmacro.h"
+	"..\..\Source\portable\IAR\STR75x\portmacro.h"
+	"..\..\Source\portable\GCC\STR75x\portmacro.h"
+	"..\..\Source\portable\IAR\STR91x\portmacro.h"
+	"../../Source/portable/GCC/H8S2329/portmacro.h"
+	"../../Source/portable/GCC/ARM7_AT91FR40008/portmacro.h"
+	"../../Source/portable/RVDS/ARM_CM3/portmacro.h"
+	"../../Source/portable/GCC/ARM_CM3/portmacro.h"
+	"../../Source/portable/GCC/ARM_CM3/portmacro.h"
+	"../../Source/portable/IAR/ARM_CM3/portmacro.h"
+	"../../Source/portable/IAR/ARM_CM3/portmacro.h"
+	"../../Source/portable/CodeWarrior/HCS12/portmacro.h"
+	"../../Source/portable/GCC/MicroBlaze/portmacro.h"
+	"..\..\Source\portable\Paradigm\Tern_EE\small\portmacro.h"
+	"../../Source/portable/GCC/HCS12/portmacro.h"
+	"../../Source/portable/GCC/MCF5235/portmacro.h"
+	"../../../Source/portable/GCC/ColdFire_V2/portmacro.h"
+	"../../Source/portable/CodeWarrior/ColdFire_V2/portmacro.h"
+	"../../Source/portable/GCC/PPC405_Xilinx/portmacro.h"
+	"../../Source/portable/GCC/PPC440_Xilinx/portmacro.h"
+	"..\..\Source\portable\Softune\MB96340\portmacro.h"
+	"frconfig.h"
+	"..\portable\BCC\16BitDOS\PC\prtmacro.h"
+	"frconfig.h"
+	"..\portable\BCC\16BitDOS\flsh186\prtmacro.h"
+	"portmacro.h"
+	"portmacro.h"
+	"portmacro.h"
+	"portmacro.h"
+	"../../Source/portable/IAR/V850ES/portmacro.h"
+	"../../Source/portable/IAR/V850ES/portmacro.h"
+	"../../Source/portable/IAR/V850ES/portmacro.h"
+	"../../Source/portable/IAR/V850ES/portmacro.h"
+	"../../Source/portable/IAR/V850ES/portmacro.h"
+	"../../Source/portable/IAR/78K0R/portmacro.h"
+	"../../Source/portable/IAR/78K0R/portmacro.h"
+
+1436955048 c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\rtos\arm_cm4f\portmacro.h
+
+1436955048 c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\rtos\include\mpu_wrappers.h
+
+1436955048 c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\rtos\include\task.h
+	"list.h"
+
+1436955050 c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\rtos\include\list.h
+
+1436955050 source:c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\rtos\cmsis_rtos\cmsis_os.c
+	<string.h>
+	"cmsis_os.h"
+
+1436955050 c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\rtos\cmsis_rtos\cmsis_os.h
+	<stdint.h>
+	<stddef.h>
+	"core_cmFunc.h"
+	"FreeRTOS.h"
+	"task.h"
+	"timers.h"
+	"queue.h"
+	"semphr.h"
+	"event_groups.h"
+	<cmsis_os.h>
+	"osObjects.h"
+	"osObjects.h"
+
+1436955048 c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\rtos\include\timers.h
+	"task.h"
+
+1436955048 c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\rtos\include\queue.h
+
+1436955050 c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\rtos\include\semphr.h
+	"queue.h"
+
+1436955048 c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\rtos\include\event_groups.h
+	"timers.h"
+
+1436955048 source:c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\rtos\memmang\heap_4.c
+	<stdlib.h>
+	"FreeRTOS.h"
+	"task.h"
+
+1436955048 source:c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\rtos\croutine.c
+	"FreeRTOS.h"
+	"task.h"
+	"croutine.h"
+
+1436955048 c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\rtos\include\croutine.h
+	"list.h"
+
+1436955048 source:c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\rtos\event_groups.c
+	<stdlib.h>
+	"FreeRTOS.h"
+	"task.h"
+	"timers.h"
+	"event_groups.h"
+
+1436955048 source:c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\rtos\list.c
+	<stdlib.h>
+	"FreeRTOS.h"
+	"list.h"
+
+1436955050 source:c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\rtos\queue.c
+	<stdlib.h>
+	<string.h>
+	"FreeRTOS.h"
+	"task.h"
+	"queue.h"
+	"croutine.h"
+
+1436955050 source:c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\rtos\tasks.c
+	<stdlib.h>
+	<string.h>
+	"FreeRTOS.h"
+	"task.h"
+	"timers.h"
+	"StackMacros.h"
+	<stdio.h>
+	"tasks_test_access_functions.h"
+
+1436955050 c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\rtos\include\stackmacros.h
+
+1436955050 source:c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\rtos\timers.c
+	<stdlib.h>
+	"FreeRTOS.h"
+	"task.h"
+	"queue.h"
+	"timers.h"
+
+1438586962 source:c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal.c
+	"stm32f4xx_hal.h"
+
+1439394908 source:c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_adc.c
+	"stm32f4xx_hal.h"
+
+1439394908 source:c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_adc_ex.c
+	"stm32f4xx_hal.h"
+
+1438586962 source:c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_can.c
+	"stm32f4xx_hal.h"
+
+1438586962 source:c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_cec.c
+	"stm32f4xx_hal.h"
+
+1438586962 source:c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_cortex.c
+	"stm32f4xx_hal.h"
+
+1438586962 source:c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_crc.c
+	"stm32f4xx_hal.h"
+
+1438586972 source:c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_cryp.c
+	"stm32f4xx_hal.h"
+
+1438586972 source:c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_cryp_ex.c
+	"stm32f4xx_hal.h"
+
+1438586962 source:c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_dac.c
+	"stm32f4xx_hal.h"
+
+1438586962 source:c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_dac_ex.c
+	"stm32f4xx_hal.h"
+
+1438586962 source:c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_dcmi.c
+	"stm32f4xx_hal.h"
+
+1438586962 source:c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_dcmi_ex.c
+	"stm32f4xx_hal.h"
+
+1438586962 source:c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_dma.c
+	"stm32f4xx_hal.h"
+
+1438586972 source:c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_dma2d.c
+	"stm32f4xx_hal.h"
+
+1438586962 source:c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_dma_ex.c
+	"stm32f4xx_hal.h"
+
+1438694382 source:c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_dsi.c
+	"stm32f4xx_hal.h"
+
+1438586962 source:c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_eth.c
+	"stm32f4xx_hal.h"
+
+1438586962 source:c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_flash.c
+	"stm32f4xx_hal.h"
+
+1438586972 source:c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_flash_ex.c
+	"stm32f4xx_hal.h"
+
+1438586962 source:c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_flash_ramfunc.c
+	"stm32f4xx_hal.h"
+
+1438586972 source:c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_fmpi2c.c
+	"stm32f4xx_hal.h"
+
+1438586962 source:c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_fmpi2c_ex.c
+	"stm32f4xx_hal.h"
+
+1438586962 source:c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_gpio.c
+	"stm32f4xx_hal.h"
+
+1438586962 source:c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_hash.c
+	"stm32f4xx_hal.h"
+
+1438586972 source:c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_hash_ex.c
+	"stm32f4xx_hal.h"
+
+1438586962 source:c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_hcd.c
+	"stm32f4xx_hal.h"
+
+1438586962 source:c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_i2c.c
+	"stm32f4xx_hal.h"
+
+1438586962 source:c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_i2c_ex.c
+	"stm32f4xx_hal.h"
+
+1438586962 source:c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_i2s.c
+	"stm32f4xx_hal.h"
+
+1438694382 source:c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_i2s_ex.c
+	"stm32f4xx_hal.h"
+
+1438586972 source:c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_irda.c
+	"stm32f4xx_hal.h"
+
+1438586972 source:c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_iwdg.c
+	"stm32f4xx_hal.h"
+
+1438586962 source:c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_lptim.c
+	"stm32f4xx_hal.h"
+
+1438586962 source:c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_ltdc.c
+	"stm32f4xx_hal.h"
+
+1438586962 source:c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_ltdc_ex.c
+	"stm32f4xx_hal.h"
+
+1438586972 source:c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_msp_template.c
+	"stm32f4xx_hal.h"
+
+1438586962 source:c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_nand.c
+	"stm32f4xx_hal.h"
+
+1438586962 source:c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_nor.c
+	"stm32f4xx_hal.h"
+
+1438586962 source:c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_pccard.c
+	"stm32f4xx_hal.h"
+
+1438586962 source:c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_pcd.c
+	"stm32f4xx_hal.h"
+
+1438586962 source:c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_pcd_ex.c
+	"stm32f4xx_hal.h"
+
+1438586962 source:c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_pwr.c
+	"stm32f4xx_hal.h"
+
+1438586962 source:c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_pwr_ex.c
+	"stm32f4xx_hal.h"
+
+1438586962 source:c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_qspi.c
+	"stm32f4xx_hal.h"
+
+1438586962 source:c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_rcc.c
+	"stm32f4xx_hal.h"
+
+1440061986 source:c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_rcc_ex.c
+	"stm32f4xx_hal.h"
+
+1438586962 source:c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_rng.c
+	"stm32f4xx_hal.h"
+
+1438586962 source:c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_rtc.c
+	"stm32f4xx_hal.h"
+
+1438586962 source:c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_rtc_ex.c
+	"stm32f4xx_hal.h"
+
+1438586972 source:c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_sai.c
+	"stm32f4xx_hal.h"
+
+1438586962 source:c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_sai_ex.c
+	"stm32f4xx_hal.h"
+
+1438586962 source:c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_sd.c
+	"stm32f4xx_hal.h"
+
+1438586962 source:c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_sdram.c
+	"stm32f4xx_hal.h"
+
+1438586962 source:c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_smartcard.c
+	"stm32f4xx_hal.h"
+
+1438586972 source:c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_spdifrx.c
+	"stm32f4xx_hal.h"
+
+1438586962 source:c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_spi.c
+	"stm32f4xx_hal.h"
+
+1438586962 source:c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_sram.c
+	"stm32f4xx_hal.h"
+
+1445584984 source:c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_tim.c
+	"stm32f4xx_hal.h"
+
+1438586972 source:c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_tim_ex.c
+	"stm32f4xx_hal.h"
+
+1445646869 source:c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_uart.c
+	"stm32f4xx_hal.h"
+
+1438586962 source:c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_usart.c
+	"stm32f4xx_hal.h"
+
+1438586962 source:c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_wwdg.c
+	"stm32f4xx_hal.h"
+
+1438586962 source:c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_ll_fmc.c
+	"stm32f4xx_hal.h"
+
+1438586962 source:c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_ll_fsmc.c
+	"stm32f4xx_hal.h"
+
+1438586962 source:c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_ll_sdmmc.c
+	"stm32f4xx_hal.h"
+
+1438586962 source:c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_ll_usb.c
+	"stm32f4xx_hal.h"
+
+1445728716 source:c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\src\adc_driver.c
+	"main.h"
+	"ADC_driver.h"
+
+1445725447 c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\inc\main.h
+	"stm32f4xx_hal.h"
+	"stm32f4xx_nucleo.h"
+	"ADC_driver.h"
+	"PWM_driver.h"
+	"LED_driver.h"
+	"UART_driver.h"
+
+1445646690 c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\inc\adc_driver.h
+	"stm32f4xx_hal.h"
+
+1445728375 c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\inc\pwm_driver.h
+	"stm32f4xx_hal.h"
+
+1445640496 c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\inc\led_driver.h
+	"stm32f4xx_hal.h"
+
+1445797931 c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\inc\uart_driver.h
+	"stm32f4xx_hal.h"
+
+1445642508 source:c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\src\led_driver.c
+	"LED_driver.h"
+
+1445729007 source:c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\src\pwm_driver.c
+	"PWM_driver.h"
+
+1445798028 source:c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\src\main.c
+	"main.h"
+	"cmsis_os.h"
+
+1444631624 source:c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\src\startup_stm32f4xx.s
+
+1445375194 source:c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\src\stm32f4xx_it.c
+	"main.h"
+	"stm32f4xx_it.h"
+	"cmsis_os.h"
+
+1436874232 c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\inc\stm32f4xx_it.h
+	"main.h"
+
+1436874224 source:c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\src\system_stm32f4xx.c
+	"stm32f4xx.h"
+
+1445798483 source:c:\users\sobarka\desktop\baremetal\curr\baremetal_freertos\src\uart_driver.c
+	"UART_driver.h"
+
+1439386198 source:c:\projects\hmim\new\baremetal_freertos\bsp\stm32f4xx_nucleo.c
+	"stm32f4xx_nucleo.h"
+
+1439386198 c:\projects\hmim\new\baremetal_freertos\bsp\stm32f4xx_nucleo.h
+	"stm32f4xx_hal.h"
+
+1444774158 c:\projects\hmim\new\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal.h
+	"stm32f4xx.h"
+	"stm32f4xx_hal_conf.h"
+
+1438590534 c:\projects\hmim\new\baremetal_freertos\inc\stm32f4xx.h
+	"stm32f405xx.h"
+	"stm32f415xx.h"
+	"stm32f407xx.h"
+	"stm32f417xx.h"
+	"stm32f427xx.h"
+	"stm32f437xx.h"
+	"stm32f429xx.h"
+	"stm32f439xx.h"
+	"stm32f401xc.h"
+	"stm32f401xe.h"
+	"stm32f410tx.h"
+	"stm32f410cx.h"
+	"stm32f410rx.h"
+	"stm32f411xe.h"
+	"stm32f446xx.h"
+	"stm32f469xx.h"
+	"stm32f479xx.h"
+	"stm32f4xx_hal.h"
+
+1444774966 c:\projects\hmim\new\baremetal_freertos\inc\stm32f401xe.h
+	"core_cm4.h"
+	"system_stm32f4xx.h"
+	<stdint.h>
+
+1444635224 c:\projects\hmim\new\baremetal_freertos\cmsis\core_cm4.h
+	<stdint.h>
+	<core_cmInstr.h>
+	<core_cmFunc.h>
+	<core_cm4_simd.h>
+
+1444635224 c:\projects\hmim\new\baremetal_freertos\cmsis\core_cminstr.h
+	<cmsis_iar.h>
+
+1444635224 c:\projects\hmim\new\baremetal_freertos\cmsis\core_cmfunc.h
+	<cmsis_iar.h>
+
+1444635224 c:\projects\hmim\new\baremetal_freertos\cmsis\core_cm4_simd.h
+	<cmsis_iar.h>
+
+1444635224 c:\projects\hmim\new\baremetal_freertos\inc\system_stm32f4xx.h
+
+1445727749 c:\projects\hmim\new\baremetal_freertos\inc\stm32f4xx_hal_conf.h
+	"core_cm4.h"
+	"stm32f4xx_hal_rcc.h"
+	"stm32f4xx_hal_gpio.h"
+	"stm32f4xx_hal_dma.h"
+	"stm32f4xx_hal_cortex.h"
+	"stm32f4xx_hal_adc.h"
+	"stm32f4xx_hal_can.h"
+	"stm32f4xx_hal_crc.h"
+	"stm32f4xx_hal_cryp.h"
+	"stm32f4xx_hal_dma2d.h"
+	"stm32f4xx_hal_dac.h"
+	"stm32f4xx_hal_dcmi.h"
+	"stm32f4xx_hal_eth.h"
+	"stm32f4xx_hal_flash.h"
+	"stm32f4xx_hal_sram.h"
+	"stm32f4xx_hal_nor.h"
+	"stm32f4xx_hal_nand.h"
+	"stm32f4xx_hal_pccard.h"
+	"stm32f4xx_hal_sdram.h"
+	"stm32f4xx_hal_hash.h"
+	"stm32f4xx_hal_i2c.h"
+	"stm32f4xx_hal_i2s.h"
+	"stm32f4xx_hal_iwdg.h"
+	"stm32f4xx_hal_ltdc.h"
+	"stm32f4xx_hal_pwr.h"
+	"stm32f4xx_hal_rng.h"
+	"stm32f4xx_hal_rtc.h"
+	"stm32f4xx_hal_sai.h"
+	"stm32f4xx_hal_sd.h"
+	"stm32f4xx_hal_spi.h"
+	"stm32f4xx_hal_tim.h"
+	"stm32f4xx_hal_uart.h"
+	"stm32f4xx_hal_usart.h"
+	"stm32f4xx_hal_irda.h"
+	"stm32f4xx_hal_smartcard.h"
+	"stm32f4xx_hal_wwdg.h"
+	"stm32f4xx_hal_pcd.h"
+	"stm32f4xx_hal_hcd.h"
+
+1438697982 c:\projects\hmim\new\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_rcc.h
+	"stm32f4xx_hal_def.h"
+	"stm32f4xx_hal_rcc_ex.h"
+
+1438590576 c:\projects\hmim\new\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_def.h
+	"stm32f4xx.h"
+	"Legacy/stm32_hal_legacy.h"
+	<stdio.h>
+
+1439398508 c:\projects\hmim\new\baremetal_freertos\stm32f4xx_hal_driver\inc\legacy\stm32_hal_legacy.h
+
+1438697982 c:\projects\hmim\new\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_rcc_ex.h
+	"stm32f4xx_hal_def.h"
+
+1438590572 c:\projects\hmim\new\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_gpio.h
+	"stm32f4xx_hal_def.h"
+	"stm32f4xx_hal_gpio_ex.h"
+
+1438590572 c:\projects\hmim\new\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_gpio_ex.h
+	"stm32f4xx_hal_def.h"
+
+1438590572 c:\projects\hmim\new\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_dma.h
+	"stm32f4xx_hal_def.h"
+	"stm32f4xx_hal_dma_ex.h"
+
+1438590576 c:\projects\hmim\new\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_dma_ex.h
+	"stm32f4xx_hal_def.h"
+
+1445343432 c:\projects\hmim\new\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_cortex.h
+	"stm32f4xx_hal_def.h"
+
+1439398508 c:\projects\hmim\new\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_adc.h
+	"stm32f4xx_hal_def.h"
+	"stm32f4xx_hal_adc_ex.h"
+
+1439398508 c:\projects\hmim\new\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_adc_ex.h
+	"stm32f4xx_hal_def.h"
+
+1438590576 c:\projects\hmim\new\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_can.h
+	"stm32f4xx_hal_def.h"
+
+1438590576 c:\projects\hmim\new\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_crc.h
+	"stm32f4xx_hal_def.h"
+
+1438590576 c:\projects\hmim\new\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_cryp.h
+	"stm32f4xx_hal_def.h"
+	"stm32f4xx_hal_cryp_ex.h"
+
+1438590572 c:\projects\hmim\new\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_cryp_ex.h
+	"stm32f4xx_hal_def.h"
+
+1438590572 c:\projects\hmim\new\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_dma2d.h
+	"stm32f4xx_hal_def.h"
+
+1438590576 c:\projects\hmim\new\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_dac.h
+	"stm32f4xx_hal_def.h"
+	"stm32f4xx_hal_dac_ex.h"
+
+1438590576 c:\projects\hmim\new\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_dac_ex.h
+	"stm32f4xx_hal_def.h"
+
+1438590572 c:\projects\hmim\new\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_dcmi.h
+	"stm32f4xx_hal_def.h"
+	"stm32f4xx_hal_dcmi_ex.h"
+
+1438697982 c:\projects\hmim\new\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_dcmi_ex.h
+	"stm32f4xx_hal_def.h"
+
+1438590576 c:\projects\hmim\new\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_eth.h
+	"stm32f4xx_hal_def.h"
+
+1438590572 c:\projects\hmim\new\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_flash.h
+	"stm32f4xx_hal_def.h"
+	"stm32f4xx_hal_flash_ex.h"
+	"stm32f4xx_hal_flash_ramfunc.h"
+
+1438590576 c:\projects\hmim\new\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_flash_ex.h
+	"stm32f4xx_hal_def.h"
+
+1438590572 c:\projects\hmim\new\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_flash_ramfunc.h
+	"stm32f4xx_hal_def.h"
+
+1438590572 c:\projects\hmim\new\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_sram.h
+	"stm32f4xx_ll_fsmc.h"
+	"stm32f4xx_ll_fmc.h"
+
+1438590576 c:\projects\hmim\new\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_ll_fsmc.h
+	"stm32f4xx_hal_def.h"
+
+1438590572 c:\projects\hmim\new\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_ll_fmc.h
+	"stm32f4xx_hal_def.h"
+
+1438590572 c:\projects\hmim\new\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_nor.h
+	"stm32f4xx_ll_fsmc.h"
+	"stm32f4xx_ll_fmc.h"
+
+1438590576 c:\projects\hmim\new\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_nand.h
+	"stm32f4xx_ll_fsmc.h"
+	"stm32f4xx_ll_fmc.h"
+
+1438590576 c:\projects\hmim\new\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_pccard.h
+	"stm32f4xx_ll_fsmc.h"
+	"stm32f4xx_ll_fmc.h"
+
+1438590576 c:\projects\hmim\new\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_sdram.h
+	"stm32f4xx_ll_fmc.h"
+
+1438590572 c:\projects\hmim\new\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_hash.h
+	"stm32f4xx_hal_def.h"
+	"stm32f4xx_hal_hash_ex.h"
+
+1438590572 c:\projects\hmim\new\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_hash_ex.h
+	"stm32f4xx_hal_def.h"
+
+1438590572 c:\projects\hmim\new\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_i2c.h
+	"stm32f4xx_hal_def.h"
+	"stm32f4xx_hal_i2c_ex.h"
+
+1438590576 c:\projects\hmim\new\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_i2c_ex.h
+	"stm32f4xx_hal_def.h"
+
+1438590572 c:\projects\hmim\new\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_i2s.h
+	"stm32f4xx_hal_def.h"
+	"stm32f4xx_hal_i2s_ex.h"
+
+1438590572 c:\projects\hmim\new\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_i2s_ex.h
+	"stm32f4xx_hal_def.h"
+
+1438590576 c:\projects\hmim\new\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_iwdg.h
+	"stm32f4xx_hal_def.h"
+
+1438590572 c:\projects\hmim\new\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_ltdc.h
+	"stm32f4xx_hal_def.h"
+	"stm32f4xx_hal_ltdc_ex.h"
+
+1438697982 c:\projects\hmim\new\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_ltdc_ex.h
+	"stm32f4xx_hal_def.h"
+	"stm32f4xx_hal_dsi.h"
+
+1438697982 c:\projects\hmim\new\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_dsi.h
+	"stm32f4xx_hal_def.h"
+
+1438590572 c:\projects\hmim\new\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_pwr.h
+	"stm32f4xx_hal_def.h"
+	"stm32f4xx_hal_pwr_ex.h"
+
+1438590572 c:\projects\hmim\new\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_pwr_ex.h
+	"stm32f4xx_hal_def.h"
+
+1438590576 c:\projects\hmim\new\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_rng.h
+	"stm32f4xx_hal_def.h"
+
+1438590572 c:\projects\hmim\new\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_rtc.h
+	"stm32f4xx_hal_def.h"
+	"stm32f4xx_hal_rtc_ex.h"
+
+1438590572 c:\projects\hmim\new\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_rtc_ex.h
+	"stm32f4xx_hal_def.h"
+
+1438590572 c:\projects\hmim\new\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_sai.h
+	"stm32f4xx_hal_def.h"
+	"stm32f4xx_hal_sai_ex.h"
+
+1438590576 c:\projects\hmim\new\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_sai_ex.h
+	"stm32f4xx_hal_def.h"
+
+1438590572 c:\projects\hmim\new\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_sd.h
+	"stm32f4xx_ll_sdmmc.h"
+
+1438590576 c:\projects\hmim\new\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_ll_sdmmc.h
+	"stm32f4xx_hal_def.h"
+
+1438590572 c:\projects\hmim\new\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_spi.h
+	"stm32f4xx_hal_def.h"
+
+1445588584 c:\projects\hmim\new\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_tim.h
+	"stm32f4xx_hal_def.h"
+	"stm32f4xx_hal_tim_ex.h"
+
+1438590576 c:\projects\hmim\new\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_tim_ex.h
+	"stm32f4xx_hal_def.h"
+
+1438590576 c:\projects\hmim\new\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_uart.h
+	"stm32f4xx_hal_def.h"
+
+1438590572 c:\projects\hmim\new\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_usart.h
+	"stm32f4xx_hal_def.h"
+
+1438590576 c:\projects\hmim\new\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_irda.h
+	"stm32f4xx_hal_def.h"
+
+1438590576 c:\projects\hmim\new\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_smartcard.h
+	"stm32f4xx_hal_def.h"
+
+1438590572 c:\projects\hmim\new\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_wwdg.h
+	"stm32f4xx_hal_def.h"
+
+1438697982 c:\projects\hmim\new\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_pcd.h
+	"stm32f4xx_ll_usb.h"
+	"stm32f4xx_hal_pcd_ex.h"
+
+1438590572 c:\projects\hmim\new\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_ll_usb.h
+	"stm32f4xx_hal_def.h"
+
+1438697982 c:\projects\hmim\new\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_pcd_ex.h
+	"stm32f4xx_hal_def.h"
+
+1438697982 c:\projects\hmim\new\baremetal_freertos\stm32f4xx_hal_driver\inc\stm32f4xx_hal_hcd.h
+	"stm32f4xx_ll_usb.h"
+
+1436958648 source:c:\projects\hmim\new\baremetal_freertos\rtos\arm_cm4f\port.c
+	"FreeRTOS.h"
+	"task.h"
+
+1436958648 c:\projects\hmim\new\baremetal_freertos\rtos\include\freertos.h
+	<stddef.h>
+	<stdint.h>
+	"FreeRTOSConfig.h"
+	"projdefs.h"
+	"portable.h"
+
+1445379686 c:\projects\hmim\new\baremetal_freertos\rtos\freertosconfig.h
+	<stdint.h>
+
+1436958650 c:\projects\hmim\new\baremetal_freertos\rtos\include\projdefs.h
+
+1436958648 c:\projects\hmim\new\baremetal_freertos\rtos\include\portable.h
+	"deprecated_definitions.h"
+	"portmacro.h"
+	"mpu_wrappers.h"
+
+1436958650 c:\projects\hmim\new\baremetal_freertos\rtos\include\deprecated_definitions.h
+	"..\..\Source\portable\owatcom\16bitdos\pc\portmacro.h"
+	"..\..\Source\portable\owatcom\16bitdos\flsh186\portmacro.h"
+	"../portable/GCC/ATMega323/portmacro.h"
+	"../portable/IAR/ATMega323/portmacro.h"
+	"../../Source/portable/MPLAB/PIC24_dsPIC/portmacro.h"
+	"../../Source/portable/MPLAB/PIC24_dsPIC/portmacro.h"
+	"../../Source/portable/MPLAB/PIC18F/portmacro.h"
+	"../../Source/portable/MPLAB/PIC32MX/portmacro.h"
+	"libFreeRTOS/Include/portmacro.h"
+	"../../Source/portable/SDCC/Cygnal/portmacro.h"
+	"../../Source/portable/GCC/ARM7_LPC2000/portmacro.h"
+	"portmacro.h"
+	"../../Source/portable/GCC/ARM7_LPC23xx/portmacro.h"
+	"..\..\Source\portable\IAR\MSP430\portmacro.h"
+	"../../Source/portable/GCC/MSP430F449/portmacro.h"
+	"../../Source/portable/Rowley/MSP430F449/portmacro.h"
+	"..\..\Source\portable\RVDS\ARM7_LPC21xx\portmacro.h"
+	"../../Source/portable/GCC/ARM7_AT91SAM7S/portmacro.h"
+	"..\..\Source\portable\IAR\AtmelSAM7S64\portmacro.h"
+	"..\..\Source\portable\IAR\AtmelSAM9XE\portmacro.h"
+	"..\..\Source\portable\IAR\LPC2000\portmacro.h"
+	"..\..\Source\portable\IAR\STR71x\portmacro.h"
+	"..\..\Source\portable\IAR\STR75x\portmacro.h"
+	"..\..\Source\portable\GCC\STR75x\portmacro.h"
+	"..\..\Source\portable\IAR\STR91x\portmacro.h"
+	"../../Source/portable/GCC/H8S2329/portmacro.h"
+	"../../Source/portable/GCC/ARM7_AT91FR40008/portmacro.h"
+	"../../Source/portable/RVDS/ARM_CM3/portmacro.h"
+	"../../Source/portable/GCC/ARM_CM3/portmacro.h"
+	"../../Source/portable/GCC/ARM_CM3/portmacro.h"
+	"../../Source/portable/IAR/ARM_CM3/portmacro.h"
+	"../../Source/portable/IAR/ARM_CM3/portmacro.h"
+	"../../Source/portable/CodeWarrior/HCS12/portmacro.h"
+	"../../Source/portable/GCC/MicroBlaze/portmacro.h"
+	"..\..\Source\portable\Paradigm\Tern_EE\small\portmacro.h"
+	"../../Source/portable/GCC/HCS12/portmacro.h"
+	"../../Source/portable/GCC/MCF5235/portmacro.h"
+	"../../../Source/portable/GCC/ColdFire_V2/portmacro.h"
+	"../../Source/portable/CodeWarrior/ColdFire_V2/portmacro.h"
+	"../../Source/portable/GCC/PPC405_Xilinx/portmacro.h"
+	"../../Source/portable/GCC/PPC440_Xilinx/portmacro.h"
+	"..\..\Source\portable\Softune\MB96340\portmacro.h"
+	"frconfig.h"
+	"..\portable\BCC\16BitDOS\PC\prtmacro.h"
+	"frconfig.h"
+	"..\portable\BCC\16BitDOS\flsh186\prtmacro.h"
+	"portmacro.h"
+	"portmacro.h"
+	"portmacro.h"
+	"portmacro.h"
+	"../../Source/portable/IAR/V850ES/portmacro.h"
+	"../../Source/portable/IAR/V850ES/portmacro.h"
+	"../../Source/portable/IAR/V850ES/portmacro.h"
+	"../../Source/portable/IAR/V850ES/portmacro.h"
+	"../../Source/portable/IAR/V850ES/portmacro.h"
+	"../../Source/portable/IAR/78K0R/portmacro.h"
+	"../../Source/portable/IAR/78K0R/portmacro.h"
+
+1436958648 c:\projects\hmim\new\baremetal_freertos\rtos\arm_cm4f\portmacro.h
+
+1436958648 c:\projects\hmim\new\baremetal_freertos\rtos\include\mpu_wrappers.h
+
+1436958648 c:\projects\hmim\new\baremetal_freertos\rtos\include\task.h
+	"list.h"
+
+1436958650 c:\projects\hmim\new\baremetal_freertos\rtos\include\list.h
+
+1436958650 source:c:\projects\hmim\new\baremetal_freertos\rtos\cmsis_rtos\cmsis_os.c
+	<string.h>
+	"cmsis_os.h"
+
+1436958650 c:\projects\hmim\new\baremetal_freertos\rtos\cmsis_rtos\cmsis_os.h
+	<stdint.h>
+	<stddef.h>
+	"core_cmFunc.h"
+	"FreeRTOS.h"
+	"task.h"
+	"timers.h"
+	"queue.h"
+	"semphr.h"
+	"event_groups.h"
+	<cmsis_os.h>
+	"osObjects.h"
+	"osObjects.h"
+
+1436958648 c:\projects\hmim\new\baremetal_freertos\rtos\include\timers.h
+	"task.h"
+
+1436958648 c:\projects\hmim\new\baremetal_freertos\rtos\include\queue.h
+
+1436958650 c:\projects\hmim\new\baremetal_freertos\rtos\include\semphr.h
+	"queue.h"
+
+1436958648 c:\projects\hmim\new\baremetal_freertos\rtos\include\event_groups.h
+	"timers.h"
+
+1436958648 source:c:\projects\hmim\new\baremetal_freertos\rtos\memmang\heap_4.c
+	<stdlib.h>
+	"FreeRTOS.h"
+	"task.h"
+
+1436958648 source:c:\projects\hmim\new\baremetal_freertos\rtos\croutine.c
+	"FreeRTOS.h"
+	"task.h"
+	"croutine.h"
+
+1436958648 c:\projects\hmim\new\baremetal_freertos\rtos\include\croutine.h
+	"list.h"
+
+1436958648 source:c:\projects\hmim\new\baremetal_freertos\rtos\event_groups.c
+	<stdlib.h>
+	"FreeRTOS.h"
+	"task.h"
+	"timers.h"
+	"event_groups.h"
+
+1436958648 source:c:\projects\hmim\new\baremetal_freertos\rtos\list.c
+	<stdlib.h>
+	"FreeRTOS.h"
+	"list.h"
+
+1436958650 source:c:\projects\hmim\new\baremetal_freertos\rtos\queue.c
+	<stdlib.h>
+	<string.h>
+	"FreeRTOS.h"
+	"task.h"
+	"queue.h"
+	"croutine.h"
+
+1436958650 source:c:\projects\hmim\new\baremetal_freertos\rtos\tasks.c
+	<stdlib.h>
+	<string.h>
+	"FreeRTOS.h"
+	"task.h"
+	"timers.h"
+	"StackMacros.h"
+	<stdio.h>
+	"tasks_test_access_functions.h"
+
+1436958650 c:\projects\hmim\new\baremetal_freertos\rtos\include\stackmacros.h
+
+1436958650 source:c:\projects\hmim\new\baremetal_freertos\rtos\timers.c
+	<stdlib.h>
+	"FreeRTOS.h"
+	"task.h"
+	"queue.h"
+	"timers.h"
+
+1438590562 source:c:\projects\hmim\new\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal.c
+	"stm32f4xx_hal.h"
+
+1439398508 source:c:\projects\hmim\new\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_adc.c
+	"stm32f4xx_hal.h"
+
+1439398508 source:c:\projects\hmim\new\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_adc_ex.c
+	"stm32f4xx_hal.h"
+
+1438590562 source:c:\projects\hmim\new\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_can.c
+	"stm32f4xx_hal.h"
+
+1438590562 source:c:\projects\hmim\new\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_cec.c
+	"stm32f4xx_hal.h"
+
+1438590562 source:c:\projects\hmim\new\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_cortex.c
+	"stm32f4xx_hal.h"
+
+1438590562 source:c:\projects\hmim\new\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_crc.c
+	"stm32f4xx_hal.h"
+
+1438590572 source:c:\projects\hmim\new\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_cryp.c
+	"stm32f4xx_hal.h"
+
+1438590572 source:c:\projects\hmim\new\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_cryp_ex.c
+	"stm32f4xx_hal.h"
+
+1438590562 source:c:\projects\hmim\new\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_dac.c
+	"stm32f4xx_hal.h"
+
+1438590562 source:c:\projects\hmim\new\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_dac_ex.c
+	"stm32f4xx_hal.h"
+
+1438590562 source:c:\projects\hmim\new\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_dcmi.c
+	"stm32f4xx_hal.h"
+
+1438590562 source:c:\projects\hmim\new\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_dcmi_ex.c
+	"stm32f4xx_hal.h"
+
+1438590562 source:c:\projects\hmim\new\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_dma.c
+	"stm32f4xx_hal.h"
+
+1438590572 source:c:\projects\hmim\new\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_dma2d.c
+	"stm32f4xx_hal.h"
+
+1438590562 source:c:\projects\hmim\new\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_dma_ex.c
+	"stm32f4xx_hal.h"
+
+1438697982 source:c:\projects\hmim\new\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_dsi.c
+	"stm32f4xx_hal.h"
+
+1438590562 source:c:\projects\hmim\new\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_eth.c
+	"stm32f4xx_hal.h"
+
+1438590562 source:c:\projects\hmim\new\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_flash.c
+	"stm32f4xx_hal.h"
+
+1438590572 source:c:\projects\hmim\new\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_flash_ex.c
+	"stm32f4xx_hal.h"
+
+1438590562 source:c:\projects\hmim\new\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_flash_ramfunc.c
+	"stm32f4xx_hal.h"
+
+1438590572 source:c:\projects\hmim\new\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_fmpi2c.c
+	"stm32f4xx_hal.h"
+
+1438590562 source:c:\projects\hmim\new\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_fmpi2c_ex.c
+	"stm32f4xx_hal.h"
+
+1438590562 source:c:\projects\hmim\new\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_gpio.c
+	"stm32f4xx_hal.h"
+
+1438590562 source:c:\projects\hmim\new\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_hash.c
+	"stm32f4xx_hal.h"
+
+1438590572 source:c:\projects\hmim\new\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_hash_ex.c
+	"stm32f4xx_hal.h"
+
+1438590562 source:c:\projects\hmim\new\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_hcd.c
+	"stm32f4xx_hal.h"
+
+1438590562 source:c:\projects\hmim\new\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_i2c.c
+	"stm32f4xx_hal.h"
+
+1438590562 source:c:\projects\hmim\new\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_i2c_ex.c
+	"stm32f4xx_hal.h"
+
+1438590562 source:c:\projects\hmim\new\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_i2s.c
+	"stm32f4xx_hal.h"
+
+1438697982 source:c:\projects\hmim\new\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_i2s_ex.c
+	"stm32f4xx_hal.h"
+
+1438590572 source:c:\projects\hmim\new\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_irda.c
+	"stm32f4xx_hal.h"
+
+1438590572 source:c:\projects\hmim\new\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_iwdg.c
+	"stm32f4xx_hal.h"
+
+1438590562 source:c:\projects\hmim\new\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_lptim.c
+	"stm32f4xx_hal.h"
+
+1438590562 source:c:\projects\hmim\new\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_ltdc.c
+	"stm32f4xx_hal.h"
+
+1438590562 source:c:\projects\hmim\new\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_ltdc_ex.c
+	"stm32f4xx_hal.h"
+
+1438590572 source:c:\projects\hmim\new\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_msp_template.c
+	"stm32f4xx_hal.h"
+
+1438590562 source:c:\projects\hmim\new\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_nand.c
+	"stm32f4xx_hal.h"
+
+1438590562 source:c:\projects\hmim\new\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_nor.c
+	"stm32f4xx_hal.h"
+
+1438590562 source:c:\projects\hmim\new\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_pccard.c
+	"stm32f4xx_hal.h"
+
+1438590562 source:c:\projects\hmim\new\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_pcd.c
+	"stm32f4xx_hal.h"
+
+1438590562 source:c:\projects\hmim\new\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_pcd_ex.c
+	"stm32f4xx_hal.h"
+
+1438590562 source:c:\projects\hmim\new\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_pwr.c
+	"stm32f4xx_hal.h"
+
+1438590562 source:c:\projects\hmim\new\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_pwr_ex.c
+	"stm32f4xx_hal.h"
+
+1438590562 source:c:\projects\hmim\new\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_qspi.c
+	"stm32f4xx_hal.h"
+
+1438590562 source:c:\projects\hmim\new\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_rcc.c
+	"stm32f4xx_hal.h"
+
+1440065586 source:c:\projects\hmim\new\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_rcc_ex.c
+	"stm32f4xx_hal.h"
+
+1438590562 source:c:\projects\hmim\new\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_rng.c
+	"stm32f4xx_hal.h"
+
+1438590562 source:c:\projects\hmim\new\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_rtc.c
+	"stm32f4xx_hal.h"
+
+1438590562 source:c:\projects\hmim\new\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_rtc_ex.c
+	"stm32f4xx_hal.h"
+
+1438590572 source:c:\projects\hmim\new\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_sai.c
+	"stm32f4xx_hal.h"
+
+1438590562 source:c:\projects\hmim\new\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_sai_ex.c
+	"stm32f4xx_hal.h"
+
+1438590562 source:c:\projects\hmim\new\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_sd.c
+	"stm32f4xx_hal.h"
+
+1438590562 source:c:\projects\hmim\new\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_sdram.c
+	"stm32f4xx_hal.h"
+
+1438590562 source:c:\projects\hmim\new\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_smartcard.c
+	"stm32f4xx_hal.h"
+
+1438590572 source:c:\projects\hmim\new\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_spdifrx.c
+	"stm32f4xx_hal.h"
+
+1438590562 source:c:\projects\hmim\new\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_spi.c
+	"stm32f4xx_hal.h"
+
+1438590562 source:c:\projects\hmim\new\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_sram.c
+	"stm32f4xx_hal.h"
+
+1445588584 source:c:\projects\hmim\new\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_tim.c
+	"stm32f4xx_hal.h"
+
+1438590572 source:c:\projects\hmim\new\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_tim_ex.c
+	"stm32f4xx_hal.h"
+
+1445650469 source:c:\projects\hmim\new\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_uart.c
+	"stm32f4xx_hal.h"
+
+1438590562 source:c:\projects\hmim\new\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_usart.c
+	"stm32f4xx_hal.h"
+
+1438590562 source:c:\projects\hmim\new\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_hal_wwdg.c
+	"stm32f4xx_hal.h"
+
+1438590562 source:c:\projects\hmim\new\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_ll_fmc.c
+	"stm32f4xx_hal.h"
+
+1438590562 source:c:\projects\hmim\new\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_ll_fsmc.c
+	"stm32f4xx_hal.h"
+
+1438590562 source:c:\projects\hmim\new\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_ll_sdmmc.c
+	"stm32f4xx_hal.h"
+
+1438590562 source:c:\projects\hmim\new\baremetal_freertos\stm32f4xx_hal_driver\src\stm32f4xx_ll_usb.c
+	"stm32f4xx_hal.h"
+
+1445735916 source:c:\projects\hmim\new\baremetal_freertos\src\adc_driver.c
+	"main.h"
+	"ADC_driver.h"
+
+1445729047 c:\projects\hmim\new\baremetal_freertos\inc\main.h
+	"stm32f4xx_hal.h"
+	"stm32f4xx_nucleo.h"
+	"ADC_driver.h"
+	"PWM_driver.h"
+	"LED_driver.h"
+	"UART_driver.h"
+
+1445650290 c:\projects\hmim\new\baremetal_freertos\inc\adc_driver.h
+	"stm32f4xx_hal.h"
+
+1445735575 c:\projects\hmim\new\baremetal_freertos\inc\pwm_driver.h
+	"stm32f4xx_hal.h"
+
+1445644096 c:\projects\hmim\new\baremetal_freertos\inc\led_driver.h
+	"stm32f4xx_hal.h"
+
+1445867185 c:\projects\hmim\new\baremetal_freertos\inc\uart_driver.h
+	"stm32f4xx_hal.h"
+
+1445646108 source:c:\projects\hmim\new\baremetal_freertos\src\led_driver.c
+	"LED_driver.h"
+
+1445736207 source:c:\projects\hmim\new\baremetal_freertos\src\pwm_driver.c
+	"PWM_driver.h"
+
+1445868485 source:c:\projects\hmim\new\baremetal_freertos\src\uart_driver.c
+	"UART_driver.h"
+
+1445872439 source:c:\projects\hmim\new\baremetal_freertos\src\main.c
+	"main.h"
+	"cmsis_os.h"
+
+1444635224 source:c:\projects\hmim\new\baremetal_freertos\src\startup_stm32f4xx.s
+
+1445378794 source:c:\projects\hmim\new\baremetal_freertos\src\stm32f4xx_it.c
+	"main.h"
+	"stm32f4xx_it.h"
+	"cmsis_os.h"
+
+1436877832 c:\projects\hmim\new\baremetal_freertos\inc\stm32f4xx_it.h
+	"main.h"
+
+1436877824 source:c:\projects\hmim\new\baremetal_freertos\src\system_stm32f4xx.c
+	"stm32f4xx.h"
+

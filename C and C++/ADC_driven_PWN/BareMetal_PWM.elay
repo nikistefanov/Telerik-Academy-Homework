@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<EmBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="BSP\stm32f4xx_nucleo.c" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="16" />
+		</Cursor>
+	</File>
+	<File name="STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_adc.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="23974" topLine="501" />
+		</Cursor>
+	</File>
+	<File name="STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="59293" topLine="1313" />
+		</Cursor>
+	</File>
+	<File name="STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="8363" topLine="505" />
+		</Cursor>
+	</File>
+	<File name="STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="32233" topLine="1385" />
+		</Cursor>
+	</File>
+	<File name="STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc_ex.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="9" />
+		</Cursor>
+	</File>
+	<File name="STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="37225" topLine="1098" />
+		</Cursor>
+	</File>
+	<File name="STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3474" topLine="1829" />
+		</Cursor>
+	</File>
+	<File name="inc\main.h" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2965" topLine="45" />
+		</Cursor>
+	</File>
+	<File name="inc\stm32f4xx_hal_conf.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3399" topLine="81" />
+		</Cursor>
+	</File>
+	<File name="src\main.c" open="1" top="1" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3748" topLine="78" />
+		</Cursor>
+	</File>
+	<File name="src\startup_stm32f4xx.S" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="15967" topLine="294" />
+		</Cursor>
+	</File>
+	<File name="src\stm32f4xx_hal_msp.c" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="6688" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src\stm32f4xx_it.c" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2494" topLine="160" />
+		</Cursor>
+	</File>
+	<File name="src\system_stm32f4xx.c" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="9444" topLine="251" />
+		</Cursor>
+	</File>
+</EmBlocks_layout_file>

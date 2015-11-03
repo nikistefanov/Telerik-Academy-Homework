@@ -10,10 +10,12 @@
 
     public class HttpRequest
     {
+        private const string ProtocolPrefixMessage = "HTTP/";
+
         public HttpRequest(string method, string uri, string httpVersion)
         {
             this.Method = method;
-            this.ProtocolVersion = Version.Parse(httpVersion.ToLower().Replace("HTTP/".ToLower(), string.Empty));
+            this.ProtocolVersion = Version.Parse(httpVersion.ToLower().Replace(ProtocolPrefixMessage.ToLower(), string.Empty));
             this.Headers = new SortedDictionary<string, ICollection<string>>();
             this.Uri = uri;
             this.Action = new ActionDescriptor(uri);

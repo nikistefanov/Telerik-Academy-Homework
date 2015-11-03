@@ -6,7 +6,7 @@
     {
         public ContentActionResultWithoutCaching(HttpRequest request, object model) : base(request, model)
         {
-            this.ResponseHeaders.Add(new KeyValuePair<string, string>("Cache-Control", "private, max-age=0, no-cache"));
+            this.ResponseHeaders.Add(new KeyValuePair<string, string>(CacheControlMessage, ChacheControlAdditionalInfoMessage));
         }
     }
 }

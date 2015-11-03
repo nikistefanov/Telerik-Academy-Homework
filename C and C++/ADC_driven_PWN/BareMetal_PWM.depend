@@ -1,0 +1,1053 @@
+# depslib dependency file v1.0
+1439386199 source:c:\users\sobarka\desktop\baremetal\baremetal_pwm\bsp\stm32f4xx_nucleo.c
+	"stm32f4xx_nucleo.h"
+
+1439386199 c:\users\sobarka\desktop\baremetal\baremetal_pwm\bsp\stm32f4xx_nucleo.h
+	"stm32f4xx_hal.h"
+
+1444774158 c:\users\sobarka\desktop\baremetal\baremetal_pwm\stm32f4xx_hal_driver\inc\stm32f4xx_hal.h
+	"stm32f4xx.h"
+	"stm32f4xx_hal_conf.h"
+
+1438590534 c:\users\sobarka\desktop\baremetal\baremetal_pwm\inc\stm32f4xx.h
+	"stm32f405xx.h"
+	"stm32f415xx.h"
+	"stm32f407xx.h"
+	"stm32f417xx.h"
+	"stm32f427xx.h"
+	"stm32f437xx.h"
+	"stm32f429xx.h"
+	"stm32f439xx.h"
+	"stm32f401xc.h"
+	"stm32f401xe.h"
+	"stm32f410tx.h"
+	"stm32f410cx.h"
+	"stm32f410rx.h"
+	"stm32f411xe.h"
+	"stm32f446xx.h"
+	"stm32f469xx.h"
+	"stm32f479xx.h"
+	"stm32f4xx_hal.h"
+
+1444774967 c:\users\sobarka\desktop\baremetal\baremetal_pwm\inc\stm32f401xe.h
+	"core_cm4.h"
+	"system_stm32f4xx.h"
+	<stdint.h>
+
+1444635224 c:\users\sobarka\desktop\baremetal\baremetal_pwm\cmsis\core_cm4.h
+	<stdint.h>
+	<core_cmInstr.h>
+	<core_cmFunc.h>
+	<core_cm4_simd.h>
+
+1444635224 c:\users\sobarka\desktop\baremetal\baremetal_pwm\cmsis\core_cminstr.h
+	<cmsis_iar.h>
+
+1444635224 c:\users\sobarka\desktop\baremetal\baremetal_pwm\cmsis\core_cmfunc.h
+	<cmsis_iar.h>
+
+1444635224 c:\users\sobarka\desktop\baremetal\baremetal_pwm\cmsis\core_cm4_simd.h
+	<cmsis_iar.h>
+
+1444635224 c:\users\sobarka\desktop\baremetal\baremetal_pwm\inc\system_stm32f4xx.h
+
+1445205902 c:\users\sobarka\desktop\baremetal\baremetal_pwm\inc\stm32f4xx_hal_conf.h
+	"core_cm4.h"
+	"stm32f4xx_hal_rcc.h"
+	"stm32f4xx_hal_gpio.h"
+	"stm32f4xx_hal_dma.h"
+	"stm32f4xx_hal_cortex.h"
+	"stm32f4xx_hal_adc.h"
+	"stm32f4xx_hal_can.h"
+	"stm32f4xx_hal_crc.h"
+	"stm32f4xx_hal_cryp.h"
+	"stm32f4xx_hal_dma2d.h"
+	"stm32f4xx_hal_dac.h"
+	"stm32f4xx_hal_dcmi.h"
+	"stm32f4xx_hal_eth.h"
+	"stm32f4xx_hal_flash.h"
+	"stm32f4xx_hal_sram.h"
+	"stm32f4xx_hal_nor.h"
+	"stm32f4xx_hal_nand.h"
+	"stm32f4xx_hal_pccard.h"
+	"stm32f4xx_hal_sdram.h"
+	"stm32f4xx_hal_hash.h"
+	"stm32f4xx_hal_i2c.h"
+	"stm32f4xx_hal_i2s.h"
+	"stm32f4xx_hal_iwdg.h"
+	"stm32f4xx_hal_ltdc.h"
+	"stm32f4xx_hal_pwr.h"
+	"stm32f4xx_hal_rng.h"
+	"stm32f4xx_hal_rtc.h"
+	"stm32f4xx_hal_sai.h"
+	"stm32f4xx_hal_sd.h"
+	"stm32f4xx_hal_spi.h"
+	"stm32f4xx_hal_tim.h"
+	"stm32f4xx_hal_uart.h"
+	"stm32f4xx_hal_usart.h"
+	"stm32f4xx_hal_irda.h"
+	"stm32f4xx_hal_smartcard.h"
+	"stm32f4xx_hal_wwdg.h"
+	"stm32f4xx_hal_pcd.h"
+	"stm32f4xx_hal_hcd.h"
+
+1438697982 c:\users\sobarka\desktop\baremetal\baremetal_pwm\stm32f4xx_hal_driver\inc\stm32f4xx_hal_rcc.h
+	"stm32f4xx_hal_def.h"
+	"stm32f4xx_hal_rcc_ex.h"
+
+1438590577 c:\users\sobarka\desktop\baremetal\baremetal_pwm\stm32f4xx_hal_driver\inc\stm32f4xx_hal_def.h
+	"stm32f4xx.h"
+	"Legacy/stm32_hal_legacy.h"
+	<stdio.h>
+
+1439398508 c:\users\sobarka\desktop\baremetal\baremetal_pwm\stm32f4xx_hal_driver\inc\legacy\stm32_hal_legacy.h
+
+1438697982 c:\users\sobarka\desktop\baremetal\baremetal_pwm\stm32f4xx_hal_driver\inc\stm32f4xx_hal_rcc_ex.h
+	"stm32f4xx_hal_def.h"
+
+1438590573 c:\users\sobarka\desktop\baremetal\baremetal_pwm\stm32f4xx_hal_driver\inc\stm32f4xx_hal_gpio.h
+	"stm32f4xx_hal_def.h"
+	"stm32f4xx_hal_gpio_ex.h"
+
+1438590573 c:\users\sobarka\desktop\baremetal\baremetal_pwm\stm32f4xx_hal_driver\inc\stm32f4xx_hal_gpio_ex.h
+	"stm32f4xx_hal_def.h"
+
+1438590573 c:\users\sobarka\desktop\baremetal\baremetal_pwm\stm32f4xx_hal_driver\inc\stm32f4xx_hal_dma.h
+	"stm32f4xx_hal_def.h"
+	"stm32f4xx_hal_dma_ex.h"
+
+1438590577 c:\users\sobarka\desktop\baremetal\baremetal_pwm\stm32f4xx_hal_driver\inc\stm32f4xx_hal_dma_ex.h
+	"stm32f4xx_hal_def.h"
+
+1444773172 c:\users\sobarka\desktop\baremetal\baremetal_pwm\stm32f4xx_hal_driver\inc\stm32f4xx_hal_cortex.h
+	"stm32f4xx_hal_def.h"
+
+1439398509 c:\users\sobarka\desktop\baremetal\baremetal_pwm\stm32f4xx_hal_driver\inc\stm32f4xx_hal_adc.h
+	"stm32f4xx_hal_def.h"
+	"stm32f4xx_hal_adc_ex.h"
+
+1439398509 c:\users\sobarka\desktop\baremetal\baremetal_pwm\stm32f4xx_hal_driver\inc\stm32f4xx_hal_adc_ex.h
+	"stm32f4xx_hal_def.h"
+
+1438590577 c:\users\sobarka\desktop\baremetal\baremetal_pwm\stm32f4xx_hal_driver\inc\stm32f4xx_hal_can.h
+	"stm32f4xx_hal_def.h"
+
+1438590577 c:\users\sobarka\desktop\baremetal\baremetal_pwm\stm32f4xx_hal_driver\inc\stm32f4xx_hal_crc.h
+	"stm32f4xx_hal_def.h"
+
+1438590577 c:\users\sobarka\desktop\baremetal\baremetal_pwm\stm32f4xx_hal_driver\inc\stm32f4xx_hal_cryp.h
+	"stm32f4xx_hal_def.h"
+	"stm32f4xx_hal_cryp_ex.h"
+
+1438590573 c:\users\sobarka\desktop\baremetal\baremetal_pwm\stm32f4xx_hal_driver\inc\stm32f4xx_hal_cryp_ex.h
+	"stm32f4xx_hal_def.h"
+
+1438590573 c:\users\sobarka\desktop\baremetal\baremetal_pwm\stm32f4xx_hal_driver\inc\stm32f4xx_hal_dma2d.h
+	"stm32f4xx_hal_def.h"
+
+1438590577 c:\users\sobarka\desktop\baremetal\baremetal_pwm\stm32f4xx_hal_driver\inc\stm32f4xx_hal_dac.h
+	"stm32f4xx_hal_def.h"
+	"stm32f4xx_hal_dac_ex.h"
+
+1438590577 c:\users\sobarka\desktop\baremetal\baremetal_pwm\stm32f4xx_hal_driver\inc\stm32f4xx_hal_dac_ex.h
+	"stm32f4xx_hal_def.h"
+
+1438590573 c:\users\sobarka\desktop\baremetal\baremetal_pwm\stm32f4xx_hal_driver\inc\stm32f4xx_hal_dcmi.h
+	"stm32f4xx_hal_def.h"
+	"stm32f4xx_hal_dcmi_ex.h"
+
+1438697982 c:\users\sobarka\desktop\baremetal\baremetal_pwm\stm32f4xx_hal_driver\inc\stm32f4xx_hal_dcmi_ex.h
+	"stm32f4xx_hal_def.h"
+
+1438590577 c:\users\sobarka\desktop\baremetal\baremetal_pwm\stm32f4xx_hal_driver\inc\stm32f4xx_hal_eth.h
+	"stm32f4xx_hal_def.h"
+
+1438590573 c:\users\sobarka\desktop\baremetal\baremetal_pwm\stm32f4xx_hal_driver\inc\stm32f4xx_hal_flash.h
+	"stm32f4xx_hal_def.h"
+	"stm32f4xx_hal_flash_ex.h"
+	"stm32f4xx_hal_flash_ramfunc.h"
+
+1438590577 c:\users\sobarka\desktop\baremetal\baremetal_pwm\stm32f4xx_hal_driver\inc\stm32f4xx_hal_flash_ex.h
+	"stm32f4xx_hal_def.h"
+
+1438590573 c:\users\sobarka\desktop\baremetal\baremetal_pwm\stm32f4xx_hal_driver\inc\stm32f4xx_hal_flash_ramfunc.h
+	"stm32f4xx_hal_def.h"
+
+1438590573 c:\users\sobarka\desktop\baremetal\baremetal_pwm\stm32f4xx_hal_driver\inc\stm32f4xx_hal_sram.h
+	"stm32f4xx_ll_fsmc.h"
+	"stm32f4xx_ll_fmc.h"
+
+1438590577 c:\users\sobarka\desktop\baremetal\baremetal_pwm\stm32f4xx_hal_driver\inc\stm32f4xx_ll_fsmc.h
+	"stm32f4xx_hal_def.h"
+
+1438590573 c:\users\sobarka\desktop\baremetal\baremetal_pwm\stm32f4xx_hal_driver\inc\stm32f4xx_ll_fmc.h
+	"stm32f4xx_hal_def.h"
+
+1438590573 c:\users\sobarka\desktop\baremetal\baremetal_pwm\stm32f4xx_hal_driver\inc\stm32f4xx_hal_nor.h
+	"stm32f4xx_ll_fsmc.h"
+	"stm32f4xx_ll_fmc.h"
+
+1438590577 c:\users\sobarka\desktop\baremetal\baremetal_pwm\stm32f4xx_hal_driver\inc\stm32f4xx_hal_nand.h
+	"stm32f4xx_ll_fsmc.h"
+	"stm32f4xx_ll_fmc.h"
+
+1438590577 c:\users\sobarka\desktop\baremetal\baremetal_pwm\stm32f4xx_hal_driver\inc\stm32f4xx_hal_pccard.h
+	"stm32f4xx_ll_fsmc.h"
+	"stm32f4xx_ll_fmc.h"
+
+1438590577 c:\users\sobarka\desktop\baremetal\baremetal_pwm\stm32f4xx_hal_driver\inc\stm32f4xx_hal_sdram.h
+	"stm32f4xx_ll_fmc.h"
+
+1438590573 c:\users\sobarka\desktop\baremetal\baremetal_pwm\stm32f4xx_hal_driver\inc\stm32f4xx_hal_hash.h
+	"stm32f4xx_hal_def.h"
+	"stm32f4xx_hal_hash_ex.h"
+
+1438590573 c:\users\sobarka\desktop\baremetal\baremetal_pwm\stm32f4xx_hal_driver\inc\stm32f4xx_hal_hash_ex.h
+	"stm32f4xx_hal_def.h"
+
+1438590573 c:\users\sobarka\desktop\baremetal\baremetal_pwm\stm32f4xx_hal_driver\inc\stm32f4xx_hal_i2c.h
+	"stm32f4xx_hal_def.h"
+	"stm32f4xx_hal_i2c_ex.h"
+
+1438590577 c:\users\sobarka\desktop\baremetal\baremetal_pwm\stm32f4xx_hal_driver\inc\stm32f4xx_hal_i2c_ex.h
+	"stm32f4xx_hal_def.h"
+
+1438590573 c:\users\sobarka\desktop\baremetal\baremetal_pwm\stm32f4xx_hal_driver\inc\stm32f4xx_hal_i2s.h
+	"stm32f4xx_hal_def.h"
+	"stm32f4xx_hal_i2s_ex.h"
+
+1438590573 c:\users\sobarka\desktop\baremetal\baremetal_pwm\stm32f4xx_hal_driver\inc\stm32f4xx_hal_i2s_ex.h
+	"stm32f4xx_hal_def.h"
+
+1438590577 c:\users\sobarka\desktop\baremetal\baremetal_pwm\stm32f4xx_hal_driver\inc\stm32f4xx_hal_iwdg.h
+	"stm32f4xx_hal_def.h"
+
+1438590573 c:\users\sobarka\desktop\baremetal\baremetal_pwm\stm32f4xx_hal_driver\inc\stm32f4xx_hal_ltdc.h
+	"stm32f4xx_hal_def.h"
+	"stm32f4xx_hal_ltdc_ex.h"
+
+1438697982 c:\users\sobarka\desktop\baremetal\baremetal_pwm\stm32f4xx_hal_driver\inc\stm32f4xx_hal_ltdc_ex.h
+	"stm32f4xx_hal_def.h"
+	"stm32f4xx_hal_dsi.h"
+
+1438697982 c:\users\sobarka\desktop\baremetal\baremetal_pwm\stm32f4xx_hal_driver\inc\stm32f4xx_hal_dsi.h
+	"stm32f4xx_hal_def.h"
+
+1438590573 c:\users\sobarka\desktop\baremetal\baremetal_pwm\stm32f4xx_hal_driver\inc\stm32f4xx_hal_pwr.h
+	"stm32f4xx_hal_def.h"
+	"stm32f4xx_hal_pwr_ex.h"
+
+1438590573 c:\users\sobarka\desktop\baremetal\baremetal_pwm\stm32f4xx_hal_driver\inc\stm32f4xx_hal_pwr_ex.h
+	"stm32f4xx_hal_def.h"
+
+1438590577 c:\users\sobarka\desktop\baremetal\baremetal_pwm\stm32f4xx_hal_driver\inc\stm32f4xx_hal_rng.h
+	"stm32f4xx_hal_def.h"
+
+1438590573 c:\users\sobarka\desktop\baremetal\baremetal_pwm\stm32f4xx_hal_driver\inc\stm32f4xx_hal_rtc.h
+	"stm32f4xx_hal_def.h"
+	"stm32f4xx_hal_rtc_ex.h"
+
+1438590573 c:\users\sobarka\desktop\baremetal\baremetal_pwm\stm32f4xx_hal_driver\inc\stm32f4xx_hal_rtc_ex.h
+	"stm32f4xx_hal_def.h"
+
+1438590573 c:\users\sobarka\desktop\baremetal\baremetal_pwm\stm32f4xx_hal_driver\inc\stm32f4xx_hal_sai.h
+	"stm32f4xx_hal_def.h"
+	"stm32f4xx_hal_sai_ex.h"
+
+1438590577 c:\users\sobarka\desktop\baremetal\baremetal_pwm\stm32f4xx_hal_driver\inc\stm32f4xx_hal_sai_ex.h
+	"stm32f4xx_hal_def.h"
+
+1438590573 c:\users\sobarka\desktop\baremetal\baremetal_pwm\stm32f4xx_hal_driver\inc\stm32f4xx_hal_sd.h
+	"stm32f4xx_ll_sdmmc.h"
+
+1438590577 c:\users\sobarka\desktop\baremetal\baremetal_pwm\stm32f4xx_hal_driver\inc\stm32f4xx_ll_sdmmc.h
+	"stm32f4xx_hal_def.h"
+
+1438590573 c:\users\sobarka\desktop\baremetal\baremetal_pwm\stm32f4xx_hal_driver\inc\stm32f4xx_hal_spi.h
+	"stm32f4xx_hal_def.h"
+
+1445210900 c:\users\sobarka\desktop\baremetal\baremetal_pwm\stm32f4xx_hal_driver\inc\stm32f4xx_hal_tim.h
+	"stm32f4xx_hal_def.h"
+	"stm32f4xx_hal_tim_ex.h"
+
+1438590577 c:\users\sobarka\desktop\baremetal\baremetal_pwm\stm32f4xx_hal_driver\inc\stm32f4xx_hal_tim_ex.h
+	"stm32f4xx_hal_def.h"
+
+1438590577 c:\users\sobarka\desktop\baremetal\baremetal_pwm\stm32f4xx_hal_driver\inc\stm32f4xx_hal_uart.h
+	"stm32f4xx_hal_def.h"
+
+1438590573 c:\users\sobarka\desktop\baremetal\baremetal_pwm\stm32f4xx_hal_driver\inc\stm32f4xx_hal_usart.h
+	"stm32f4xx_hal_def.h"
+
+1438590577 c:\users\sobarka\desktop\baremetal\baremetal_pwm\stm32f4xx_hal_driver\inc\stm32f4xx_hal_irda.h
+	"stm32f4xx_hal_def.h"
+
+1438590577 c:\users\sobarka\desktop\baremetal\baremetal_pwm\stm32f4xx_hal_driver\inc\stm32f4xx_hal_smartcard.h
+	"stm32f4xx_hal_def.h"
+
+1438590573 c:\users\sobarka\desktop\baremetal\baremetal_pwm\stm32f4xx_hal_driver\inc\stm32f4xx_hal_wwdg.h
+	"stm32f4xx_hal_def.h"
+
+1438697982 c:\users\sobarka\desktop\baremetal\baremetal_pwm\stm32f4xx_hal_driver\inc\stm32f4xx_hal_pcd.h
+	"stm32f4xx_ll_usb.h"
+	"stm32f4xx_hal_pcd_ex.h"
+
+1438590573 c:\users\sobarka\desktop\baremetal\baremetal_pwm\stm32f4xx_hal_driver\inc\stm32f4xx_ll_usb.h
+	"stm32f4xx_hal_def.h"
+
+1438697982 c:\users\sobarka\desktop\baremetal\baremetal_pwm\stm32f4xx_hal_driver\inc\stm32f4xx_hal_pcd_ex.h
+	"stm32f4xx_hal_def.h"
+
+1438697982 c:\users\sobarka\desktop\baremetal\baremetal_pwm\stm32f4xx_hal_driver\inc\stm32f4xx_hal_hcd.h
+	"stm32f4xx_ll_usb.h"
+
+1438590563 source:c:\users\sobarka\desktop\baremetal\baremetal_pwm\stm32f4xx_hal_driver\src\stm32f4xx_hal.c
+	"stm32f4xx_hal.h"
+
+1439398509 source:c:\users\sobarka\desktop\baremetal\baremetal_pwm\stm32f4xx_hal_driver\src\stm32f4xx_hal_adc.c
+	"stm32f4xx_hal.h"
+
+1439398509 source:c:\users\sobarka\desktop\baremetal\baremetal_pwm\stm32f4xx_hal_driver\src\stm32f4xx_hal_adc_ex.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\users\sobarka\desktop\baremetal\baremetal_pwm\stm32f4xx_hal_driver\src\stm32f4xx_hal_can.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\users\sobarka\desktop\baremetal\baremetal_pwm\stm32f4xx_hal_driver\src\stm32f4xx_hal_cec.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\users\sobarka\desktop\baremetal\baremetal_pwm\stm32f4xx_hal_driver\src\stm32f4xx_hal_cortex.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\users\sobarka\desktop\baremetal\baremetal_pwm\stm32f4xx_hal_driver\src\stm32f4xx_hal_crc.c
+	"stm32f4xx_hal.h"
+
+1438590573 source:c:\users\sobarka\desktop\baremetal\baremetal_pwm\stm32f4xx_hal_driver\src\stm32f4xx_hal_cryp.c
+	"stm32f4xx_hal.h"
+
+1438590573 source:c:\users\sobarka\desktop\baremetal\baremetal_pwm\stm32f4xx_hal_driver\src\stm32f4xx_hal_cryp_ex.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\users\sobarka\desktop\baremetal\baremetal_pwm\stm32f4xx_hal_driver\src\stm32f4xx_hal_dac.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\users\sobarka\desktop\baremetal\baremetal_pwm\stm32f4xx_hal_driver\src\stm32f4xx_hal_dac_ex.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\users\sobarka\desktop\baremetal\baremetal_pwm\stm32f4xx_hal_driver\src\stm32f4xx_hal_dcmi.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\users\sobarka\desktop\baremetal\baremetal_pwm\stm32f4xx_hal_driver\src\stm32f4xx_hal_dcmi_ex.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\users\sobarka\desktop\baremetal\baremetal_pwm\stm32f4xx_hal_driver\src\stm32f4xx_hal_dma.c
+	"stm32f4xx_hal.h"
+
+1438590573 source:c:\users\sobarka\desktop\baremetal\baremetal_pwm\stm32f4xx_hal_driver\src\stm32f4xx_hal_dma2d.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\users\sobarka\desktop\baremetal\baremetal_pwm\stm32f4xx_hal_driver\src\stm32f4xx_hal_dma_ex.c
+	"stm32f4xx_hal.h"
+
+1438697982 source:c:\users\sobarka\desktop\baremetal\baremetal_pwm\stm32f4xx_hal_driver\src\stm32f4xx_hal_dsi.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\users\sobarka\desktop\baremetal\baremetal_pwm\stm32f4xx_hal_driver\src\stm32f4xx_hal_eth.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\users\sobarka\desktop\baremetal\baremetal_pwm\stm32f4xx_hal_driver\src\stm32f4xx_hal_flash.c
+	"stm32f4xx_hal.h"
+
+1438590573 source:c:\users\sobarka\desktop\baremetal\baremetal_pwm\stm32f4xx_hal_driver\src\stm32f4xx_hal_flash_ex.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\users\sobarka\desktop\baremetal\baremetal_pwm\stm32f4xx_hal_driver\src\stm32f4xx_hal_flash_ramfunc.c
+	"stm32f4xx_hal.h"
+
+1438590573 source:c:\users\sobarka\desktop\baremetal\baremetal_pwm\stm32f4xx_hal_driver\src\stm32f4xx_hal_fmpi2c.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\users\sobarka\desktop\baremetal\baremetal_pwm\stm32f4xx_hal_driver\src\stm32f4xx_hal_fmpi2c_ex.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\users\sobarka\desktop\baremetal\baremetal_pwm\stm32f4xx_hal_driver\src\stm32f4xx_hal_gpio.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\users\sobarka\desktop\baremetal\baremetal_pwm\stm32f4xx_hal_driver\src\stm32f4xx_hal_hash.c
+	"stm32f4xx_hal.h"
+
+1438590573 source:c:\users\sobarka\desktop\baremetal\baremetal_pwm\stm32f4xx_hal_driver\src\stm32f4xx_hal_hash_ex.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\users\sobarka\desktop\baremetal\baremetal_pwm\stm32f4xx_hal_driver\src\stm32f4xx_hal_hcd.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\users\sobarka\desktop\baremetal\baremetal_pwm\stm32f4xx_hal_driver\src\stm32f4xx_hal_i2c.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\users\sobarka\desktop\baremetal\baremetal_pwm\stm32f4xx_hal_driver\src\stm32f4xx_hal_i2c_ex.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\users\sobarka\desktop\baremetal\baremetal_pwm\stm32f4xx_hal_driver\src\stm32f4xx_hal_i2s.c
+	"stm32f4xx_hal.h"
+
+1438697982 source:c:\users\sobarka\desktop\baremetal\baremetal_pwm\stm32f4xx_hal_driver\src\stm32f4xx_hal_i2s_ex.c
+	"stm32f4xx_hal.h"
+
+1438590573 source:c:\users\sobarka\desktop\baremetal\baremetal_pwm\stm32f4xx_hal_driver\src\stm32f4xx_hal_irda.c
+	"stm32f4xx_hal.h"
+
+1438590573 source:c:\users\sobarka\desktop\baremetal\baremetal_pwm\stm32f4xx_hal_driver\src\stm32f4xx_hal_iwdg.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\users\sobarka\desktop\baremetal\baremetal_pwm\stm32f4xx_hal_driver\src\stm32f4xx_hal_lptim.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\users\sobarka\desktop\baremetal\baremetal_pwm\stm32f4xx_hal_driver\src\stm32f4xx_hal_ltdc.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\users\sobarka\desktop\baremetal\baremetal_pwm\stm32f4xx_hal_driver\src\stm32f4xx_hal_ltdc_ex.c
+	"stm32f4xx_hal.h"
+
+1438590573 source:c:\users\sobarka\desktop\baremetal\baremetal_pwm\stm32f4xx_hal_driver\src\stm32f4xx_hal_msp_template.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\users\sobarka\desktop\baremetal\baremetal_pwm\stm32f4xx_hal_driver\src\stm32f4xx_hal_nand.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\users\sobarka\desktop\baremetal\baremetal_pwm\stm32f4xx_hal_driver\src\stm32f4xx_hal_nor.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\users\sobarka\desktop\baremetal\baremetal_pwm\stm32f4xx_hal_driver\src\stm32f4xx_hal_pccard.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\users\sobarka\desktop\baremetal\baremetal_pwm\stm32f4xx_hal_driver\src\stm32f4xx_hal_pcd.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\users\sobarka\desktop\baremetal\baremetal_pwm\stm32f4xx_hal_driver\src\stm32f4xx_hal_pcd_ex.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\users\sobarka\desktop\baremetal\baremetal_pwm\stm32f4xx_hal_driver\src\stm32f4xx_hal_pwr.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\users\sobarka\desktop\baremetal\baremetal_pwm\stm32f4xx_hal_driver\src\stm32f4xx_hal_pwr_ex.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\users\sobarka\desktop\baremetal\baremetal_pwm\stm32f4xx_hal_driver\src\stm32f4xx_hal_qspi.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\users\sobarka\desktop\baremetal\baremetal_pwm\stm32f4xx_hal_driver\src\stm32f4xx_hal_rcc.c
+	"stm32f4xx_hal.h"
+
+1440065587 source:c:\users\sobarka\desktop\baremetal\baremetal_pwm\stm32f4xx_hal_driver\src\stm32f4xx_hal_rcc_ex.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\users\sobarka\desktop\baremetal\baremetal_pwm\stm32f4xx_hal_driver\src\stm32f4xx_hal_rng.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\users\sobarka\desktop\baremetal\baremetal_pwm\stm32f4xx_hal_driver\src\stm32f4xx_hal_rtc.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\users\sobarka\desktop\baremetal\baremetal_pwm\stm32f4xx_hal_driver\src\stm32f4xx_hal_rtc_ex.c
+	"stm32f4xx_hal.h"
+
+1438590573 source:c:\users\sobarka\desktop\baremetal\baremetal_pwm\stm32f4xx_hal_driver\src\stm32f4xx_hal_sai.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\users\sobarka\desktop\baremetal\baremetal_pwm\stm32f4xx_hal_driver\src\stm32f4xx_hal_sai_ex.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\users\sobarka\desktop\baremetal\baremetal_pwm\stm32f4xx_hal_driver\src\stm32f4xx_hal_sd.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\users\sobarka\desktop\baremetal\baremetal_pwm\stm32f4xx_hal_driver\src\stm32f4xx_hal_sdram.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\users\sobarka\desktop\baremetal\baremetal_pwm\stm32f4xx_hal_driver\src\stm32f4xx_hal_smartcard.c
+	"stm32f4xx_hal.h"
+
+1438590573 source:c:\users\sobarka\desktop\baremetal\baremetal_pwm\stm32f4xx_hal_driver\src\stm32f4xx_hal_spdifrx.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\users\sobarka\desktop\baremetal\baremetal_pwm\stm32f4xx_hal_driver\src\stm32f4xx_hal_spi.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\users\sobarka\desktop\baremetal\baremetal_pwm\stm32f4xx_hal_driver\src\stm32f4xx_hal_sram.c
+	"stm32f4xx_hal.h"
+
+1445210706 source:c:\users\sobarka\desktop\baremetal\baremetal_pwm\stm32f4xx_hal_driver\src\stm32f4xx_hal_tim.c
+	"stm32f4xx_hal.h"
+
+1438590573 source:c:\users\sobarka\desktop\baremetal\baremetal_pwm\stm32f4xx_hal_driver\src\stm32f4xx_hal_tim_ex.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\users\sobarka\desktop\baremetal\baremetal_pwm\stm32f4xx_hal_driver\src\stm32f4xx_hal_uart.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\users\sobarka\desktop\baremetal\baremetal_pwm\stm32f4xx_hal_driver\src\stm32f4xx_hal_usart.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\users\sobarka\desktop\baremetal\baremetal_pwm\stm32f4xx_hal_driver\src\stm32f4xx_hal_wwdg.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\users\sobarka\desktop\baremetal\baremetal_pwm\stm32f4xx_hal_driver\src\stm32f4xx_ll_fmc.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\users\sobarka\desktop\baremetal\baremetal_pwm\stm32f4xx_hal_driver\src\stm32f4xx_ll_fsmc.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\users\sobarka\desktop\baremetal\baremetal_pwm\stm32f4xx_hal_driver\src\stm32f4xx_ll_sdmmc.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\users\sobarka\desktop\baremetal\baremetal_pwm\stm32f4xx_hal_driver\src\stm32f4xx_ll_usb.c
+	"stm32f4xx_hal.h"
+
+1445368013 source:c:\users\sobarka\desktop\baremetal\baremetal_pwm\src\main.c
+	"main.h"
+	"stm32f4xx_hal_tim.h"
+
+1445362261 c:\users\sobarka\desktop\baremetal\baremetal_pwm\inc\main.h
+	"stm32f4xx_hal.h"
+	"stm32f4xx_nucleo.h"
+
+1444635224 source:c:\users\sobarka\desktop\baremetal\baremetal_pwm\src\startup_stm32f4xx.s
+
+1445362008 source:c:\users\sobarka\desktop\baremetal\baremetal_pwm\src\stm32f4xx_hal_msp.c
+	"main.h"
+
+1445365664 source:c:\users\sobarka\desktop\baremetal\baremetal_pwm\src\stm32f4xx_it.c
+	"main.h"
+	"stm32f4xx_it.h"
+
+1436877833 c:\users\sobarka\desktop\baremetal\baremetal_pwm\inc\stm32f4xx_it.h
+	"main.h"
+
+1445205849 source:c:\users\sobarka\desktop\baremetal\baremetal_pwm\src\system_stm32f4xx.c
+	"stm32f4xx.h"
+
+1439386199 source:c:\users\sobarka\desktop\baremetal\adc_driven_pwn\bsp\stm32f4xx_nucleo.c
+	"stm32f4xx_nucleo.h"
+
+1439386199 c:\users\sobarka\desktop\baremetal\adc_driven_pwn\bsp\stm32f4xx_nucleo.h
+	"stm32f4xx_hal.h"
+
+1444774158 c:\users\sobarka\desktop\baremetal\adc_driven_pwn\stm32f4xx_hal_driver\inc\stm32f4xx_hal.h
+	"stm32f4xx.h"
+	"stm32f4xx_hal_conf.h"
+
+1438590534 c:\users\sobarka\desktop\baremetal\adc_driven_pwn\inc\stm32f4xx.h
+	"stm32f405xx.h"
+	"stm32f415xx.h"
+	"stm32f407xx.h"
+	"stm32f417xx.h"
+	"stm32f427xx.h"
+	"stm32f437xx.h"
+	"stm32f429xx.h"
+	"stm32f439xx.h"
+	"stm32f401xc.h"
+	"stm32f401xe.h"
+	"stm32f410tx.h"
+	"stm32f410cx.h"
+	"stm32f410rx.h"
+	"stm32f411xe.h"
+	"stm32f446xx.h"
+	"stm32f469xx.h"
+	"stm32f479xx.h"
+	"stm32f4xx_hal.h"
+
+1444774967 c:\users\sobarka\desktop\baremetal\adc_driven_pwn\inc\stm32f401xe.h
+	"core_cm4.h"
+	"system_stm32f4xx.h"
+	<stdint.h>
+
+1444635224 c:\users\sobarka\desktop\baremetal\adc_driven_pwn\cmsis\core_cm4.h
+	<stdint.h>
+	<core_cmInstr.h>
+	<core_cmFunc.h>
+	<core_cm4_simd.h>
+
+1444635224 c:\users\sobarka\desktop\baremetal\adc_driven_pwn\cmsis\core_cminstr.h
+	<cmsis_iar.h>
+
+1444635224 c:\users\sobarka\desktop\baremetal\adc_driven_pwn\cmsis\core_cmfunc.h
+	<cmsis_iar.h>
+
+1444635224 c:\users\sobarka\desktop\baremetal\adc_driven_pwn\cmsis\core_cm4_simd.h
+	<cmsis_iar.h>
+
+1444635224 c:\users\sobarka\desktop\baremetal\adc_driven_pwn\inc\system_stm32f4xx.h
+
+1445205902 c:\users\sobarka\desktop\baremetal\adc_driven_pwn\inc\stm32f4xx_hal_conf.h
+	"core_cm4.h"
+	"stm32f4xx_hal_rcc.h"
+	"stm32f4xx_hal_gpio.h"
+	"stm32f4xx_hal_dma.h"
+	"stm32f4xx_hal_cortex.h"
+	"stm32f4xx_hal_adc.h"
+	"stm32f4xx_hal_can.h"
+	"stm32f4xx_hal_crc.h"
+	"stm32f4xx_hal_cryp.h"
+	"stm32f4xx_hal_dma2d.h"
+	"stm32f4xx_hal_dac.h"
+	"stm32f4xx_hal_dcmi.h"
+	"stm32f4xx_hal_eth.h"
+	"stm32f4xx_hal_flash.h"
+	"stm32f4xx_hal_sram.h"
+	"stm32f4xx_hal_nor.h"
+	"stm32f4xx_hal_nand.h"
+	"stm32f4xx_hal_pccard.h"
+	"stm32f4xx_hal_sdram.h"
+	"stm32f4xx_hal_hash.h"
+	"stm32f4xx_hal_i2c.h"
+	"stm32f4xx_hal_i2s.h"
+	"stm32f4xx_hal_iwdg.h"
+	"stm32f4xx_hal_ltdc.h"
+	"stm32f4xx_hal_pwr.h"
+	"stm32f4xx_hal_rng.h"
+	"stm32f4xx_hal_rtc.h"
+	"stm32f4xx_hal_sai.h"
+	"stm32f4xx_hal_sd.h"
+	"stm32f4xx_hal_spi.h"
+	"stm32f4xx_hal_tim.h"
+	"stm32f4xx_hal_uart.h"
+	"stm32f4xx_hal_usart.h"
+	"stm32f4xx_hal_irda.h"
+	"stm32f4xx_hal_smartcard.h"
+	"stm32f4xx_hal_wwdg.h"
+	"stm32f4xx_hal_pcd.h"
+	"stm32f4xx_hal_hcd.h"
+
+1438697982 c:\users\sobarka\desktop\baremetal\adc_driven_pwn\stm32f4xx_hal_driver\inc\stm32f4xx_hal_rcc.h
+	"stm32f4xx_hal_def.h"
+	"stm32f4xx_hal_rcc_ex.h"
+
+1438590577 c:\users\sobarka\desktop\baremetal\adc_driven_pwn\stm32f4xx_hal_driver\inc\stm32f4xx_hal_def.h
+	"stm32f4xx.h"
+	"Legacy/stm32_hal_legacy.h"
+	<stdio.h>
+
+1439398508 c:\users\sobarka\desktop\baremetal\adc_driven_pwn\stm32f4xx_hal_driver\inc\legacy\stm32_hal_legacy.h
+
+1438697982 c:\users\sobarka\desktop\baremetal\adc_driven_pwn\stm32f4xx_hal_driver\inc\stm32f4xx_hal_rcc_ex.h
+	"stm32f4xx_hal_def.h"
+
+1438590573 c:\users\sobarka\desktop\baremetal\adc_driven_pwn\stm32f4xx_hal_driver\inc\stm32f4xx_hal_gpio.h
+	"stm32f4xx_hal_def.h"
+	"stm32f4xx_hal_gpio_ex.h"
+
+1438590573 c:\users\sobarka\desktop\baremetal\adc_driven_pwn\stm32f4xx_hal_driver\inc\stm32f4xx_hal_gpio_ex.h
+	"stm32f4xx_hal_def.h"
+
+1438590573 c:\users\sobarka\desktop\baremetal\adc_driven_pwn\stm32f4xx_hal_driver\inc\stm32f4xx_hal_dma.h
+	"stm32f4xx_hal_def.h"
+	"stm32f4xx_hal_dma_ex.h"
+
+1438590577 c:\users\sobarka\desktop\baremetal\adc_driven_pwn\stm32f4xx_hal_driver\inc\stm32f4xx_hal_dma_ex.h
+	"stm32f4xx_hal_def.h"
+
+1444773172 c:\users\sobarka\desktop\baremetal\adc_driven_pwn\stm32f4xx_hal_driver\inc\stm32f4xx_hal_cortex.h
+	"stm32f4xx_hal_def.h"
+
+1439398509 c:\users\sobarka\desktop\baremetal\adc_driven_pwn\stm32f4xx_hal_driver\inc\stm32f4xx_hal_adc.h
+	"stm32f4xx_hal_def.h"
+	"stm32f4xx_hal_adc_ex.h"
+
+1439398509 c:\users\sobarka\desktop\baremetal\adc_driven_pwn\stm32f4xx_hal_driver\inc\stm32f4xx_hal_adc_ex.h
+	"stm32f4xx_hal_def.h"
+
+1438590577 c:\users\sobarka\desktop\baremetal\adc_driven_pwn\stm32f4xx_hal_driver\inc\stm32f4xx_hal_can.h
+	"stm32f4xx_hal_def.h"
+
+1438590577 c:\users\sobarka\desktop\baremetal\adc_driven_pwn\stm32f4xx_hal_driver\inc\stm32f4xx_hal_crc.h
+	"stm32f4xx_hal_def.h"
+
+1438590577 c:\users\sobarka\desktop\baremetal\adc_driven_pwn\stm32f4xx_hal_driver\inc\stm32f4xx_hal_cryp.h
+	"stm32f4xx_hal_def.h"
+	"stm32f4xx_hal_cryp_ex.h"
+
+1438590573 c:\users\sobarka\desktop\baremetal\adc_driven_pwn\stm32f4xx_hal_driver\inc\stm32f4xx_hal_cryp_ex.h
+	"stm32f4xx_hal_def.h"
+
+1438590573 c:\users\sobarka\desktop\baremetal\adc_driven_pwn\stm32f4xx_hal_driver\inc\stm32f4xx_hal_dma2d.h
+	"stm32f4xx_hal_def.h"
+
+1438590577 c:\users\sobarka\desktop\baremetal\adc_driven_pwn\stm32f4xx_hal_driver\inc\stm32f4xx_hal_dac.h
+	"stm32f4xx_hal_def.h"
+	"stm32f4xx_hal_dac_ex.h"
+
+1438590577 c:\users\sobarka\desktop\baremetal\adc_driven_pwn\stm32f4xx_hal_driver\inc\stm32f4xx_hal_dac_ex.h
+	"stm32f4xx_hal_def.h"
+
+1438590573 c:\users\sobarka\desktop\baremetal\adc_driven_pwn\stm32f4xx_hal_driver\inc\stm32f4xx_hal_dcmi.h
+	"stm32f4xx_hal_def.h"
+	"stm32f4xx_hal_dcmi_ex.h"
+
+1438697982 c:\users\sobarka\desktop\baremetal\adc_driven_pwn\stm32f4xx_hal_driver\inc\stm32f4xx_hal_dcmi_ex.h
+	"stm32f4xx_hal_def.h"
+
+1438590577 c:\users\sobarka\desktop\baremetal\adc_driven_pwn\stm32f4xx_hal_driver\inc\stm32f4xx_hal_eth.h
+	"stm32f4xx_hal_def.h"
+
+1438590573 c:\users\sobarka\desktop\baremetal\adc_driven_pwn\stm32f4xx_hal_driver\inc\stm32f4xx_hal_flash.h
+	"stm32f4xx_hal_def.h"
+	"stm32f4xx_hal_flash_ex.h"
+	"stm32f4xx_hal_flash_ramfunc.h"
+
+1438590577 c:\users\sobarka\desktop\baremetal\adc_driven_pwn\stm32f4xx_hal_driver\inc\stm32f4xx_hal_flash_ex.h
+	"stm32f4xx_hal_def.h"
+
+1438590573 c:\users\sobarka\desktop\baremetal\adc_driven_pwn\stm32f4xx_hal_driver\inc\stm32f4xx_hal_flash_ramfunc.h
+	"stm32f4xx_hal_def.h"
+
+1438590573 c:\users\sobarka\desktop\baremetal\adc_driven_pwn\stm32f4xx_hal_driver\inc\stm32f4xx_hal_sram.h
+	"stm32f4xx_ll_fsmc.h"
+	"stm32f4xx_ll_fmc.h"
+
+1438590577 c:\users\sobarka\desktop\baremetal\adc_driven_pwn\stm32f4xx_hal_driver\inc\stm32f4xx_ll_fsmc.h
+	"stm32f4xx_hal_def.h"
+
+1438590573 c:\users\sobarka\desktop\baremetal\adc_driven_pwn\stm32f4xx_hal_driver\inc\stm32f4xx_ll_fmc.h
+	"stm32f4xx_hal_def.h"
+
+1438590573 c:\users\sobarka\desktop\baremetal\adc_driven_pwn\stm32f4xx_hal_driver\inc\stm32f4xx_hal_nor.h
+	"stm32f4xx_ll_fsmc.h"
+	"stm32f4xx_ll_fmc.h"
+
+1438590577 c:\users\sobarka\desktop\baremetal\adc_driven_pwn\stm32f4xx_hal_driver\inc\stm32f4xx_hal_nand.h
+	"stm32f4xx_ll_fsmc.h"
+	"stm32f4xx_ll_fmc.h"
+
+1438590577 c:\users\sobarka\desktop\baremetal\adc_driven_pwn\stm32f4xx_hal_driver\inc\stm32f4xx_hal_pccard.h
+	"stm32f4xx_ll_fsmc.h"
+	"stm32f4xx_ll_fmc.h"
+
+1438590577 c:\users\sobarka\desktop\baremetal\adc_driven_pwn\stm32f4xx_hal_driver\inc\stm32f4xx_hal_sdram.h
+	"stm32f4xx_ll_fmc.h"
+
+1438590573 c:\users\sobarka\desktop\baremetal\adc_driven_pwn\stm32f4xx_hal_driver\inc\stm32f4xx_hal_hash.h
+	"stm32f4xx_hal_def.h"
+	"stm32f4xx_hal_hash_ex.h"
+
+1438590573 c:\users\sobarka\desktop\baremetal\adc_driven_pwn\stm32f4xx_hal_driver\inc\stm32f4xx_hal_hash_ex.h
+	"stm32f4xx_hal_def.h"
+
+1438590573 c:\users\sobarka\desktop\baremetal\adc_driven_pwn\stm32f4xx_hal_driver\inc\stm32f4xx_hal_i2c.h
+	"stm32f4xx_hal_def.h"
+	"stm32f4xx_hal_i2c_ex.h"
+
+1438590577 c:\users\sobarka\desktop\baremetal\adc_driven_pwn\stm32f4xx_hal_driver\inc\stm32f4xx_hal_i2c_ex.h
+	"stm32f4xx_hal_def.h"
+
+1438590573 c:\users\sobarka\desktop\baremetal\adc_driven_pwn\stm32f4xx_hal_driver\inc\stm32f4xx_hal_i2s.h
+	"stm32f4xx_hal_def.h"
+	"stm32f4xx_hal_i2s_ex.h"
+
+1438590573 c:\users\sobarka\desktop\baremetal\adc_driven_pwn\stm32f4xx_hal_driver\inc\stm32f4xx_hal_i2s_ex.h
+	"stm32f4xx_hal_def.h"
+
+1438590577 c:\users\sobarka\desktop\baremetal\adc_driven_pwn\stm32f4xx_hal_driver\inc\stm32f4xx_hal_iwdg.h
+	"stm32f4xx_hal_def.h"
+
+1438590573 c:\users\sobarka\desktop\baremetal\adc_driven_pwn\stm32f4xx_hal_driver\inc\stm32f4xx_hal_ltdc.h
+	"stm32f4xx_hal_def.h"
+	"stm32f4xx_hal_ltdc_ex.h"
+
+1438697982 c:\users\sobarka\desktop\baremetal\adc_driven_pwn\stm32f4xx_hal_driver\inc\stm32f4xx_hal_ltdc_ex.h
+	"stm32f4xx_hal_def.h"
+	"stm32f4xx_hal_dsi.h"
+
+1438697982 c:\users\sobarka\desktop\baremetal\adc_driven_pwn\stm32f4xx_hal_driver\inc\stm32f4xx_hal_dsi.h
+	"stm32f4xx_hal_def.h"
+
+1438590573 c:\users\sobarka\desktop\baremetal\adc_driven_pwn\stm32f4xx_hal_driver\inc\stm32f4xx_hal_pwr.h
+	"stm32f4xx_hal_def.h"
+	"stm32f4xx_hal_pwr_ex.h"
+
+1438590573 c:\users\sobarka\desktop\baremetal\adc_driven_pwn\stm32f4xx_hal_driver\inc\stm32f4xx_hal_pwr_ex.h
+	"stm32f4xx_hal_def.h"
+
+1438590577 c:\users\sobarka\desktop\baremetal\adc_driven_pwn\stm32f4xx_hal_driver\inc\stm32f4xx_hal_rng.h
+	"stm32f4xx_hal_def.h"
+
+1438590573 c:\users\sobarka\desktop\baremetal\adc_driven_pwn\stm32f4xx_hal_driver\inc\stm32f4xx_hal_rtc.h
+	"stm32f4xx_hal_def.h"
+	"stm32f4xx_hal_rtc_ex.h"
+
+1438590573 c:\users\sobarka\desktop\baremetal\adc_driven_pwn\stm32f4xx_hal_driver\inc\stm32f4xx_hal_rtc_ex.h
+	"stm32f4xx_hal_def.h"
+
+1438590573 c:\users\sobarka\desktop\baremetal\adc_driven_pwn\stm32f4xx_hal_driver\inc\stm32f4xx_hal_sai.h
+	"stm32f4xx_hal_def.h"
+	"stm32f4xx_hal_sai_ex.h"
+
+1438590577 c:\users\sobarka\desktop\baremetal\adc_driven_pwn\stm32f4xx_hal_driver\inc\stm32f4xx_hal_sai_ex.h
+	"stm32f4xx_hal_def.h"
+
+1438590573 c:\users\sobarka\desktop\baremetal\adc_driven_pwn\stm32f4xx_hal_driver\inc\stm32f4xx_hal_sd.h
+	"stm32f4xx_ll_sdmmc.h"
+
+1438590577 c:\users\sobarka\desktop\baremetal\adc_driven_pwn\stm32f4xx_hal_driver\inc\stm32f4xx_ll_sdmmc.h
+	"stm32f4xx_hal_def.h"
+
+1438590573 c:\users\sobarka\desktop\baremetal\adc_driven_pwn\stm32f4xx_hal_driver\inc\stm32f4xx_hal_spi.h
+	"stm32f4xx_hal_def.h"
+
+1445210900 c:\users\sobarka\desktop\baremetal\adc_driven_pwn\stm32f4xx_hal_driver\inc\stm32f4xx_hal_tim.h
+	"stm32f4xx_hal_def.h"
+	"stm32f4xx_hal_tim_ex.h"
+
+1438590577 c:\users\sobarka\desktop\baremetal\adc_driven_pwn\stm32f4xx_hal_driver\inc\stm32f4xx_hal_tim_ex.h
+	"stm32f4xx_hal_def.h"
+
+1438590577 c:\users\sobarka\desktop\baremetal\adc_driven_pwn\stm32f4xx_hal_driver\inc\stm32f4xx_hal_uart.h
+	"stm32f4xx_hal_def.h"
+
+1438590573 c:\users\sobarka\desktop\baremetal\adc_driven_pwn\stm32f4xx_hal_driver\inc\stm32f4xx_hal_usart.h
+	"stm32f4xx_hal_def.h"
+
+1438590577 c:\users\sobarka\desktop\baremetal\adc_driven_pwn\stm32f4xx_hal_driver\inc\stm32f4xx_hal_irda.h
+	"stm32f4xx_hal_def.h"
+
+1438590577 c:\users\sobarka\desktop\baremetal\adc_driven_pwn\stm32f4xx_hal_driver\inc\stm32f4xx_hal_smartcard.h
+	"stm32f4xx_hal_def.h"
+
+1438590573 c:\users\sobarka\desktop\baremetal\adc_driven_pwn\stm32f4xx_hal_driver\inc\stm32f4xx_hal_wwdg.h
+	"stm32f4xx_hal_def.h"
+
+1438697982 c:\users\sobarka\desktop\baremetal\adc_driven_pwn\stm32f4xx_hal_driver\inc\stm32f4xx_hal_pcd.h
+	"stm32f4xx_ll_usb.h"
+	"stm32f4xx_hal_pcd_ex.h"
+
+1438590573 c:\users\sobarka\desktop\baremetal\adc_driven_pwn\stm32f4xx_hal_driver\inc\stm32f4xx_ll_usb.h
+	"stm32f4xx_hal_def.h"
+
+1438697982 c:\users\sobarka\desktop\baremetal\adc_driven_pwn\stm32f4xx_hal_driver\inc\stm32f4xx_hal_pcd_ex.h
+	"stm32f4xx_hal_def.h"
+
+1438697982 c:\users\sobarka\desktop\baremetal\adc_driven_pwn\stm32f4xx_hal_driver\inc\stm32f4xx_hal_hcd.h
+	"stm32f4xx_ll_usb.h"
+
+1438590563 source:c:\users\sobarka\desktop\baremetal\adc_driven_pwn\stm32f4xx_hal_driver\src\stm32f4xx_hal.c
+	"stm32f4xx_hal.h"
+
+1439398509 source:c:\users\sobarka\desktop\baremetal\adc_driven_pwn\stm32f4xx_hal_driver\src\stm32f4xx_hal_adc.c
+	"stm32f4xx_hal.h"
+
+1439398509 source:c:\users\sobarka\desktop\baremetal\adc_driven_pwn\stm32f4xx_hal_driver\src\stm32f4xx_hal_adc_ex.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\users\sobarka\desktop\baremetal\adc_driven_pwn\stm32f4xx_hal_driver\src\stm32f4xx_hal_can.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\users\sobarka\desktop\baremetal\adc_driven_pwn\stm32f4xx_hal_driver\src\stm32f4xx_hal_cec.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\users\sobarka\desktop\baremetal\adc_driven_pwn\stm32f4xx_hal_driver\src\stm32f4xx_hal_cortex.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\users\sobarka\desktop\baremetal\adc_driven_pwn\stm32f4xx_hal_driver\src\stm32f4xx_hal_crc.c
+	"stm32f4xx_hal.h"
+
+1438590573 source:c:\users\sobarka\desktop\baremetal\adc_driven_pwn\stm32f4xx_hal_driver\src\stm32f4xx_hal_cryp.c
+	"stm32f4xx_hal.h"
+
+1438590573 source:c:\users\sobarka\desktop\baremetal\adc_driven_pwn\stm32f4xx_hal_driver\src\stm32f4xx_hal_cryp_ex.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\users\sobarka\desktop\baremetal\adc_driven_pwn\stm32f4xx_hal_driver\src\stm32f4xx_hal_dac.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\users\sobarka\desktop\baremetal\adc_driven_pwn\stm32f4xx_hal_driver\src\stm32f4xx_hal_dac_ex.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\users\sobarka\desktop\baremetal\adc_driven_pwn\stm32f4xx_hal_driver\src\stm32f4xx_hal_dcmi.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\users\sobarka\desktop\baremetal\adc_driven_pwn\stm32f4xx_hal_driver\src\stm32f4xx_hal_dcmi_ex.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\users\sobarka\desktop\baremetal\adc_driven_pwn\stm32f4xx_hal_driver\src\stm32f4xx_hal_dma.c
+	"stm32f4xx_hal.h"
+
+1438590573 source:c:\users\sobarka\desktop\baremetal\adc_driven_pwn\stm32f4xx_hal_driver\src\stm32f4xx_hal_dma2d.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\users\sobarka\desktop\baremetal\adc_driven_pwn\stm32f4xx_hal_driver\src\stm32f4xx_hal_dma_ex.c
+	"stm32f4xx_hal.h"
+
+1438697982 source:c:\users\sobarka\desktop\baremetal\adc_driven_pwn\stm32f4xx_hal_driver\src\stm32f4xx_hal_dsi.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\users\sobarka\desktop\baremetal\adc_driven_pwn\stm32f4xx_hal_driver\src\stm32f4xx_hal_eth.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\users\sobarka\desktop\baremetal\adc_driven_pwn\stm32f4xx_hal_driver\src\stm32f4xx_hal_flash.c
+	"stm32f4xx_hal.h"
+
+1438590573 source:c:\users\sobarka\desktop\baremetal\adc_driven_pwn\stm32f4xx_hal_driver\src\stm32f4xx_hal_flash_ex.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\users\sobarka\desktop\baremetal\adc_driven_pwn\stm32f4xx_hal_driver\src\stm32f4xx_hal_flash_ramfunc.c
+	"stm32f4xx_hal.h"
+
+1438590573 source:c:\users\sobarka\desktop\baremetal\adc_driven_pwn\stm32f4xx_hal_driver\src\stm32f4xx_hal_fmpi2c.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\users\sobarka\desktop\baremetal\adc_driven_pwn\stm32f4xx_hal_driver\src\stm32f4xx_hal_fmpi2c_ex.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\users\sobarka\desktop\baremetal\adc_driven_pwn\stm32f4xx_hal_driver\src\stm32f4xx_hal_gpio.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\users\sobarka\desktop\baremetal\adc_driven_pwn\stm32f4xx_hal_driver\src\stm32f4xx_hal_hash.c
+	"stm32f4xx_hal.h"
+
+1438590573 source:c:\users\sobarka\desktop\baremetal\adc_driven_pwn\stm32f4xx_hal_driver\src\stm32f4xx_hal_hash_ex.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\users\sobarka\desktop\baremetal\adc_driven_pwn\stm32f4xx_hal_driver\src\stm32f4xx_hal_hcd.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\users\sobarka\desktop\baremetal\adc_driven_pwn\stm32f4xx_hal_driver\src\stm32f4xx_hal_i2c.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\users\sobarka\desktop\baremetal\adc_driven_pwn\stm32f4xx_hal_driver\src\stm32f4xx_hal_i2c_ex.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\users\sobarka\desktop\baremetal\adc_driven_pwn\stm32f4xx_hal_driver\src\stm32f4xx_hal_i2s.c
+	"stm32f4xx_hal.h"
+
+1438697982 source:c:\users\sobarka\desktop\baremetal\adc_driven_pwn\stm32f4xx_hal_driver\src\stm32f4xx_hal_i2s_ex.c
+	"stm32f4xx_hal.h"
+
+1438590573 source:c:\users\sobarka\desktop\baremetal\adc_driven_pwn\stm32f4xx_hal_driver\src\stm32f4xx_hal_irda.c
+	"stm32f4xx_hal.h"
+
+1438590573 source:c:\users\sobarka\desktop\baremetal\adc_driven_pwn\stm32f4xx_hal_driver\src\stm32f4xx_hal_iwdg.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\users\sobarka\desktop\baremetal\adc_driven_pwn\stm32f4xx_hal_driver\src\stm32f4xx_hal_lptim.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\users\sobarka\desktop\baremetal\adc_driven_pwn\stm32f4xx_hal_driver\src\stm32f4xx_hal_ltdc.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\users\sobarka\desktop\baremetal\adc_driven_pwn\stm32f4xx_hal_driver\src\stm32f4xx_hal_ltdc_ex.c
+	"stm32f4xx_hal.h"
+
+1438590573 source:c:\users\sobarka\desktop\baremetal\adc_driven_pwn\stm32f4xx_hal_driver\src\stm32f4xx_hal_msp_template.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\users\sobarka\desktop\baremetal\adc_driven_pwn\stm32f4xx_hal_driver\src\stm32f4xx_hal_nand.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\users\sobarka\desktop\baremetal\adc_driven_pwn\stm32f4xx_hal_driver\src\stm32f4xx_hal_nor.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\users\sobarka\desktop\baremetal\adc_driven_pwn\stm32f4xx_hal_driver\src\stm32f4xx_hal_pccard.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\users\sobarka\desktop\baremetal\adc_driven_pwn\stm32f4xx_hal_driver\src\stm32f4xx_hal_pcd.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\users\sobarka\desktop\baremetal\adc_driven_pwn\stm32f4xx_hal_driver\src\stm32f4xx_hal_pcd_ex.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\users\sobarka\desktop\baremetal\adc_driven_pwn\stm32f4xx_hal_driver\src\stm32f4xx_hal_pwr.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\users\sobarka\desktop\baremetal\adc_driven_pwn\stm32f4xx_hal_driver\src\stm32f4xx_hal_pwr_ex.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\users\sobarka\desktop\baremetal\adc_driven_pwn\stm32f4xx_hal_driver\src\stm32f4xx_hal_qspi.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\users\sobarka\desktop\baremetal\adc_driven_pwn\stm32f4xx_hal_driver\src\stm32f4xx_hal_rcc.c
+	"stm32f4xx_hal.h"
+
+1440065587 source:c:\users\sobarka\desktop\baremetal\adc_driven_pwn\stm32f4xx_hal_driver\src\stm32f4xx_hal_rcc_ex.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\users\sobarka\desktop\baremetal\adc_driven_pwn\stm32f4xx_hal_driver\src\stm32f4xx_hal_rng.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\users\sobarka\desktop\baremetal\adc_driven_pwn\stm32f4xx_hal_driver\src\stm32f4xx_hal_rtc.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\users\sobarka\desktop\baremetal\adc_driven_pwn\stm32f4xx_hal_driver\src\stm32f4xx_hal_rtc_ex.c
+	"stm32f4xx_hal.h"
+
+1438590573 source:c:\users\sobarka\desktop\baremetal\adc_driven_pwn\stm32f4xx_hal_driver\src\stm32f4xx_hal_sai.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\users\sobarka\desktop\baremetal\adc_driven_pwn\stm32f4xx_hal_driver\src\stm32f4xx_hal_sai_ex.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\users\sobarka\desktop\baremetal\adc_driven_pwn\stm32f4xx_hal_driver\src\stm32f4xx_hal_sd.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\users\sobarka\desktop\baremetal\adc_driven_pwn\stm32f4xx_hal_driver\src\stm32f4xx_hal_sdram.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\users\sobarka\desktop\baremetal\adc_driven_pwn\stm32f4xx_hal_driver\src\stm32f4xx_hal_smartcard.c
+	"stm32f4xx_hal.h"
+
+1438590573 source:c:\users\sobarka\desktop\baremetal\adc_driven_pwn\stm32f4xx_hal_driver\src\stm32f4xx_hal_spdifrx.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\users\sobarka\desktop\baremetal\adc_driven_pwn\stm32f4xx_hal_driver\src\stm32f4xx_hal_spi.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\users\sobarka\desktop\baremetal\adc_driven_pwn\stm32f4xx_hal_driver\src\stm32f4xx_hal_sram.c
+	"stm32f4xx_hal.h"
+
+1445210706 source:c:\users\sobarka\desktop\baremetal\adc_driven_pwn\stm32f4xx_hal_driver\src\stm32f4xx_hal_tim.c
+	"stm32f4xx_hal.h"
+
+1438590573 source:c:\users\sobarka\desktop\baremetal\adc_driven_pwn\stm32f4xx_hal_driver\src\stm32f4xx_hal_tim_ex.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\users\sobarka\desktop\baremetal\adc_driven_pwn\stm32f4xx_hal_driver\src\stm32f4xx_hal_uart.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\users\sobarka\desktop\baremetal\adc_driven_pwn\stm32f4xx_hal_driver\src\stm32f4xx_hal_usart.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\users\sobarka\desktop\baremetal\adc_driven_pwn\stm32f4xx_hal_driver\src\stm32f4xx_hal_wwdg.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\users\sobarka\desktop\baremetal\adc_driven_pwn\stm32f4xx_hal_driver\src\stm32f4xx_ll_fmc.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\users\sobarka\desktop\baremetal\adc_driven_pwn\stm32f4xx_hal_driver\src\stm32f4xx_ll_fsmc.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\users\sobarka\desktop\baremetal\adc_driven_pwn\stm32f4xx_hal_driver\src\stm32f4xx_ll_sdmmc.c
+	"stm32f4xx_hal.h"
+
+1438590563 source:c:\users\sobarka\desktop\baremetal\adc_driven_pwn\stm32f4xx_hal_driver\src\stm32f4xx_ll_usb.c
+	"stm32f4xx_hal.h"
+
+1445368013 source:c:\users\sobarka\desktop\baremetal\adc_driven_pwn\src\main.c
+	"main.h"
+	"stm32f4xx_hal_tim.h"
+
+1445362261 c:\users\sobarka\desktop\baremetal\adc_driven_pwn\inc\main.h
+	"stm32f4xx_hal.h"
+	"stm32f4xx_nucleo.h"
+
+1444635224 source:c:\users\sobarka\desktop\baremetal\adc_driven_pwn\src\startup_stm32f4xx.s
+
+1445362008 source:c:\users\sobarka\desktop\baremetal\adc_driven_pwn\src\stm32f4xx_hal_msp.c
+	"main.h"
+
+1445365664 source:c:\users\sobarka\desktop\baremetal\adc_driven_pwn\src\stm32f4xx_it.c
+	"main.h"
+	"stm32f4xx_it.h"
+
+1436877833 c:\users\sobarka\desktop\baremetal\adc_driven_pwn\inc\stm32f4xx_it.h
+	"main.h"
+
+1445205849 source:c:\users\sobarka\desktop\baremetal\adc_driven_pwn\src\system_stm32f4xx.c
+	"stm32f4xx.h"
+

@@ -4,7 +4,10 @@
     using System.Net;
 
     public class ContentActionResult : IActionResult
-    {
+    {        
+        protected const string AccessAllowOriginMessage = "Access-Control-Allow-Origin";
+        protected const string CacheControlMessage = "Cache-Control";
+        protected const string ChacheControlAdditionalInfoMessage = "private, max-age=0, no-cache";
         private const string ContentType = "text/plain; charset=utf-8";
 
         private readonly object model;
