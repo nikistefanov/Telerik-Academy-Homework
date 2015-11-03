@@ -1,0 +1,584 @@
+﻿<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+    <link rel="stylesheet" href="/style/style.css">
+    <link rel="stylesheet" href="font-awesome-4.4.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+    <title>Софтуерна академия на Телерик (безплатни видео курсове и уроци) - Телерик Академия - Студентска система</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Telerik Academy Students Integrated Learning System" />
+    <meta name="keywords" content="Students Portal, Студентска система, Telerik Academy, Академия на Телерик" />
+    <meta name="robots" content="index, follow" />
+    <meta name="googlebot" content="index, follow" />
+    <meta name="revisit-After" content="1 day" />
+    <meta name="rating" content="general" />
+    <meta name="author" content="Telerik Academy" />
+    <link rel="stylesheet" href="style/style.css" />
+</head>
+<body>
+    <header id="MainHeader">
+        <div id="HeaderUserPanel" class="pull-right">
+            <div id="profile">
+                <a href="#"><i class="fa fa-user fa-lg"></i></a>
+                <a href="#"><span id="userName">Username</span></a>
+                <a href="#"><i class="fa fa-wrench fa-lg"></i></a>
+                <a href="#"><i class="fa fa-power-off fa-lg"></i></a>
+            </div>
+            <div id="last-checked">
+                <span>Last checked in:</span>
+                <strong id="time-of-last-check">08/07/2015 17:45</strong>
+            </div>
+        </div>
+    </header>
+    <nav id="navbar">
+        <a href="/" class="k-link"><span class="glyphicon glyphicon-home" title="Начало"></span></a>
+    </nav>
+    <div id="wrapperr">
+        <div id="accordion-resizer" class="ui-widget-content">
+            <div id="accordion">
+                <h3> <i class="fa fa-user fa-2x"></i> Моят профил</h3>
+                <span>
+                    <ul>
+                        <li>
+                            <button type="button" class="btn btn-info collapser">Mоите курсове</button>
+                            <ul class="inner-data hide-inner">
+                                <li><a href="#"><span class="glyphicon glyphicon-calendar" title="Курс"></span> UX дизайн 2015</a></li>
+                                <li><a href="#"><span class="glyphicon glyphicon-star" title="База-данни"></span> База данни</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#"><span class="glyphicon glyphicon-calendar" title="Календар"></span> Календар</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-star" title="Приятели"></span> Приятели</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-comment" title="Съобщения"></span> Съобщения</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-refresh" title="Отборна работа"></span> Отборна работа</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-saved" title="Оцени домашно"></span> Оцени домашно</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-cog" title="Настройки"></span> Настройки</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-off" title="Изход"></span> Изход</a></li>
+                    </ul>
+                </span>
+                <h3> <i class="fa fa-globe fa-2x"></i><span>TelerikAcademy</span></h3>
+                <span>
+                    <ul>
+                        <li><a href="/SoftwareAcademy/Candidate" rel="nofollow">Кандидатстване за академията</a></li>
+                        <li><a href="/SoftwareAcademy/Candidate/ExamDateSelect" rel="nofollow">Входен изпит</a></li>
+                        <li>
+                            <button type="button" class="btn btn-info collapser">Специалности</button>
+                            <ul class="inner-data hide-inner">
+                                <li><a href="/Courses/Tracks/telerik-academy-ninja-2014">Telerik Academy Ninja (2014)</a></li>
+                                <li><a href="/Courses/Tracks/csharp-software-developer">C# програмист</a></li>
+                                <li><a href="/Courses/Tracks/javascript-software-developer">JavaScript програмист</a></li>
+                                <li><a href="/Courses/Tracks/web-developer">Разработчик на уеб приложения</a></li>
+                                <li><a href="/Courses/Tracks/mobile-developer">Разработчик на мобилни приложения</a></li>
+                                <li><a href="/Courses/Tracks/front-end-developer-2015">Front-end разработчик (2015)</a></li>
+                                <li><a href="/Courses/Tracks/quality-assurance-engineer">QA инженер</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <button type="button" class="btn btn-info collapser">Архивни специалности</button>
+                            <ul class="inner-data hide-inner">
+                                <li><a href="/Courses/Tracks/ms.net-ninja-developer">.NET нинджа разработчик 2012/2013</a></li>
+                                <li><a href="/Courses/Tracks/csharp-software-developer">C# програмист 2012/2013</a></li>
+                                <li><a href="/Courses/Tracks/web-site-developer">Разработчик на уеб сайтове 2012/2013</a></li>
+                                <li><a href="/Courses/Tracks/front-end-web-developer">Front-end уеб разработчик 2012/2013</a></li>
+                                <li><a href="/Courses/Tracks/xaml-front-end-developer">XAML Front-end разработчик 2012/2013</a></li>
+                                <li><a href="/Courses/Tracks/server-side-developer">Разработчик на сървърни услуги 2012/2013</a></li>
+                                <li><a href="/Courses/Tracks/mobile-application-developer">Разработчик на мобилни приложения 2012/2013</a></li>
+                                <li><a href="/Courses/Tracks/asp-net-web-developer">ASP.NET уеб разработчик 2012/2013</a></li>
+                                <li><a href="/Courses/Tracks/windows-8-javascript-developer">Windows 8 JavaScript разработчик 2012/2013</a></li>
+                                <li><a href="/Courses/Tracks/windows-8-xaml-developer">Windows 8 XAML разработчик 2012/2013</a></li>
+                                <li><a href="/Courses/Tracks/javascript-developer">JavaScript програмист 2012/2013</a></li>
+                                <li><a href="/Courses/Tracks/system-administrator">Системен администратор</a></li>
+                                <li><a href="/Courses/Tracks/seo-expert">SEO експерт</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </span>
+                <h3> <li><i class="fa fa-laptop fa-2x"></i> Courses</h3>
+                <span>
+                    <ul>
+                        <li><a href="/Courses/Courses/Details/275">Web Services 2015</a></li>
+                        <li><a href="/Courses/Courses/Details/272">Data Structures and Algorithms 2015</a></li>
+                        <li><a href="/Courses/Courses/Details/261">Въведение в Java - част 1</a></li>
+                        <li><a href="/Courses/Courses/Details/260">Алгоритми върху символни низове (стрингове)</a></li>
+                        <li><a href="/Courses/Courses/Details/257">Бази данни 2015</a></li>
+                        <li><a href="/Courses/Courses/Details/262">UX дизайн 2015</a></li>
+                        <li>
+                            <button type="button" class="btn btn-info collapser">Kids Academy Курсове</button>
+                            <ul class="inner-data hide-inner">
+                                <li>
+                                    <a href="/Courses/Courses/Details/278">Алгоритмично Програмиране второ ниво - Венелин Николов</a>
+                                </li>
+                                <li>
+                                    <a href="/Courses/Courses/Details/277">Алгоритмично Програмиране първо ниво - Венелин Николов</a>
+                                </li>
+                                <li>
+                                    <a href="/Courses/Courses/Details/274">Алгоритмично Програмиране трето ниво - Атанаска Мишонова</a>
+                                </li>
+                                <li>
+                                    <a href="/Courses/Courses/Details/273">Алгоритмично Програмиране първо ниво - Атанаска Мишонова</a>
+                                </li>
+                                <li>
+                                    <a href="/Courses/Courses/Details/271">Алгоритмично Програмиране второ ниво - Димитър Стефанов</a>
+                                </li>
+                                <li>
+                                    <a href="/Courses/Courses/Details/270">Алгоритмично Програмиране второ ниво - Петя Христова</a>
+                                </li>
+                                <li>
+                                    <a href="/Courses/Courses/Details/269">Алгоритмично Програмиране първо ниво - Петя Христова</a>
+                                </li>
+                                <li>
+                                    <a href="/Courses/Courses/Details/268">Разработка на игри второ ниво - Явор Никифоров</a>
+                                </li>
+                                <li>
+                                    <a href="/Courses/Courses/Details/267">Алгоритмично Програмиране второ ниво - Явор Никифоров</a>
+                                </li>
+                                <li>
+                                    <a href="/Courses/Courses/Details/266">Алгоритмично Програмиране второ ниво - Евгений Василев</a>
+                                </li>
+                                <li>
+                                    <a href="/Courses/Courses/Details/264">Алгоритмично Програмиране първо ниво - Евгений Василев</a>
+                                </li>
+                                <li>
+                                    <a href="/Courses/Courses/Details/263">Разработка на игри първо ниво - Явор Никифоров</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </span>
+                <h3> <i class="fa fa-archive fa-2x"></i> Archive</h3>
+                <span>
+                    <ul>
+                        <li>
+                            <button type="button" class="btn btn-info collapser">Програмиране</button>
+                            <ul class="inner-data hide-inner">
+                                <li>
+                                    <button type="button" class="btn btn-info collapser">Програмиране 2012/2013</button>
+                                    <ul class="inner-data hide-inner">
+                                        <li><a href="/Courses/Courses/Details/1">C# Част 1 - декември 2012</a></li>
+                                        <li><a href="/Courses/Courses/Details/20">C# Част 2 - февруари 2013</a></li>
+                                        <li><a href="/Courses/Courses/Details/29">ООП - март 2013</a></li>
+                                        <li><a href="/Courses/Courses/Details/40">Качествен програмен код - април 2013</a></li>
+                                        <li><a href="/Courses/Courses/Details/89">Структури данни и алгоритми - юни 2013</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <button type="button" class="btn btn-info collapser">Програмиране 2013 пролет</button>
+                                    <ul class="inner-data hide-inner">
+                                        <li><a href="/Courses/Courses/Details/81">C# част I - пролет 2013</a></li>
+                                        <li><a href="/Courses/Courses/Details/97">C# част II - лято 2013</a></li>
+                                        <li><a href="/Courses/Courses/Details/114">ООП - пролетна академия 2013</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <button type="button" class="btn btn-info collapser">Програмиране 2013/2014</button>
+                                    <ul class="inner-data hide-inner">
+                                        <li><a href="/Courses/Courses/Details/144">C#  част 1 - октомври 2013 </a></li>
+                                        <li><a href="/Courses/Courses/Details/151">C# част 2 - декември 2013</a></li>
+                                        <li><a href="/Courses/Courses/Details/159">ООП - февруари 2014</a></li>
+                                        <li><a href="/Courses/Courses/Details/174">Качествен програмен код - април 2014</a></li>
+                                        <li><a href="/Courses/Courses/Details/186">Структури данни и алгоритми - август 2014</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <button type="button" class="btn btn-info collapser">Програмиране 2015</button>
+                                    <ul class="inner-data hide-inner">
+                                        <li><a href="/Courses/Courses/Details/212">C# програмиране - част 1</a></li>
+                                        <li><a href="/Courses/Courses/Details/219">C# програмиране - част II</a></li>
+                                        <li><a href="/Courses/Courses/Details/225">Обектно-ориентирано програмиране 2015</a></li>
+                                        <li><a href="/Courses/Courses/Details/244">Качествен програмен код 2015</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <button type="button" class="btn btn-info collapser">Софтуерни технологии</button>
+                            <ul class="inner-data hide-inner">
+                                <li>
+                                    <button class="collapser">Софтуерни технологии 2013</button>
+                                    <ul class="inner-data hide-inner">
+                                        <li><a href="/Courses/Courses/Details/98">Бази данни - юли 2013</a></li>
+                                        <li><a href="/Courses/Courses/Details/106">Уеб услуги и cloud - август 2013</a></li>
+                                        <li><a href="/Courses/Courses/Details/110">JavaScript библиотеки - август 2013</a></li>
+                                        <li><a href="/Courses/Courses/Details/93">Windows 8 Store приложения с JavaScript - август 2013</a></li>
+                                        <li><a href="/Courses/Courses/Details/111">Десктоп приложения със XAML и WPF - септември 2013</a></li>
+                                        <li><a href="/Courses/Courses/Details/113">ASP.NET Web Forms - септември 2013</a></li>
+                                        <li><a href="/Courses/Courses/Details/88">Windows 8 Store приложения със XAML - септември 2013</a></li>
+                                        <li><a href="/Courses/Courses/Details/112">ASP.NET MVC - септември 2013</a></li>
+                                        <li><a href="/Courses/Courses/Details/117">Хибридни мобилни приложения - октомври 2013</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    Осигуряване на качеството 2013
+
+                                    <ul>
+                                        <li><a href="/Courses/Courses/Details/47">Software Quality Assurance - Part I - 2013</a></li>
+                                        <li><a href="/Courses/Courses/Details/95">Software Quality Assurance - Part II - 2013</a></li>
+                                        <li><a href="/Courses/Courses/Details/103">Software Quality Assurance - Part III - 2013</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    Осигуряване на качеството 2014
+
+                                    <ul>
+                                        <li><a href="/Courses/Courses/Details/183">Software Quality Assurance - Part I - 2014</a></li>
+                                        <li><a href="/Courses/Courses/Details/196">Software Quality Assurance - Part II - 2014</a></li>
+                                        <li><a href="/Courses/Courses/Details/201">Software Quality Assurance - Part III - 2014</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    Софтуерни технологии 2014
+
+                                    <ul>
+                                        <li><a href="/Courses/Courses/Details/185">Бази данни - август 2014</a></li>
+                                        <li><a href="/Courses/Courses/Details/187">Уеб услуги и cloud - септември 2014</a></li>
+                                        <li><a href="/Courses/Courses/Details/189">Single-page приложения с JavaScript</a></li>
+                                        <li><a href="/Courses/Courses/Details/190">Хибридни мобилни приложения - септември 2014</a></li>
+                                        <li><a href="/Courses/Courses/Details/192">End-to-End JavaScript Applications</a></li>
+                                        <li><a href="/Courses/Courses/Details/193">Мобилни приложения с Android</a></li>
+                                        <li><a href="/Courses/Courses/Details/197">ASP.NET Web Forms 2014</a></li>
+                                        <li><a href="/Courses/Courses/Details/198">Мобилни приложения за iPhone и iPad</a></li>
+                                        <li><a href="/Courses/Courses/Details/200">Уеб приложения с ASP.NET MVC</a></li>
+                                        <li><a href="/Courses/Courses/Details/202">Windows Phone и Windows Store приложения</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    Софтуерни технологии 2015
+
+                                </li>
+                            </ul>
+
+                        </li>
+                        <li>
+                            <button type="button" class="btn btn-info collapser">Уеб дизайн и UI технологии</button>
+                            <ul class="inner-data hide-inner">
+                                <li>
+                                    <button type="button" class="btn btn-info collapser">Уеб дизайн и UI технологии 2012/2013</button>
+                                    <ul class="inner-data hide-inner">
+                                        <li><a href="/Courses/Courses/Details/2">HTML основи - декември 2012</a></li>
+                                        <li><a href="/Courses/Courses/Details/16">CSS стилизиране - февруари 2013</a></li>
+                                        <li><a href="/Courses/Courses/Details/30">JavaScript част 1 - март 2013</a></li>
+                                        <li><a href="/Courses/Courses/Details/34">Рязане на сайтове - март 2013</a></li>
+                                        <li><a href="/Courses/Courses/Details/65">CMS системи 2013</a></li>
+                                        <li><a href="/Courses/Courses/Details/64">JavaScript част 2 - април 2013</a></li>
+                                        <li><a href="/Courses/Courses/Details/87">JavaScript приложения - юни 2013</a></li>
+                                        <li><a href="/Courses/Courses/Details/105">UX дизайн - септември 2013</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <button type="button" class="btn btn-info collapser">Уеб дизайн и UI технологии 2013/2014</button>
+                                    <ul class="inner-data hide-inner">
+                                        <li><a href="/Courses/Courses/Details/154">HTML основи - януари 2014</a></li>
+                                        <li><a href="/Courses/Courses/Details/155">CSS стилизиране - януари 2014</a></li>
+                                        <li><a href="/Courses/Courses/Details/165">HTML основи - март 2014</a></li>
+                                        <li><a href="/Courses/Courses/Details/166">CSS стилизиране - март 2014</a></li>
+                                        <li><a href="/Courses/Courses/Details/173">JavaScript основи - април 2014</a></li>
+                                        <li><a href="/Courses/Courses/Details/178">JavaScript UI &amp; DOM</a></li>
+                                        <li><a href="/Courses/Courses/Details/179">JavaScript ООП</a></li>
+                                        <li><a href="/Courses/Courses/Details/182">JavaScript приложения</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <button type="button" class="btn btn-info collapser">Уеб дизайн и UI технологии 2015</button>
+                                    <ul class="inner-data hide-inner">
+                                        <li><a href="/Courses/Courses/Details/230">HTML основи - април 2015</a></li>
+                                        <li><a href="/Courses/Courses/Details/231">CSS стилизиране - април-май 2015</a></li>
+                                        <li><a href="/Courses/Courses/Details/239">JavaScript - основи 2015</a></li>
+                                        <li><a href="/Courses/Courses/Details/245">JavaScript ООП 2015</a></li>
+                                        <li><a href="/Courses/Courses/Details/251">JavaScript UI и DOM</a></li>
+                                        <li><a href="/Courses/Courses/Details/254">JavaScript приложения 2015</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </span>
+                <h3> <i class="fa fa-align-left fa-2x"></i> Forum </h3>
+                <span>
+                    <ul>
+                        <li>
+                            <a href="/Forum/Category/14/important-announcements">Важни съобщения</a>
+                        </li>
+                        <li>
+                            <a href="/Forum/Category/10/telerik-software-academy">Софтуерна академия</a>
+                        </li>
+                        <li>
+                            <button type="button" class="btn btn-info collapser">C# Programming</button>
+                            <ul class="inner-data hide-inner">
+                                <li>
+                                    <a href="/Forum/Category/18/csharp-part-1">C# Part 1</a>
+                                </li>
+                                <li>
+                                    <a href="/Forum/Category/17/csharp-part-2">C# Part 2</a>
+                                </li>
+                                <li>
+                                    <a href="/Forum/Category/16/csharp-oop">C# OOP</a>
+                                </li>
+                                <li>
+                                    <a href="/Forum/Category/19/c#-qpc">Качествен Програмен Код</a>
+                                </li>
+                                <li>
+                                    <a href="/Forum/Category/15/data-structures-algorithms">Структури данни и алгоритми</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <button type="button" class="btn btn-info collapser">Уеб дизайн и UI технологии</button>
+                            <ul class="inner-data hide-inner">
+                                <li>
+                                    <a href="/Forum/Category/27/html-css">HTML/CSS</a>
+                                </li>
+                                <li>
+                                    <a href="/Forum/Category/25/javascript-part-1">JavaScript Fundamentals</a>
+                                </li>
+                                <li>
+                                    <a href="/Forum/Category/28/javascript-oop">JavaScript OOP</a>
+                                </li>
+                                <li>
+                                    <a href="/Forum/Category/24/javascript-part-2">JavaScript UI and DOM</a>
+                                </li>
+                                <li>
+                                    <a href="/Forum/Category/23/js-apps">JavaScript Applications</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <button type="button" class="btn btn-info collapser">Web Development</button>
+                            <ul class="inner-data hide-inner">
+                                <li>
+                                    <a href="/Forum/Category/57/databases">Databases</a>
+                                </li>
+                                <li>
+                                    <a href="/Forum/Category/58/web-services-and-cloud">Web services and cloud</a>
+                                </li>
+                                <li>
+                                    <a href="/Forum/Category/59/javascript-frameworks">SPA Applications</a>
+                                </li>
+                                <li>
+                                    <a href="/Forum/Category/60/end-to-end-javascript-applications">End-to-End JavaScript Applications</a>
+                                </li>
+                                <li>
+                                    <a href="/Forum/Category/56/asp-net-web-forms">ASP.NET Web Forms</a>
+                                </li>
+                                <li>
+                                    <a href="/Forum/Category/55/asp-net-mvc">ASP.NET MVC</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <button type="button" class="btn btn-info collapser">Mobile Development</button>
+                            <ul class="inner-data hide-inner">
+                                <li>
+                                    <a href="/Forum/Category/61/hybrid-mobile-apps">Hybrid Mobile Apps</a>
+                                </li>
+                                <li>
+                                    <a href="/Forum/Category/63/android-mobile-apps">Android Mobile Apps</a>
+                                </li>
+                                <li>
+                                    <a href="/Forum/Category/62/ios-mobile-apps">iOS Mobile Apps</a>
+                                </li>
+                                <li>
+                                    <a href="/Forum/Category/64/windows-mobile-apps">Windows Mobile Apps</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="/Forum/Category/13/qa-academy">QA академия</a>
+                        </li>
+                        <li>
+                            <a href="/Forum/Category/12/telerik-school-academy">School Academy</a>
+                        </li>
+                        <li>
+                            <a href="/Forum/Category/3/algo-academy">Algo Academy (C++)</a>
+                        </li>
+                        <li>
+                            <a href="/Forum/Category/11/kids-academy-programirane-za-deca">Kids Academy</a>
+                        </li>
+                        <li>
+                            <button type="button" class="btn btn-info collapser">Събития и конкурси</button>
+                            <ul class="inner-data hide-inner">
+                                <li>
+                                    <a href="/Forum/Category/67/telerik-academy-plus">Семинари Telerik Academy Plus</a>
+                                </li>
+                                <li>
+                                    <a href="/Forum/Category/34/international-space-apps-challenge">International Space Apps Challenge</a>
+                                </li>
+                                <li>
+                                    <a href="/Forum/Category/33/pc-magazine-and-telerik-contest">Конкурс по програмиране на PC Magazine и Telerik</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <button type="button" class="btn btn-info collapser">Външни курсове</button>
+                            <ul class="inner-data hide-inner">
+                                <li>
+                                    <a href="/Forum/Category/39/3ds-max-анимация">3ds Max анимация</a>
+                                </li>
+                                <li>
+                                    <a href="/Forum/Category/37/photoshop-course">Photoshop course</a>
+                                </li>
+                                <li>
+                                    <a href="/Forum/Category/38/уеб-видео-монтаж-и-пост-продукция">Уеб видео – монтаж и пост продукция</a>
+                                </li>
+                                <li>
+                                    <a href="/Forum/Category/41/operating-systems">Операционни системи</a>
+                                </li>
+                                <li>
+                                    <a href="/Forum/Category/45/linux-системна-администрация">Linux системна администрация</a>
+                                </li>
+                                <li>
+                                    <a href="/Forum/Category/42/бизнес-умения-за-софтуерни-инженери">Бизнес умения за софтуерни инженери</a>
+                                </li>
+                                <li>
+                                    <a href="/Forum/Category/43/google-adwords">Google AdWords</a>
+                                </li>
+                                <li>
+                                    <a href="/Forum/Category/44/здрави-и-активни">Здрави и активни</a>
+                                </li>
+                                <li>
+                                    <a href="/Forum/Category/46/здравословен-начин-на-живот">Здравословен начин на живот</a>
+                                </li>
+                                <li>
+                                    <a href="/Forum/Category/35/seo-course">SEO курс (2013)</a>
+                                </li>
+                                <li>
+                                    <a href="/Forum/Category/36/php-programming">PHP програмиране</a>
+                                </li>
+                                <li>
+                                    <a href="/Forum/Category/40/умения-за-работа-с-хора-изборен-курс">Умения за работа с хора (изборен курс)</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <button type="button" class="btn btn-info collapser">Други</button>
+                            <ul class="inner-data hide-inner">
+                                <li>
+                                    <a href="/Forum/Category/32/студентска-система">Студентска система</a>
+                                </li>
+                                <li>
+                                    <a href="/Forum/Category/66/bgcoder.com">BGCoder.com</a>
+                                </li>
+                                <li>
+                                    <a href="/Forum/Category/30/предложения">Предложения</a>
+                                </li>
+                                <li>
+                                    <a href="/Forum/Category/31/games">Игри</a>
+                                </li>
+                                <li>
+                                    <a href="/Forum/Category/29/book-programming-algorithms">Книга &quot;Програмиране =++ Алгоритми;&quot;</a>
+                                </li>
+                                <li>
+                                    <a href="/Forum/Category/68/spam">Spam</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <button type="button" class="btn btn-info collapser">Архив</button>
+                            <ul class="inner-data hide-inner">
+                                <li>
+                                    <a href="/Forum/Category/65/archive-courses-2013">Курсове 2013</a>
+                                    <ul>
+                                        <li>
+                                            <a href="/Forum/Category/54/xaml">XAML (2013)</a>
+                                        </li>
+                                        <li>
+                                            <a href="/Forum/Category/51/knowledge-sharing-and-team-working-2013">Споделяне на знания и работа в екип (2013)</a>
+                                        </li>
+                                        <li>
+                                            <a href="/Forum/Category/53/windows-8-apps-with-xaml-2013">Windows 8 Apps with XAML (2013)</a>
+                                        </li>
+                                        <li>
+                                            <a href="/Forum/Category/52/windows-8-apps-with-html-css-and-js-2013">Windows 8 with HTML, CSS and JS (2013)</a>
+                                        </li>
+                                        <li>
+                                            <a href="/Forum/Category/26/ux-дизайн">UX дизайн (2013)</a>
+                                        </li>
+                                        <li>
+                                            <a href="/Forum/Category/20/photoshop">Photoshop (2013)</a>
+                                        </li>
+                                        <li>
+                                            <a href="/Forum/Category/21/cms-systems">CMS системи (2013)</a>
+                                        </li>
+                                        <li>
+                                            <a href="/Forum/Category/22/slice-and-dice">Slice and Dice (2013)</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="/Forum/Category/48/high-quality-code-course-fmi">Качествен програмен код (ФМИ)</a>
+                                </li>
+                                <li>
+                                    <a href="/Forum/Category/47/software-development-in-the-cloud-fmi">Разработка на софтуер в cloud среда (ФМИ)</a>
+                                </li>
+                                <li>
+                                    <a href="/Forum/Category/50/software-engineering-basics-2012">Software Engineering Basics (2012)</a>
+                                </li>
+                                <li>
+                                    <a href="/Forum/Category/49/mobile-development-course-fmi">Разработка на мобилни приложения (ФМИ)</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </span>
+                <h3> <i class="fa fa-question fa-2x"></i>Help</h3>
+                <span>
+                    <ul>
+                        <li><a href="/FeedbackReport">Обратна връзка</a></li>
+                        <li><a href="http://downloads.academy.telerik.com/svn/public/AntiCheatClient/Telerik-Academy-AntiCheat.zip">AntiCheat приложение</a></li>
+                        <li><a href="https://github.com/TelerikAcademy/Common/raw/master/Telerik-Academy-TestSystem/Telerik-Academy-TestSystem.1.1.zip">Тестова система</a></li>
+                        <li><a href="/Pages/1/Как%20да%20кандидатствате%20за%20Софтуерната%20академия%20на%20Телерик">Как се кандидатства за Софтуерната академия?</a></li>
+                        <li><a href="/Pages/2/Как%20да%20запишете%20онлайн%20курс%20в%20Студентската%20система%20на%20Телерик">Как да запиша онлайн курс в студентската система?</a></li>
+                        <li><a href="/Pages/22/Как%20да%20изпратя%20домашно%20в%20студентската%20система%20на%20Telerik%20Academy?">Как да изпратя домашно в студентската система?</a></li>
+                        <li><a href="/Pages/21/Как%20да%20запишем%20група%20за%20курса,%20който%20сме%20си%20избрали?">Как да запишем група за курса, който сме си избрали?</a></li>
+                        <li><a href="/Pages/20/Как%20да%20запишем%20тест%20или%20практически%20изпит?">Как да запишем тест или практически изпит?</a></li>
+                        <li><a href="/Pages/23/Как да кандидатствате за сертификат?">Как да кандидатствате за сертификат?</a></li>
+                        <li><a href="http://telerikacademy.com/Files/22f12c2e-c836-4707-96c0-3ab0e3541a29.pdf" target="_blank">Условията и правилата за участие в Академията на Телерик</a></li>
+                        <li><a href="http://academy.telerik.com/" target="_blank">Уебсайт на академията</a></li>
+                        <li><a href="http://bgcoder.com/" target="_blank">BGCoder judge system</a></li>
+                        <li><a href="/Home/About">Информация за сайта</a></li>
+                    </ul>
+                </span>
+            </div>
+        </div>
+        <div id="content">
+            <h2>The content from the selected category goes here...ish! :)</h2>
+            <br />
+            <p>Полето last checked е много полезно за хората, които са присъствена форма на обучение, защото това се гледа всеки пък, когато посетим лекция. Пример: това поле може да бъде избрано да замени тези точки от един check box сложен в профила точно до сегащното поле, "Последно отчетено присъствие:".</p>
+            <br />
+            <p>По големи бутони за изход настройки и т.н., особено за мобилна верися и като казах мобилна версия - във форума по-добрият вариант е двете поленца за ".. гласа" и ".. отговора" е да са под заглавието на темата, а не както са сега над нея.</p>
+            <br />
+        </div>
+    </div>
+
+    <script>
+        $(function () {
+            var icons = {
+                header: "ui-icon-circle-arrow-e",
+                activeHeader: "ui-icon-circle-arrow-s"
+            };
+            $("#accordion").accordion({
+                heightStyle: "fill",
+                icons: icons
+            });
+            $("#toggle").button().click(function () {
+                if ($("#accordion").accordion("option", "icons")) {
+                    $("#accordion").accordion("option", "icons", null);
+                } else {
+                    $("#accordion").accordion("option", "icons", icons);
+                }
+            });
+        });
+        $('.collapser').on('click', function (ev) {
+            if ($('.inner-data').hasClass('hide-inner')) {
+                $('.inner-data').addClass('show-inner');
+                $('.inner-data').removeClass('hide-inner');
+            } else {
+                $('.inner-data').removeClass('show-inner');
+                $('.inner-data').addClass('hide-inner');
+            }
+        });
+    </script>
+</body>
+</html>

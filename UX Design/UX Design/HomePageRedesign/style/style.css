@@ -1,0 +1,140 @@
+body {
+    background-image: url("../images/backNav.jpg");
+}
+
+#wrapperr {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+}
+
+#content {
+    padding-left: 10%;
+    padding-right: 10%;
+    width: 80%;
+    z-index: 10;
+}
+
+header {
+}
+
+    header > img {
+        width: 50%;
+        height: 70px;
+    }
+
+    header > #profile-top-container {
+        display: inline-block;
+        width: 50%;
+        background-color: #71A427;
+        height: 70px;
+        float: right;
+    }
+
+#profile {
+    float: right;
+    height: 35px;
+    width: 60%;
+    display: block;
+    padding-right: 20px;
+}
+
+    #profile > a {
+        color: darkslategray;
+        text-decoration: none;
+        padding-left: 12%;
+        display: inline-block;
+        height: 50%;
+        font-size: 18px;
+    }
+
+        #profile > a:first-of-type {
+            padding-left: 0;
+        }
+
+        #profile > a > span {
+            display: inline-block;
+            padding-top: 5px;
+        }
+
+#last-checked {
+    float: right;
+    height: 50%;
+    width: 60%;
+}
+
+    #last-checked > a {
+        color: darkslategray;
+        text-decoration: none;
+        padding-left: 5%;
+        display: inline-block;
+        height: 35px;
+        font-size: 18px;
+    }
+
+        #last-checked > a:first-of-type {
+            padding-left: 0;
+        }
+
+
+main {
+    background-color: #F2F2F2;
+}
+
+#accordion-resizer {
+    position: relative;
+    width: 30%;
+    float: left;
+}
+
+.show-inner {
+    display: inline;
+}
+
+.hide-inner {
+    display: none;
+}
+
+.wrapperr {
+    float: left;
+}
+
+#content {
+    position: relative;
+    float: right;
+    width: 70%;
+    height: 645px;
+    background: white;
+}
+
+#MainHeader {
+    background: url('https://telerikacademy.com/Content/Images/Header.png') center center no-repeat #669933;
+    height: 65px;
+    position: relative;
+    display: block;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+.pull-right {
+    float: right !important;
+    margin-top: 2px;
+    margin-right: 5px;
+    text-align: right;
+}
+
+#navbar {
+    padding: .5em 1.1em .4em;    
+    background-color: black;
+}
+
+.k-link { 
+    font-size: 1.5em;
+    color: white;
+}
+
+.glyphicon {
+    padding: 10px;
+}
