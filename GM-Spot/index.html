@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Games and movies spot</title>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css"/>
+    <script src="//www.parsecdn.com/js/parse-1.6.12.min.js"></script>
+  </head>
+  <body>
+    <div id="wrapper" class="container">
+      <header id="header" class="row">
+        <div class="col-md-4">
+          <h1 id="logo">GM <span>Spot</span></h1>
+        </div>
+        <div class="col-md-8 user-nav">
+          <ul class="my-nav">
+            <li>
+              <i class="glyphicon glyphicon-lock"></i>
+              <a href="#">Login</a>
+            </li>
+            <li>
+              <i class="glyphicon glyphicon-user"></i>
+              <a href="#">Register</a></li>
+            <li>
+              <i class="glyphicon glyphicon-heart"></i>
+              <a href="#">Wishlist</a></li>
+            <li>
+              <i class="glyphicon glyphicon-shopping-cart"></i>
+              <a href="#">Basket</a>
+              <span class="badge">2</span>
+            </li>
+          </ul>
+        </div>
+      </header>
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand active" href="#/home">Home <span class="sr-only">(current)</span></a>
+          </div>
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <li><a href="#/games">Games</a></li>
+              <li><a href="#/movies">Movies</a></li>
+              <li><a href="#/books">Books</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="#">Separated link</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="#">One more separated link</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="navbar-form navbar-right" role="search">
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Search">
+              </div>
+              <button type="submit" class="btn btn-default">Submit</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <div id="carousel" class="row">
+        <div class="slide col-md-12"></div>
+      </div>
+      <div id="middle" class="row promo-gallery">
+        <section class="col-md-4">
+          <div>
+            <a href="#" class="btn btn-primary">Games</a>
+          </div>
+        </section>
+        <section class="col-md-4">
+          <a href="#" class="btn btn-primary">Movies</a>
+        </section>
+        <section class="col-md-4">
+          <a href="#" class="btn btn-primary">Books</a>
+        </section>
+      </div>
+      <hr>
+      <footer id="footer" class="row">
+        <div class="col-md-8">
+          <ul class="my-nav">
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Contacts</a></li>
+          </ul>
+        </div>
+        <p class="col-md-4 copy">&copy; Sports Planet</p>
+      </footer>
+      </div>
+    <div id="main"></div>
+    </div>
+<script src="bower_components/system.js/dist/system.js"></script>
+<script src="node_modules/babel-core/browser.js"></script>
+<script type="text/babel">
+    System.config({
+        baseURL: '/app',
+        transpiler: 'babel',
+        map: {
+            babel: '/node_modules/babel-core/browser.js',
+            sammy: '/bower_components/sammy/lib/sammy.js',
+            jquery: '/bower_components/jquery/dist/jquery.js',
+            bootstrapUI: '/bower_components/bootstrap/dist/js/bootstrap.js',
+            handlebars: '/bower_components/handlebars/handlebars.js'
+        }
+    });
+
+    System.import('app.js');
+</script>
+  </body>
+</html>
