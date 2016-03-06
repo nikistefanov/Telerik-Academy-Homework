@@ -1,16 +1,18 @@
 var eventLoader = (function() {
   function mainEvents($container) {
     $container.on('click', '#button-popup-open', function() {
-      $.get("templates/all-pages.html", function(data) {
-        helpingFunctions.getDataForPage('all-pages');
-      });
-      $(this).hide();
+      var dataName = $('.menu__item--active').attr('id');
+
+      helpingFunctions.getDataForPage(dataName);
       helpingFunctions.loadCheckboxesValues();
+
+      $(this).hide();
       $('#popup-window').show();
     });
 
     $container.on('click', '.button-popup-close', function() {
       helpingFunctions.saveCheckboxesValues();
+      
       $('#popup-window').hide();
       $('#button-popup-open').show();
     });
@@ -18,6 +20,7 @@ var eventLoader = (function() {
     $container.on('click', '.menu__item', function() {
       $('.menu__item--active').removeClass('menu__item--active');
       $(this).addClass('menu__item--active');
+
       helpingFunctions.getDataForPage($(this).attr('id'));
     });
 

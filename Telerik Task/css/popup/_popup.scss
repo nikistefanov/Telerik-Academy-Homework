@@ -5,36 +5,38 @@
 @import 'components/popup-footer';
 
 .popup-window {
-  width: 100%;
-  position: absolute;;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 200;
   background: $blured-background-color;
+  left: 0;
+  position: absolute;;
+  right: 0;
+  top: 0;
   transition: opacity 500ms;
+  width: 100%;
+  z-index: 200;
+
   &:target {
-    visibility: visible;
     opacity: 1;
+    visibility: visible;
   }
 }
+
 .popup {
-  margin: 70px auto;
   background: white;
-  width: 60%;
+  margin: 70px auto;
   position: relative;
-  transition: all 5s ease-in-out;
+  width: 60%;
 }
+
 .button--popup--close--small {
-  position: absolute;
-  top: 30px;
-  right: 30px;
-  transition: all 200ms;
+  color: black;
   font-size: 1.1em;
   font-weight: bold;
+  position: absolute;
+  right: 30px;
   text-decoration: none;
-  color: black;
+  top: 30px;
+
   &:hover {
-    color: #06D85F;
+    color: gray;
   }
 }

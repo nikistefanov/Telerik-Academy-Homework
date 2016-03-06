@@ -1,71 +1,89 @@
-@import "reset";
-@import "variables";
-@import "popup/popup";
+@import 'reset';
+@import 'variables';
+@import 'popup/popup';
+
 body {
-  font-size: $font-size;
   font-family: $font-family, serif;
+  font-size: $font-size;
   padding: 5px;
 }
+
 .container {
   margin: 10px;
 }
+
 .hidden {
   display: none;
 }
+
 .menu__item__badge {
   display: inline-block;
 }
+
 .button {
   border: 0;
   border-radius: 3px;
-  padding: 0 15px 0 15px;
-  height: 30px;
+  font-size: 1.2em;
+  height: 35px;
+  padding: 0 15px;
 }
+
 .button--state--default {
-  border: 1px solid gray;
   background: $btn-default-color;
+  border: 1px solid lightgray;
+
   &:hover {
     background: $btn-default-color-hoverd;
   }
 }
+
 .button--state--success {
-  color: white;
   background: $btn-success-color;
+  color: white;
+
   &:hover {
     background: $btn-success-color-hoverd;
   }
 }
+
 .fa {
   border-radius: 100%;
   text-align: center;
 }
-.fa-pencil {
-  font-size: 0.8em;
-}
+
 .fa-caret-down {
-  margin-right: 1%;
+  margin-left: 3.5px;
+  margin-right: 3.5px;
 }
+
 .fa-caret-right {
-  margin-right: 2%;
+  margin-left: 5px;
+  margin-right: 5px;
 }
-.fa-caret-down, .fa-caret-right {
+
+.fa-caret-down,
+.fa-caret-right {
   font-size: 1.3em;
 }
+
 .circle-icon {
-  width: 25px;
-  height: 25px;
+  background: black;
   border-radius: 25px;
   color: white;
+  height: 25px;
   line-height: 25px;
   text-align: center;
-  background: black;
+  width: 25px;
 }
+
 .circle-icon--blue {
   background: blue;
 }
+
 .circle-icon--green {
   background: $circle-green-color;
 }
-.circle-icon--lightgray {
-  background: lightgray;
+
+.circle-icon--gray {
+  background: gray;
 }

@@ -1,4 +1,6 @@
-@import 'products-border';
+@import 'popup-products';
+@import 'popup-selected-products';
+
 .popup__content {
   padding: 0 20px;
   .popup__main {
@@ -7,42 +9,5 @@
     max-height: 430px;
     overflow: auto;
     width: 100%;
-    .products {
-      .product__item__content {
-        display: block;
-        margin: 0;
-        padding-top: 5px;
-        padding-bottom: 5px;
-        &:not(.product__item__content--selected):hover {
-          background-color: $product-item-content-color-hovered;
-        }
-      }
-      .product__item__content--selected {
-        background-color: $product-item-content-selected-background-color;
-      }
-      .product__item {
-        .product__text {
-          padding-left: 4%;
-        }
-      }
-      .product__item--editable {
-        .product__text {
-          padding-left: 0;
-        }
-        .product__inner__text {
-          padding-left: 7%;
-        }
-      }
-      .products__inner {
-        .product__text {
-          padding-left: 11%;
-        }
-      }
-      .product__text {
-        span {
-          padding-left: 1%;
-        }
-      }
-    }
   }
 }
