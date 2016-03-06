@@ -3,14 +3,16 @@
   padding: 0 20px;
   .popup__main {
     margin-top: 35px;
-    height: 320px;
+    min-height: 300px;
+    max-height: 430px;
     overflow: auto;
     width: 100%;
     .products {
       .product__item__content {
+        display: block;
         margin: 0;
-        padding-top: 2.5px;
-        padding-bottom: 2.5px;
+        padding-top: 5px;
+        padding-bottom: 5px;
         &:hover {
           background-color: $product-item-content-color-hovered;
         }
@@ -20,7 +22,7 @@
       }
       .product__item {
         .product__text {
-          padding-left: 3%;
+          padding-left: 4%;
         }
       }
       .product__item--editable {
@@ -33,7 +35,7 @@
       }
       .products__inner {
         .product__text {
-          padding-left: 7%;
+          padding-left: 11%;
         }
       }
       .product__text {

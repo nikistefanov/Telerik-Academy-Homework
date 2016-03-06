@@ -44,25 +44,27 @@ ul {
   padding: 0 20px; }
   .popup__content .popup__main {
     margin-top: 35px;
-    height: 320px;
+    min-height: 300px;
+    max-height: 430px;
     overflow: auto;
     width: 100%; }
     .popup__content .popup__main .products .product__item__content {
+      display: block;
       margin: 0;
-      padding-top: 2.5px;
-      padding-bottom: 2.5px; }
+      padding-top: 5px;
+      padding-bottom: 5px; }
       .popup__content .popup__main .products .product__item__content:hover {
         background-color: rgba(224, 224, 224, 0.7); }
     .popup__content .popup__main .products .product__item__content--selected {
       background-color: rgba(106, 204, 204, 0.7); }
     .popup__content .popup__main .products .product__item .product__text {
-      padding-left: 3%; }
+      padding-left: 4%; }
     .popup__content .popup__main .products .product__item--editable .product__text {
       padding-left: 0; }
     .popup__content .popup__main .products .product__item--editable .product__inner__text {
       padding-left: 7%; }
     .popup__content .popup__main .products .products__inner .product__text {
-      padding-left: 7%; }
+      padding-left: 11%; }
     .popup__content .popup__main .products .product__text span {
       padding-left: 1%; }
 
@@ -92,9 +94,8 @@ ul {
 
 .popup-window {
   width: 100%;
-  position: fixed;
+  position: absolute;
   top: 0;
-  bottom: 0;
   left: 0;
   right: 0;
   z-index: 200;
@@ -125,13 +126,17 @@ ul {
 
 body {
   font-size: 13px;
-  font-family: "Open Sans Regular", "Open Sans", serif; }
+  font-family: "Open Sans Regular", "Open Sans", serif;
+  padding: 5px; }
 
 .container {
   margin: 10px; }
 
 .hidden {
   display: none; }
+
+.menu__item__badge {
+  display: inline-block; }
 
 .button {
   border: 0;
@@ -155,16 +160,34 @@ body {
   border-radius: 100%;
   text-align: center; }
 
-.fa-check-circle {
-  color: green; }
-
-.fa-clock-o {
-  color: blue; }
-
 .fa-pencil {
   font-size: 0.8em; }
 
-.fa-caret-down, .fa-caret-right {
+.fa-caret-down {
   margin-right: 1%; }
+
+.fa-caret-right {
+  margin-right: 2%; }
+
+.fa-caret-down, .fa-caret-right {
+  font-size: 1.3em; }
+
+.circle-icon {
+  width: 25px;
+  height: 25px;
+  border-radius: 25px;
+  color: white;
+  line-height: 25px;
+  text-align: center;
+  background: black; }
+
+.circle-icon--blue {
+  background: blue; }
+
+.circle-icon--green {
+  background: #57c678; }
+
+.circle-icon--lightgray {
+  background: lightgray; }
 
 /*# sourceMappingURL=main.css.map */

@@ -31,7 +31,7 @@ var eventLoader = (function() {
 
     $container.on('click', '.product__item__content', function(ev) {
       var classToAddOrRemove = 'product__item__content--selected';
-
+      
       if ($(ev.target).is("input")) {
         //ev.preventDefault();
         //ev.stopPropagation();
@@ -44,6 +44,11 @@ var eventLoader = (function() {
     });
 
     //$('document').ready(helpingFunctions.loadCheckboxesValues());
+    $('document').ready(function () {
+      $.get("templates/all-pages.html", function(data) {
+        helpingFunctions.getDataForPage('all-pages');
+      });
+    });
   }
 
   return {
