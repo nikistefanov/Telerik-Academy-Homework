@@ -1,7 +1,7 @@
 <div class="popup__button">
-  <a id="btn-popup-open" class="btn btn--success" href="#popup-window">Select pages</a>
+  <button id="button-popup-open" type="button" name="popup-open-button" class="button button--state--success">Select pages</button>
 </div>
-<div id="popup-window" class="popup-window overlay">
+<div id="popup-window" class="popup-window hidden overlay">
   <div class="popup">
     <div class="popup__header">
       <h2>Select pages</h2>
@@ -14,15 +14,19 @@
           <span class="menu__item__badge">3</span>
         </li>
       </ul>
+      <a class="button-popup-close button--popup--close--small" href="#/"><i class="fa fa-times"></i></a>
     </div>
-    <a class="btn-popup-close" href="#/"><i class="fa fa-times"></i></a>
+    <div class="popup__search">
+      <span class="icon"><i class="fa fa-search"></i></span>
+      <input id="search-bar" type="search" name="search" placeholder="Narrow by typing...">
+    </div>
     <div class="popup__content">
-      <div class="search">
-        <span class="icon"><i class="fa fa-search"></i></span>
-        <input id="search-bar" type="search" name="search" placeholder="Narrow by typing...">
-      </div>
       <div id="main" class="popup__main">
 
       </div>
+    </div>
+    <div class="popup__footer">
+      <button class="button button--state--success button-popup-close" type="button" name="button">Use selected</button>
+      <button class="button button--state--default button-popup-close" type="button" name="button">Cancel</button>
     </div>
   </div>

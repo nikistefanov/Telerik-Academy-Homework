@@ -9,7 +9,7 @@ ul {
   list-style: none; }
 
 .popup__header {
-  background-color: #ededed;
+  background-color: rgba(224, 224, 224, 0.7);
   padding: 10px 10px 0 20px; }
   .popup__header h2 {
     font-weight: normal;
@@ -40,40 +40,43 @@ ul {
 .product__item--editable:last-of-type {
   border: 0 !important; }
 
-.popup__main {
-  margin-top: 35px;
-  height: 320px;
-  overflow: auto;
-  width: 100%; }
-  .popup__main .products .product__item__content {
-    margin: 0;
-    padding-top: 2.5px;
-    padding-bottom: 2.5px; }
-    .popup__main .products .product__item__content:hover {
-      background-color: gray; }
-  .popup__main .products .product__item__content--selected {
-    background-color: rgba(106, 204, 204, 0.7); }
-  .popup__main .products .product__item .product__text {
-    padding-left: 3%; }
-  .popup__main .products .product__item--editable .product__text {
-    padding-left: 0; }
-  .popup__main .products .product__item--editable .product__inner__text {
-    padding-left: 7%; }
-  .popup__main .products .product__text span,
-  .popup__main .products .product__inner__text span {
-    padding-left: 1%; }
+.popup__content {
+  padding: 0 20px; }
+  .popup__content .popup__main {
+    margin-top: 35px;
+    height: 320px;
+    overflow: auto;
+    width: 100%; }
+    .popup__content .popup__main .products .product__item__content {
+      margin: 0;
+      padding-top: 2.5px;
+      padding-bottom: 2.5px; }
+      .popup__content .popup__main .products .product__item__content:hover {
+        background-color: rgba(224, 224, 224, 0.7); }
+    .popup__content .popup__main .products .product__item__content--selected {
+      background-color: rgba(106, 204, 204, 0.7); }
+    .popup__content .popup__main .products .product__item .product__text {
+      padding-left: 3%; }
+    .popup__content .popup__main .products .product__item--editable .product__text {
+      padding-left: 0; }
+    .popup__content .popup__main .products .product__item--editable .product__inner__text {
+      padding-left: 7%; }
+    .popup__content .popup__main .products .products__inner .product__text {
+      padding-left: 7%; }
+    .popup__content .popup__main .products .product__text span {
+      padding-left: 1%; }
 
-.search {
+.popup__search {
   position: relative;
-  padding: 10px 0 5px; }
-  .search input {
+  padding: 10px 20px 5px 20px; }
+  .popup__search input {
     width: 100%;
     height: 30px;
     border: 1px solid gray;
     float: left;
     color: #63717f;
     padding-left: 35px; }
-  .search .icon {
+  .popup__search .icon {
     position: absolute;
     top: -2px;
     margin-left: 17px;
@@ -84,30 +87,31 @@ ul {
 .search--focused .icon {
   color: blue; }
 
-.overlay {
+.popup__footer {
+  padding: 10px 20px 20px 20px; }
+
+.popup-window {
+  width: 100%;
   position: fixed;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(0, 0, 0, 0.7);
-  transition: opacity 500ms;
-  visibility: hidden;
-  opacity: 0; }
-  .overlay:target {
+  z-index: 200;
+  background: #dbd9d9;
+  transition: opacity 500ms; }
+  .popup-window:target {
     visibility: visible;
     opacity: 1; }
 
 .popup {
   margin: 70px auto;
-  padding: 20px;
-  background: #fff;
-  border-radius: 5px;
+  background: white;
   width: 60%;
   position: relative;
   transition: all 5s ease-in-out; }
 
-.btn-popup-close {
+.button--popup--close--small {
   position: absolute;
   top: 30px;
   right: 30px;
@@ -115,8 +119,8 @@ ul {
   font-size: 1.1em;
   font-weight: bold;
   text-decoration: none;
-  color: #333; }
-  .btn-popup-close:hover {
+  color: black; }
+  .button--popup--close--small:hover {
     color: #06D85F; }
 
 body {
@@ -128,6 +132,24 @@ body {
 
 .hidden {
   display: none; }
+
+.button {
+  border: 0;
+  border-radius: 3px;
+  padding: 0 15px 0 15px;
+  height: 30px; }
+
+.button--state--default {
+  border: 1px solid gray;
+  background: none; }
+  .button--state--default:hover {
+    background: #bebebe; }
+
+.button--state--success {
+  color: white;
+  background: #57c678; }
+  .button--state--success:hover {
+    background: #357f4a; }
 
 .fa {
   border-radius: 100%;

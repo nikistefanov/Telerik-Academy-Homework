@@ -1,14 +1,18 @@
 var eventLoader = (function() {
   function mainEvents($container) {
-    $container.on('click', '#btn-popup-open', function() {
+    $container.on('click', '#button-popup-open', function() {
       $.get("templates/all-pages.html", function(data) {
         helpingFunctions.getDataForPage('all-pages');
       });
       $(this).hide();
+      helpingFunctions.loadCheckboxesValues();
+      $('#popup-window').show();
     });
 
-    $container.on('click', '.btn-popup-close', function() {
-      $('#btn-popup-open').show();
+    $container.on('click', '.button-popup-close', function() {
+      helpingFunctions.saveCheckboxesValues();
+      $('#popup-window').hide();
+      $('#button-popup-open').show();
     });
 
     $container.on('click', '.menu__item', function() {
@@ -18,19 +22,28 @@ var eventLoader = (function() {
     });
 
     $container.on('focusin', '#search-bar', function() {
-      $(this).closest('.search').addClass('search--focused');
+      $(this).closest('.popup__search').addClass('search--focused');
     });
 
     $container.on('focusout', '#search-bar', function() {
-      $(this).closest('.search').removeClass('search--focused');
+      $(this).closest('.popup__search').removeClass('search--focused');
     });
 
-    $container.on('click', '.products', function() {
-      console.log($(this));
-      $(this).closest('.product__item__content').addClass('product__item__content--selected');
+    $container.on('click', '.product__item__content', function(ev) {
+      var classToAddOrRemove = 'product__item__content--selected';
+
+      if ($(ev.target).is("input")) {
+        //ev.preventDefault();
+        //ev.stopPropagation();
+        if ($(this).closest('.product__item__content').hasClass(classToAddOrRemove)) {
+          $(this).closest('.product__item__content').removeClass(classToAddOrRemove);
+        } else {
+          $(this).closest('.product__item__content').addClass(classToAddOrRemove);
+        }
+      }
     });
 
-    $container.ready(helpingFunctions.checkIfContentLoaded($container));
+    //$('document').ready(helpingFunctions.loadCheckboxesValues());
   }
 
   return {

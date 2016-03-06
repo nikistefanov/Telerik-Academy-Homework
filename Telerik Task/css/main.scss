@@ -1,6 +1,6 @@
 @import "reset";
 @import "variables";
-@import "popup/popup-effect";
+@import "popup/popup";
 body {
   font-size: $font-size;
   font-family: $font-family, serif;
@@ -10,6 +10,26 @@ body {
 }
 .hidden {
   display: none;
+}
+.button {
+  border: 0;
+  border-radius: 3px;
+  padding: 0 15px 0 15px;
+  height: 30px;
+}
+.button--state--default {
+  border: 1px solid gray;
+  background: $btn-default-color;
+  &:hover {
+    background: $btn-default-color-hoverd;
+  }
+}
+.button--state--success {
+  color: white;
+  background: $btn-success-color;
+  &:hover {
+    background: $btn-success-color-hoverd;
+  }
 }
 .fa {
   border-radius: 100%;
