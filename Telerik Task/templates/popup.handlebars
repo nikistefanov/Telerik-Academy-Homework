@@ -1,0 +1,28 @@
+<div class="popup__button">
+  <a id="btn-popup-open" class="btn btn--success" href="#popup-window">Select pages</a>
+</div>
+<div id="popup-window" class="popup-window overlay">
+  <div class="popup">
+    <div class="popup__header">
+      <h2>Select pages</h2>
+      <ul class="menu">
+        <li id="all-pages" class="menu__item menu__item--active">
+          <span class="menu__item__text">All pages</span>
+        </li>
+        <li id="selected-pages" class="menu__item">
+          <span class="menu__item__text">Selected</span>
+          <span class="menu__item__badge">3</span>
+        </li>
+      </ul>
+    </div>
+    <a class="btn-popup-close" href="#/"><i class="fa fa-times"></i></a>
+    <div class="popup__content">
+      <div class="search">
+        <span class="icon"><i class="fa fa-search"></i></span>
+        <input id="search-bar" type="search" name="search" placeholder="Narrow by typing...">
+      </div>
+      <div id="main" class="popup__main">
+
+      </div>
+    </div>
+  </div>

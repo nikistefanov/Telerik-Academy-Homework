@@ -1,0 +1,40 @@
+@import 'products-border';
+.popup__main {
+  margin-top: 35px;
+  height: 320px;
+  overflow: auto;
+  width: 100%;
+  .products {
+    .product__item__content {
+      margin: 0;
+      padding-top: 2.5px;
+      padding-bottom: 2.5px;
+
+      &:hover {
+        background-color: gray;
+      }
+    }
+    .product__item__content--selected {
+      background-color: $product-item-content-selected-background-color;
+    }
+    .product__item {
+      .product__text {
+        padding-left: 3%;
+      }
+    }
+    .product__item--editable {
+      .product__text {
+        padding-left: 0;
+      }
+      .product__inner__text {
+        padding-left: 7%;
+      }
+    }
+    .product__text,
+    .product__inner__text {
+      span {
+        padding-left: 1%;
+      }
+    }
+  }
+}

@@ -1,51 +1,29 @@
-@import 'reset';
-@import 'variables';
+@import "reset";
+@import "variables";
+@import "popup/popup-effect";
+body {
+  font-size: $font-size;
+  font-family: $font-family, serif;
+}
 .container {
   margin: 10px;
 }
 .hidden {
   display: none;
 }
+.fa {
+  border-radius: 100%;
+  text-align: center;
+}
 .fa-check-circle {
   color: green;
 }
-.popup {
-  display: none;
-  width: 60%;
-  .popup__header {
-    .menu {
-      .menu__item {
-        display: inline-block;
-      }
-    }
-    .search {
-      position: relative;
-      margin-bottom: 2px;
-      input {
-        width: 100%;
-        height: 30px;
-        border: 1px solid gray;
-        float: left;
-        color: #63717f;
-        padding-left: 45px;
-      }
-      .icon {
-        position: absolute;
-        top: -10px;
-        margin-left: 17px;
-        margin-top: 17px;
-        z-index: 1;
-        color: #4f5b66;
-      }
-    }
-  }
-  .popup__content {
-    margin-top: 7%;
-    .products {
-      .product {
-        border-top: 1px solid gray;
-        border-bottom: 1px solid gray;
-      }
-    }
-  }
+.fa-clock-o {
+  color: blue;
+}
+.fa-pencil {
+  font-size: 0.8em;
+}
+.fa-caret-down, .fa-caret-right {
+  margin-right: 1%;
 }

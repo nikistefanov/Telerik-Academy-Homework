@@ -1,0 +1,41 @@
+@import 'variables';
+@import 'components/popup-header';
+@import 'components/popup-main';
+@import 'components/popup-search';
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: $blured-background-color;
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+  &:target {
+    visibility: visible;
+    opacity: 1;
+  }
+}
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 60%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+.btn-popup-close {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 1.1em;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+  &:hover {
+    color: #06D85F;
+  }
+}
