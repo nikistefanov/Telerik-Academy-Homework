@@ -112,7 +112,7 @@ ul {
 .popup__footer {
   padding: 20px; }
 
-.popup-window {
+.popup__window {
   background: #dbd9d9;
   left: 0;
   position: absolute;
@@ -121,7 +121,7 @@ ul {
   transition: opacity 500ms;
   width: 100%;
   z-index: 200; }
-  .popup-window:target {
+  .popup__window:target {
     opacity: 1;
     visibility: visible; }
 
