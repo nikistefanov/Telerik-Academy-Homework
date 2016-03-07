@@ -1,4 +1,5 @@
 @import 'variables';
+@import 'components/popup-button';
 @import 'components/popup-header';
 @import 'components/popup-main';
 @import 'components/popup-search';
@@ -25,18 +26,4 @@
   margin: 70px auto;
   position: relative;
   width: 60%;
-}
-
-.button--popup--close--small {
-  color: black;
-  font-size: 1.1em;
-  font-weight: bold;
-  position: absolute;
-  right: 30px;
-  text-decoration: none;
-  top: 30px;
-
-  &:hover {
-    color: gray;
-  }
 }

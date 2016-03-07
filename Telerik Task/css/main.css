@@ -8,6 +8,20 @@ div {
 ul {
   list-style: none; }
 
+.popup__button {
+  text-align: center; }
+
+.button--popup--close--small {
+  color: black;
+  font-size: 1.1em;
+  font-weight: bold;
+  position: absolute;
+  right: 30px;
+  text-decoration: none;
+  top: 30px; }
+  .button--popup--close--small:hover {
+    color: gray; }
+
 .popup__header {
   background-color: rgba(224, 224, 224, 0.7);
   padding: 10px 10px 0 20px; }
@@ -133,21 +147,12 @@ ul {
   position: relative;
   width: 60%; }
 
-.button--popup--close--small {
-  color: black;
-  font-size: 1.1em;
-  font-weight: bold;
-  position: absolute;
-  right: 30px;
-  text-decoration: none;
-  top: 30px; }
-  .button--popup--close--small:hover {
-    color: gray; }
-
 body {
   font-family: "Open Sans Regular", "Open Sans", serif;
   font-size: 13px;
   padding: 5px; }
+  body h1 {
+    text-align: center; }
 
 .container {
   margin: 10px; }
