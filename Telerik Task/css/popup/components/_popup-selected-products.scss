@@ -3,6 +3,10 @@
     border-bottom: 1px solid gray;
     padding: 3px 10px;
 
+    &:hover {
+      background: $product-item-content-color-hovered;
+    }
+
     &:first-of-type {
       border-top: 1px solid gray;
     }
