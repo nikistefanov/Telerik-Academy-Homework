@@ -4,6 +4,7 @@
 
   var sammyApp = Sammy(containerId, function() {
     this.get('#/', function() {
+      
       templates.load('popup')
         .then(function(templateHtml) {
           $container.html(templateHtml);
