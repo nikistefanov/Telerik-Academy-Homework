@@ -9,7 +9,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "babel-core": "^5.8.23",
     "http-server": "^0.9.0"
   },
   "devDependencies": {
