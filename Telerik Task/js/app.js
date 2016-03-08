@@ -1,13 +1,18 @@
 (function() {
-  var $container = $('#wrapper'),
-    $loader = $('.loading');
+  var containerId = '#wrapper',
+    $container = $(containerId),
+    $loader = $('.loading'),
+    templatesLoadOption = 'html';
 
-
-  $.get('templates/popup.html', function(data) {
-    $container.html(data);
-    $(document).ready(function() {
+  var sammyApp = Sammy(containerId, function() {
+    this.get('#/', function() {
+      templates.load('popup', $container, templatesLoadOption);
       $loader.hide();
-      eventLoader.loadAllEvents($container);
     });
+  });
+
+  $(function() {
+    sammyApp.run('#/');
+    eventLoader.loadAllEvents($container);
   });
 }());
