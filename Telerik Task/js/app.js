@@ -1,20 +1,13 @@
 (function() {
-  var containerId = '#wrapper',
-    $container = $(containerId),
+  var $container = $('#wrapper'),
     $loader = $('.loading');
 
-  var sammyApp = Sammy(containerId, function() {
-    this.get('#/', function() {
-      templates.load('popup')
-        .then(function(templateHtml) {
-          $loader.hide();
-          $container.html(templateHtml);
-        });
-    });
-  });
 
-  $(function() {
-    sammyApp.run('#/');
-    eventLoader.loadAllEvents($container);
+  $.get('templates/popup.html', function(data) {
+    $container.html(data);
+    $(document).ready(function() {
+      $loader.hide();
+      eventLoader.loadAllEvents($container);
+    });
   });
 }());
