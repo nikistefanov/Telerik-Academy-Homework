@@ -1,0 +1,46 @@
+.selected-products {
+  .selected-product__content {
+    border-bottom: 1px solid gray;
+    padding: 3px 10px;
+
+    &:hover {
+      background: $product-item-content-color-hovered;
+    }
+
+    &:first-of-type {
+      border-top: 1px solid gray;
+    }
+
+    .fa {
+      position: relative;
+      top: -10px;
+    }
+
+    .selected-product__text {
+      display: inline-block;
+      margin: 0;
+      padding-left: 10px;
+
+      .selected-product__title {
+        display: block;
+        float: left;
+        width: 100%;
+      }
+
+      .selected-product__description {
+        color: gray;
+        display: block;
+      }
+    }
+
+    .button--remove--content {
+      float: right;
+      position: relative;
+      top: 12.5px;
+
+      &:hover {
+        color: gray;
+      }
+    }
+  }
+}
