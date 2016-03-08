@@ -1,0 +1,30 @@
+.popup__search {
+  padding: 20px 20px 5px;
+  position: relative;
+
+  .popup__search__bar {
+    border: 1px solid gray;
+    color: gray;
+    float: left;
+    font-size: 1.1em;
+    height: 30px;
+    padding-left: 35px;
+    width: 100%;
+  }
+
+  .icon {
+    color: #4f5b66;
+    margin-left: 17px;
+    margin-top: 17px;
+    position: absolute;
+    left: 15px;
+    top: 8px;
+    z-index: 1;
+  }
+}
+
+.search--focused {
+  .icon {
+    color: blue;
+  }
+}
