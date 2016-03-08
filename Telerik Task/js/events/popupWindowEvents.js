@@ -1,14 +1,17 @@
 var popupWindowEvents = (function() {
   var isDataLoaded = false;
+
   function load($container) {
     $container.on('click', '#button-popup-open', function() {
       var currentActivePage = $('.menu__item--active').attr('id'),
+        $loader = $('.loading'),
+        $popupMainContent = $('#popup-main'),
         allPages = 'all-pages',
         selectedPages = 'selected-pages',
-        templatesLoadOption = 'append',
-        $popupMainContent = $('#popup-main');
+        templatesLoadOption = 'append';
 
       if (!isDataLoaded) {
+        $loader.hide();
         templates.load(allPages, $popupMainContent, templatesLoadOption);
         templates.load(selectedPages, $popupMainContent, templatesLoadOption);
         isDataLoaded = true;

@@ -173,8 +173,10 @@ body {
   padding: 5px; }
   body .main-content {
     text-align: center; }
-    body .main-content .loading {
-      font-size: 50px; }
+
+.loading {
+  text-align: center;
+  font-size: 50px; }
 
 .container {
   margin: 10px; }
