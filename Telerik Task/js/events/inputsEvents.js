@@ -9,14 +9,13 @@ var inputsEvents = (function() {
     });
 
     $container.on('click', '.product__item__content', function(ev) {
-      var classToAddOrRemove = 'product__item__content--selected';
-      $target = $(ev.target);
-
+      var classToAddOrRemove = 'product__item__content--selected',
+        $target = $(ev.target);
       if ($(ev.target).is("input")) {
-        if ($(this).closest('.product__item__content').hasClass(classToAddOrRemove)) {
-          $(this).closest('.product__item__content').removeClass(classToAddOrRemove);
+        if ($(this).hasClass(classToAddOrRemove)) {
+          $(this).removeClass(classToAddOrRemove);
         } else {
-          $(this).closest('.product__item__content').addClass(classToAddOrRemove);
+          $(this).addClass(classToAddOrRemove);
         }
       }
     });
