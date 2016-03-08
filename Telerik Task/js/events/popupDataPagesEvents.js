@@ -1,15 +1,5 @@
 var popupDataPagesEvents = (function() {
   function load($container) {
-    var allPages = 'all-pages',
-      selectedPages = 'selected-pages',
-      $loader = $('.loading');
-
-    $(document).ready(function() {
-      data.load(allPages);
-      data.load(selectedPages);
-      $loader.hide();
-    });
-
     $container.on('click', '.menu__item', function() {
       var currentActivePage = $('.menu__item--active').attr('id'),
         nextActivePage = $(this).attr('id');

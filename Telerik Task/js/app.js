@@ -5,8 +5,8 @@
 
   $.get('templates/popup.html', function(data) {
     $container.html(data);
+    $loader.hide();
     $(document).ready(function() {
-      $loader.hide();
       eventLoader.loadAllEvents($container);
     });
   });
