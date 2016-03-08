@@ -8,15 +8,14 @@ var inputsEvents = (function() {
       $(this).closest('.popup__search').removeClass('search--focused');
     });
 
-    $container.on('click', '.product__item__content', function(ev) {
+    $container.on('click', '.popup__checkbox', function() {
       var classToAddOrRemove = 'product__item__content--selected',
-        $target = $(ev.target);
-      if ($(ev.target).is("input")) {
-        if ($(this).hasClass(classToAddOrRemove)) {
-          $(this).removeClass(classToAddOrRemove);
-        } else {
-          $(this).addClass(classToAddOrRemove);
-        }
+        closestElementNeedingTheClass = '.product__item__content';
+
+      if ($(this).closest(closestElementNeedingTheClass).hasClass(classToAddOrRemove)) {
+        $(this).closest(closestElementNeedingTheClass).removeClass(classToAddOrRemove);
+      } else {
+        $(this).closest(closestElementNeedingTheClass).addClass(classToAddOrRemove);
       }
     });
   }
