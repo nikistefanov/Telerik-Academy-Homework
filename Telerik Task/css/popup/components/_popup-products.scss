@@ -9,6 +9,7 @@
 
     &:not(.product__item__content--selected):hover {
       background-color: $product-item-content-color-hovered;
+      cursor: pointer;
     }
   }
 

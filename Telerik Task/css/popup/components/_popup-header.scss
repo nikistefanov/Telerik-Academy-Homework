@@ -14,11 +14,20 @@
       margin-right: 15px;
       padding-bottom: 5px;
 
-      &:hover {
-        color: black;
+      .menu__item__text {
+        &:hover {
+          color: black;
+          cursor: pointer;
+        }
+      }
+
+      .menu__item__badge {
+        &:hover {
+          cursor: pointer;
+        }
       }
     }
-
+    
     .menu__item--active {
       border-bottom: 2px solid gray;
       color: black;

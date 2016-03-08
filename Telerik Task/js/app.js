@@ -1,12 +1,13 @@
 (function() {
   var containerId = '#wrapper',
-    $container = $(containerId);
+    $container = $(containerId),
+    $loader = $('.loading');
 
   var sammyApp = Sammy(containerId, function() {
     this.get('#/', function() {
-
       templates.load('popup')
         .then(function(templateHtml) {
+          $loader.hide();
           $container.html(templateHtml);
         });
     });

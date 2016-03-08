@@ -1,13 +1,18 @@
 @import 'reset';
 @import 'variables';
+@import 'media-queries';
 @import 'popup/popup';
 
 body {
   font-family: $font-family, serif;
   font-size: $font-size;
   padding: 5px;
-  h1 {
+  .main-content {
     text-align: center;
+
+    .loading {
+      font-size: 50px;
+    }
   }
 }
 
@@ -32,20 +37,22 @@ body {
 }
 
 .button--state--default {
-  background: $btn-default-color;
+  background: $button-default-color;
   border: 1px solid lightgray;
 
   &:hover {
-    background: $btn-default-color-hoverd;
+    background: $button-default-color-hoverd;
+    cursor: pointer;
   }
 }
 
 .button--state--success {
-  background: $btn-success-color;
+  background: $button-success-color;
   color: white;
 
   &:hover {
-    background: $btn-success-color-hoverd;
+    background: $button-success-color-hoverd;
+    cursor: pointer;
   }
 }
 

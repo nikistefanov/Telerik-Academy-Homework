@@ -11,19 +11,11 @@
   position: absolute;;
   right: 0;
   top: 0;
-  transition: opacity 500ms;
-  width: 100%;
-  z-index: 200;
-
-  &:target {
-    opacity: 1;
-    visibility: visible;
-  }
 }
 
 .popup {
   background: white;
   margin: 70px auto;
   position: relative;
-  width: 60%;
+  width: 50%;
 }
