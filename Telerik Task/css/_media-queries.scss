@@ -17,12 +17,12 @@
 @media (min-width: 320px) and (max-width: 479px) {
   .container {
     .popup {
-      font-size: 0.9em;
+      font-size: 0.85em;
       width: 90%;
       .selected-products {
         .selected-product__content {
           .fa:not(.button--remove--content) {
-            top: -5px;
+            top: 2px;
           }
           .selected-product__text {
             padding-left: 2px;
