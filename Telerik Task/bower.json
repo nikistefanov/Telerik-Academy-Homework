@@ -1,0 +1,22 @@
+{
+  "name": "Telerik task",
+  "version": "0.0.1",
+  "authors": [
+    "nikistefanov <nikistefanovbg89@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4"
+  },
+  "description": "A task given by Telerik",
+  "main": "",
+  "moduleType": [],
+  "homepage": ""
+}

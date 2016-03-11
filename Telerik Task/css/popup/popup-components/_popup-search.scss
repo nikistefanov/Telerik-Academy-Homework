@@ -1,0 +1,31 @@
+.popup__search {
+  padding: 20px 20px 5px;
+  position: relative;
+
+  .popup__search__bar {
+    border: 1px solid gray;
+    color: $search-bar-icon-and-text-color;
+    float: left;
+    font-size: 1.1em;
+    height: 35px;
+    padding-left: 35px;
+    width: 100%;
+  }
+
+  .icon {
+    color: $search-bar-icon-and-text-color;
+    font-size: 1.2em;
+    left: 10px;
+    margin-left: 17px;
+    margin-top: 17px;
+    position: absolute;
+    top: 9px;
+    z-index: 1;
+  }
+}
+
+.popup__search__bar--focused {
+  .icon {
+    color: $search-bar-icon-focused-color;
+  }
+}

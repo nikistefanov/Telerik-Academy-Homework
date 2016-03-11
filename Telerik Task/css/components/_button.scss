@@ -1,0 +1,27 @@
+.button {
+  border: 0;
+  border-radius: 3px;
+  font-size: 1.2em;
+  height: 35px;
+  padding: 0 15px;
+}
+
+.button--state--default {
+  background: $button-default-color;
+  border: 1px solid lightgray;
+
+  &:hover {
+    background: $button-default-color-hoverd;
+    cursor: pointer;
+  }
+}
+
+.button--state--success {
+  background: $button-success-color;
+  color: white;
+
+  &:hover {
+    background: $button-success-color-hoverd;
+    cursor: pointer;
+  }
+}

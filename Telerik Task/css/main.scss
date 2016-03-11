@@ -1,0 +1,30 @@
+@import 'components/reset';
+@import 'components/variables';
+@import 'components/media-queries';
+@import 'components/circle-icon';
+@import 'components/font-awesome';
+@import 'components/button';
+@import 'popup/popup';
+
+body {
+  font-family: $font-family, serif;
+  font-size: $font-size;
+  padding: 5px;
+
+  .main-content {
+    text-align: center;
+  }
+}
+
+.loading {
+  font-size: 50px;
+  text-align: center;
+}
+
+.container {
+  margin: 10px;
+}
+
+.hidden {
+  display: none;
+}

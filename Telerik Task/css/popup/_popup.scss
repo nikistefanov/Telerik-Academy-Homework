@@ -1,0 +1,23 @@
+@import 'components/variables';
+@import 'popup-components/popup-button';
+@import 'popup-components/popup-header';
+@import 'popup-components/popup-main';
+@import 'popup-components/popup-search';
+@import 'popup-components/popup-footer';
+
+.popup {
+  background: $blured-background-color;
+  left: 0;
+  position: absolute;;
+  right: 0;
+  top: 0;
+  z-index: 100;
+}
+
+.popup__window {
+  background: white;
+  margin: 70px auto;
+  position: relative;
+  width: 50%;
+  z-index: 200;
+}

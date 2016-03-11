@@ -1,0 +1,21 @@
+.circle-icon {
+  background: black;
+  border-radius: 25px;
+  color: white;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  width: 25px;
+}
+
+.circle-icon--blue {
+  background: blue;
+}
+
+.circle-icon--green {
+  background: $circle-green-color;
+}
+
+.circle-icon--gray {
+  background: gray;
+}

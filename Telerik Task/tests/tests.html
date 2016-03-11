@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Unit Test For Telerik Task</title>
+    <link rel="stylesheet" href="../node_modules/mocha/mocha.css">
+  </head>
+  <body>
+    <h1>Use "karma start" within the cli instead...</h1>
+    <div id="mocha">
+
+    </div>
+    <!-- Setups -->
+    <script src="../bower_components/jquery/dist/jquery.js"></script>
+    <script src="../node_modules/mocha/mocha.js"></script>
+    <script src="../node_modules/chai/chai.js"></script>
+    <script src="../node_modules/chai-jquery/chai-jquery.js"></script>
+    <script src="../node_modules/sinon/pkg/sinon-1.17.3.js"></script>
+    <script src="../node_modules/sinon-chai/lib/sinon-chai.js"></script>
+
+    <!-- App files -->
+    <script src="../js/template.js"></script>
+    <script src="../js/product.js"></script>
+    <script src="../js/mainProduct.js"></script>
+    <script src="../js/selectedProduct.js"></script>
+    <script src="../js/app.js"></script>
+    <script src="../js/events/eventLoader.js"></script>
+    <script src="../js/events/popupSearchEvents.js"></script>
+    <script src="../js/events/popupWindowEvents.js"></script>
+    <script src="../js/events/popupDataPagesEvents.js"></script>
+
+    <!-- Test files -->
+    <script src="../tests/product.js"></script>
+    <script src="../tests/mainProduct.js"></script>
+    <script src="../tests/selectedProduct.js"></script>
+    <script src="../tests/app.js"></script>
+    <script src="../tests/events/popupWindowEvents.js"></script>
+
+    <script type="text/javascript">
+      mocha.setup('bdd');
+      var expect = chai.expect;
+    </script>
+
+    <script type="text/javascript">
+      mocha.run();
+    </script>
+  </body>
+</html>
